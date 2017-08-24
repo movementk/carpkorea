@@ -4,8 +4,10 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CARP KOREA</title>
-	<link href="/assets/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+	<title>한국대학원리연구회</title>
+	<link href="//cdn.jsdelivr.net/font-nanumlight/1.0/nanumbarungothicweb.css" rel="stylesheet">
+	<link href="/assets/fontello/css/fontello.css" rel="stylesheet">
+	<link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
 	<link href="/assets/css/default.css" rel="stylesheet">
 	<!--[if lt IE 9]>
 	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
