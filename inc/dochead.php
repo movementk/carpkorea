@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>한국대학원리연구회</title>
 	<link href="//cdn.jsdelivr.net/font-nanumlight/1.0/nanumbarungothicweb.css" rel="stylesheet">
+	<link href="//fonts.googleapis.com/earlyaccess/jejumyeongjo.css" rel="stylesheet">
 	<link href="/assets/fontello/css/fontello.css" rel="stylesheet">
 	<link href="/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
 	<link href="/assets/css/default.css" rel="stylesheet">

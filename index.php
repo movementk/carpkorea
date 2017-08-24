@@ -1,6 +1,6 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
 </head>
-<body>
+<body class="nav-opened">
 	<div id="top-nav" class="visible-lg">
 		<div class="container">
 			<ul class="sns">
@@ -127,12 +127,8 @@
 	<div id="nav-side" class="hidden-lg">
 		<div class="nav-content">
 			<div class="nav-header">
-				<button type="button" id="btn-close-nav" class="btn btn-link"><img src="/assets/images/ico_close.png" alt="닫기"></button>
-				<div class="quick">
-					<ul>
-						<li><a href="/inquire/inquire_write.php">문의하기</a></li>
-					</ul>
-				</div>
+				<h1><a href="/"><span class="sr-only">한국대학원리연구회</span></a></h1>
+				<button type="button" class="btn btn-link btn-nav-close"><img src="/assets/images/ico_close.png" alt="닫기"></button>
 			</div>
 			<div class="nav-body">
 				<nav class="nav">
@@ -253,6 +249,18 @@
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
 	<script>
 		(function($) {
+			$(document).on('click', '#header .btn-nav-open', function() {
+				$('body').addClass('nav-opened');
+			});
+			$(document).on('click', '#nav-side', function(e) {
+				if ($(e.target).attr('id') == 'nav-side') {
+					$('body').removeClass('nav-opened');
+				}
+			});
+			$(document).on('click', '#nav-side .btn-nav-close', function() {
+				$('body').removeClass('nav-opened');
+			});
+
 			$(document).on('mouseenter focus', '#header .nav > ul > li > a', function(e) {
 				$(this).parent().siblings('.active').removeClass('active');
 				$(this).parent().addClass('active');

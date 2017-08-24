@@ -50,8 +50,16 @@ a {
     font-family: "NanumBarunGothic", sans-serif;
 }
 
+@mixin jjmj() {
+    font-family: 'Jeju Myeongjo', serif;
+}
+
 .nbg {
 	@include nbg();
+}
+
+.jjmj {
+	@include jjmj();
 }
 
 .container,
