@@ -1,1 +1,243 @@
 @import 'common';
+
+body {
+	padding-top: 60px;
+	min-width: 320px;
+	@include nbg();
+	font-size: 12px;
+	@media (min-width: $sm) {
+		padding-top: 73px;
+		font-size: 16px;
+	}
+	@media (min-width: $lg) {
+		padding-top: 115px;
+	}
+}
+
+#top-nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 30px;
+	background-color: $kcolor;
+	ul {
+		li {
+			float: left;
+			a {
+				line-height: 30px;
+				color: #fff;
+			}
+		}
+		&.sns {
+			float: left;
+			li {
+				a {
+					display: block;
+					width: 30px;
+					height: 30px;
+					text-decoration: none;
+					text-align: center;
+					&:hover, &:focus {
+						background-color: rgba(#fff, .2);
+					}
+					&.fb {
+						&:before {
+							font-family: "fontello";
+							content: "\F30C";
+							line-height: 30px;
+							font-size: 15px;
+						}
+					}
+					&.dc {
+						padding-top: 4px;
+						&:before {
+							content: url(/assets/images/ico_daum_cafe.png);
+						}
+					}
+				}
+			}
+		}
+		&.util {
+			float: right;
+			li {
+				a {
+					font-size: 12px;
+				}
+				& + li {
+					&:before {
+						margin-left: 10px;
+						margin-right: 10px;
+						content: "·";
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+}
+
+#header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	border-top: 3px solid $kcolor;
+	box-shadow: 0 1px 10px rgba(#000, .1);
+	background-color: #fff;
+	.logo {
+		position: absolute;
+		top: 15px;
+		width: 167px;
+		height: 27px;
+		a {
+			display: block;
+			width: 100%;
+			height: 100%;
+			background-image: url(/assets/images/logo.png);
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			background-size: cover;
+
+		}
+	}
+	.btn-nav-open {
+		position: absolute;
+		top: 11px;
+		right: 5px;
+		color: $kcolor;
+		padding: 0;
+		width: 35px;
+		height: 35px;
+		border: 0;
+		//background-color: blue;
+		text-decoration: none;
+		text-align: center;
+		&:before {
+			font-family: "fontello";
+			content: "\E800";
+			font-size: 30px;
+			line-height: 35px;
+		}
+	}
+	@media (min-width: $sm) {
+		height: 73px;
+		border-top-width: 8px;
+		.logo {
+			top: 18px;
+			width: 178px;
+			height: 28px;
+		}
+		.btn-nav-open {
+			right: 10px;
+			width: 45px;
+			height: 45px;
+			&:before {
+				font-size: 40px;
+				line-height: 45px;
+			}
+		}
+	}
+	@media (min-width: $lg) {
+		top: 30px;
+		height: 85px;
+		border-top-width: 0;
+		.logo {
+			top: 25px;
+			width: 230px;
+			height: 36px;
+		}
+	}
+}
+
+#content {
+	min-height: 500px;
+	background-color: #eee;
+}
+
+#policy {
+	height: 46px;
+	background-color: #67676c;
+	ul {
+		overflow: hidden;
+		padding-top: 8px;
+		margin: 0 auto;
+		max-width: 300px;
+		li {
+			float: left;
+			padding-left: 12px;
+			padding-right: 12px;
+			a {
+				color: #fff;
+				line-height: 30px;
+			}
+		}
+	}
+	@media (min-width: $sm) {
+		ul {
+			max-width: none;
+			text-align: center;
+			li {
+				float: none;
+				display: inline;
+				a {
+					font-size: 13px;
+				}
+			}
+		}
+	}
+	@media (min-width: $lg) {
+		ul {
+			text-align: left;
+			li {
+				padding-left: 0;
+				padding-right: 0;
+				& + li {
+					margin-left: 25px;
+				}
+			}
+		}
+	}
+}
+
+#footer {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #34343b;
+	color: rgba(#fff, .7);
+	line-height: 22px;
+	text-align: center;
+	border-top: 1px solid rgba(#fff, .1);
+	a {
+		color: rgba(#fff, .7);
+	}
+	address {
+		line-height: 22px;
+		word-wrap: normal;
+		word-break: keep-all;
+	}
+	@media (min-width: $sm) {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		font-size: 13px;
+		.contact {
+			li {
+				display: inline;
+				& + li {
+					&:before {
+						margin-left: 10px;
+						margin-right: 10px;
+						content: "·";
+					}
+				}
+			}
+		}
+		.copyright {
+			font-size: 12px;
+		}
+	}
+	@media (min-width: $lg) {
+		text-align: left;
+	}
+}
