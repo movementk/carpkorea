@@ -6,10 +6,10 @@ $lg: "1280px";
 $kcolor: #02b1a0;
 
 @mixin transition($property: all, $duration: .15s, $timing: linear, $delay: 0s) {
-	-webkit-transition-property: $prop;
-    transition-property: $prop;
-	-webkit-transition-duration: $dur;
-    transition-duration: $dur;
+	-webkit-transition-property: $property;
+    transition-property: $property;
+	-webkit-transition-duration: $duration;
+    transition-duration: $duration;
 	-webkit-transition-timing-function: $timing;
     transition-timing-function: $timing;
 	-webkit-transition-delay: $delay;
