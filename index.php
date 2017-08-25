@@ -1,242 +1,208 @@
 <?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/dochead.php"); ?>
+<link href="/assets/css/main.css" rel="stylesheet">
 </head>
-<body class="nav-opened">
-	<div id="top-nav" class="visible-lg">
-		<div class="container">
-			<ul class="sns">
-				<li><a class="fb" href="#" target="_blank"><span class="sr-only">페이스북</span></a></li>
-				<li><a class="dc" href="#" target="_blank"><span class="sr-only">다음</span></a></li>
-			</ul>
-			<ul class="util">
-				<li><a href="#">로그인</a></li>
-				<li><a href="#">회원가입</a></li>
-				<li><a href="#">정보수정</a></li>
-			</ul>
-		</div>
-	</div>
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3">
-					<h1 class="logo"><a href="/"><span class="sr-only">한국대학원리연구회</span></a></h1>
-					<button class="btn btn-link btn-nav-open hidden-lg"><span class="sr-only">메뉴 열기</span></button>
-				</div>
-				<div class="col-lg-9 visible-lg">
-					<nav class="nav">
-						<ul>
-							<li class="active">
-								<a href="#">CARP<span></span></a>
-								<div>
-									<div class="container">
-										<ul>
-											<li class="active"><a href="#">CARP 소개</a></li>
-											<li><a href="#">회장 인사말</a></li>
-											<li><a href="#">설립자 소개</a></li>
-											<li><a href="#">연혁</a></li>
-											<li><a href="#">조직도</a></li>
-											<li><a href="#">프로필 게시판</a></li>
-											<li><a href="#">찾아오시는 길</a></li>
-										</ul>
-									</div>
-								</div>
-							</li>
-							<li>
-								<a href="#">공지사항<span></span></a>
-								<div>
-									<div class="container">
-										<ul>
-											<li><a href="#">공지사항</a></li>
-											<li><a href="#">일정게시판</a></li>
-											<li><a href="#">뉴스</a></li>
-										</ul>
-									</div>
-								</div>
-							</li>
-							<li>
-								<a href="#">CARP 광장<span></span></a>
-								<div>
-									<div class="container">
-										<ul>
-											<li><a href="#">참부모선포 광장</a></li>
-											<li><a href="#">말씀 광장</a></li>
-											<li><a href="#">남북통일 광장</a></li>
-											<li><a href="#">사회 광장</a></li>
-											<li><a href="#">심정문화 광장</a></li>
-											<li><a href="#">자유 광장</a></li>
-											<li><a href="#">콜라멘토스 광장</a></li>
-										</ul>
-									</div>
-								</div>
-							</li>
-							<li>
-								<a href="#">활동게시판<span></span></a>
-								<div>
-									<div class="container">
-										<ul>
-											<li><a href="#">CARP 활동게시판</a></li>
-											<li><a href="#">Q&amp;A</a></li>
-										</ul>
-									</div>
-								</div>
-							</li>
-							<li>
-								<a href="#">자료실<span></span></a>
-								<div>
-									<div class="container">
-										<ul>
-											<li><a href="#">사진게시판</a></li>
-											<li><a href="#">영상게시판</a></li>
-										</ul>
-									</div>
-								</div>
-							</li>
-							<li>
-								<a href="#">학생회게시판<span></span></a>
-								<div>
-									<div class="container">
-										<ul>
-											<li><a href="#">소개</a></li>
-											<li><a href="#">비전목표</a></li>
-											<li><a href="#">중앙학생회</a></li>
-											<li><a href="#">51주년 종횡일치</a></li>
-											<li><a href="#">팀별소개</a></li>
-											<li><a href="#">현장회장단</a></li>
-											<li><a href="#">학군학사지회</a></li>
-											<li><a href="#">하고싶은 말</a></li>
-										</ul>
-									</div>
-								</div>
-							</li>
-							<li>
-								<a href="#">CMS 후원<span></span></a>
-								<div>
-									<div class="container">
-										<ul>
-											<li><a href="#">CMS 후원</a></li>
-											<li><a href="#">CARP 소식</a></li>
-										</ul>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="nav-side" class="hidden-lg">
-		<div class="nav-content">
-			<div class="nav-header">
-				<h1 class="logo"><a href="/"><span class="sr-only">한국대학원리연구회</span></a></h1>
-				<button type="button" class="btn btn-link btn-nav-close"><img src="/assets/images/ico_close.png" alt="닫기"></button>
-			</div>
-			<div class="nav-body">
-				<div class="quick">
-					<ul>
-						<li><a class="login" href="">로그인</a></li>
-						<li><a class="join" href="">회원가입</a></li>
-						<li><a class="modify" href="">정보수정</a></li>
-					</ul>
-				</div>
-				<nav class="nav">
-					<ul>
-						<li class="selected">
-							<a href="#">CARP</a>
-							<ul>
-								<li><a href="#">CARP 소개</a></li>
-								<li><a href="#">회장 인사말</a></li>
-								<li><a href="#">설립자 소개</a></li>
-								<li><a href="#">연혁</a></li>
-								<li><a href="#">조직도</a></li>
-								<li><a href="#">프로필 게시판</a></li>
-								<li><a href="#">찾아오시는 길</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">공지사항</a>
-							<ul>
-								<li><a href="#">공지사항</a></li>
-								<li><a href="#">일정게시판</a></li>
-								<li><a href="#">뉴스</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">CARP 광장</a>
-							<ul>
-								<li><a href="#">참부모선포 광장</a></li>
-								<li><a href="#">말씀 광장</a></li>
-								<li><a href="#">남북통일 광장</a></li>
-								<li><a href="#">사회 광장</a></li>
-								<li><a href="#">심정문화 광장</a></li>
-								<li><a href="#">자유 광장</a></li>
-								<li><a href="#">콜라멘토스 광장</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">활동게시판</a>
-							<ul>
-								<li><a href="#">CARP 활동게시판</a></li>
-								<li><a href="#">Q&amp;A</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">자료실</a>
-							<ul>
-								<li><a href="#">사진게시판</a></li>
-								<li><a href="#">영상게시판</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">학생회게시판</a>
-							<ul>
-								<li><a href="#">소개</a></li>
-								<li><a href="#">비전목표</a></li>
-								<li><a href="#">중앙학생회</a></li>
-								<li><a href="#">51주년 종횡일치</a></li>
-								<li><a href="#">팀별소개</a></li>
-								<li><a href="#">현장회장단</a></li>
-								<li><a href="#">학군학사지회</a></li>
-								<li><a href="#">하고싶은 말</a></li>
-							</ul>
-						</li>
-						<li>
-							<a href="#">CMS 후원</a>
-							<ul>
-								<li><a href="#">CMS 후원</a></li>
-								<li><a href="#">CARP 소식</a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</div>
+<body>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
+	
 	<main id="content">
-
+        <div class="jumbotron">
+            <ul>
+                <li class="slogan-1">
+                    <div class="container">
+                        <div class="slogan">
+                            <p>SLOGAN01 <span></span></p>
+                            <h2 class="slogan-title">
+                                CARP 특공대!<br>
+                                세상으로<br>
+                                총 진군하자!
+                            </h2>
+                            <small>
+                                CARP는 참된 가치를 추구하는 <br>
+                                청년 지식인들의 실천의 장입니다.
+                            </small>
+                        </div>
+                    </div>
+                </li>
+                <li class="slogan-2">
+                    <div class="container">
+                        <div class="slogan">
+                            <p>SLOGAN01 <span></span></p>
+                            <h2 class="slogan-title">
+                                CARP 특공대!<br>
+                                세상으로<br>
+                                총 진군하자!
+                            </h2>
+                            <small>
+                                CARP는 참된 가치를 추구하는 <br>
+                                청년 지식인들의 실천의 장입니다.
+                            </small>
+                        </div>
+                    </div>
+                </li>
+                <li class="slogan-3">
+                    <div class="container">
+                        <div class="slogan">
+                            <p>SLOGAN01 <span></span></p>
+                            <h2 class="slogan-title">
+                                CARP 특공대!<br>
+                                세상으로<br>
+                                총 진군하자!
+                            </h2>
+                            <small>
+                                CARP는 참된 가치를 추구하는 <br>
+                                청년 지식인들의 실천의 장입니다.
+                            </small>
+                        </div>
+                    </div>
+                </li>
+                <li class="slogan-4">
+                    <div class="container">
+                        <div class="slogan">
+                            <p>SLOGAN01 <span></span></p>
+                            <h2 class="slogan-title">
+                                CARP 특공대!<br>
+                                세상으로<br>
+                                총 진군하자!
+                            </h2>
+                            <small>
+                                CARP는 참된 가치를 추구하는 <br>
+                                청년 지식인들의 실천의 장입니다.
+                            </small>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="declare">
+            <div class="declare-content">
+                <div class="container">
+                    <h2>참부모선포</h2>
+                    <p class="summary">
+                        청년들에게 인종·문화·종교·국가를 초월하여 서로를<br class="visible-xs">
+                        가족과 같이<br class="hidden-xs"> 사랑하고 위해준다면 전쟁과 갈등이<br class="visible-xs">
+                        없는 평화로운 세계를 만들 수 있습니다.
+                    </p>
+                </div>
+            </div>
+            <div class="speech-bubble">
+                <div class="details">
+                    <p><i>450,000</i>명 달성!</p>
+                </div>
+                <p class="figure">
+                    <img src="/assets/images/main/ico_run.png" alt="">
+                </p>
+            </div>
+            <div class="progress achievement">
+                <span class="target">100%</span>
+                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                    50%
+                </div>
+            </div>
+        </div>
+        <div class="information">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="news">
+                            <!-- 모바일 및 테블릿 -->
+                            <a href="#" class="hidden-md hidden-lg link-box">
+                                <p class="figure">
+                                    <img src="/assets/images/main/ico_news.png" alt="">
+                                </p>
+                                <p class="details">CARP NEWS</p>
+                            </a>
+                            <!-- web 버전 -->
+                            <div class="hidden-xs hidden-sm">
+                                <div class="carp-news">
+                                    <h3 class="title">
+                                        CARP NEWS
+                                        <a href="#">
+                                            <i class="icon-plus"><span class="sr-only">더보기</span></i>
+                                        </a>
+                                    </h3>
+                                    <ul class="news-list">
+                                        <li>
+                                            <a href="">
+                                                   CARP의 최신 소식 제목이 노출되는 영역 입니다.
+                                                <p class="date">17-07-01</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                   CARP의 최신 소식 제목이 노출되는 영역 입니다.
+                                                <p class="date">17-07-01</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                   CARP의 최신 소식 제목이 노출되는 영역 입니다.
+                                                <p class="date">17-07-01</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                   CARP의 최신 소식 제목이 노출되는 영역 입니다.
+                                                <p class="date">17-07-01</p>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="">
+                                                   CARP의 최신 소식 제목이 노출되는 영역 입니다.
+                                                <p class="date">17-07-01</p>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="schedule">
+                            <!-- 모바일 및 테블릿 -->
+                            <a href="#" class="hidden-md hidden-lg link-box">
+                                <p class="figure">
+                                    <img src="/assets/images/main/ico_schedule.png" alt="">
+                                </p>
+                                <p class="details">일정 보기</p>
+                            </a>
+                            <!-- web 버전 -->
+                            <div class="hidden-xs hidden-sm">
+                                <div class="calendar">
+                                    <div id="schedule"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="cms">
+                            <!-- 모바일 및 테블릿 -->
+                            <a href="#" class="hidden-md hidden-lg link-box">
+                                <p class="figure">
+                                    <img src="/assets/images/main/ico_cms.png" alt="">
+                                </p>
+                                <p class="details">CMS 후원</p>
+                            </a>
+                            <!-- web 버전 -->
+                            <div class="hidden-xs hidden-sm">
+                                <div class="cms-sponsor">
+                                    <h3 class="title">CMS 후원</h3>
+                                    <p>
+                                        기부금 전액은 원리연구회의 발전기금으로 사용되며 사회에 공헌하는 다양한 행사에 가치있게 사용됩니다.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 	</main>
-	<nav id="policy">
-		<div class="container">
-			<ul>
-				<li class="hidden-xs"><a href="#">연구회 소개</a></li>
-				<li class="hidden-xs"><a href="#">위치 및 연락처</a></li>
-				<li><a href="#">이용약관</a></li>
-				<li><a href="#">개인정보취급방침</a></li>
-				<li><a href="#">이메일수집무단거부</a></li>
-			</ul>
-		</div>
-	</nav>
-	<footer id="footer">
-		<div class="container">
-			<address>04309 서울시 용산구 청파로 47나길 28 (청파동 2가 9-1) 한국대학원리연구회</address>
-			<ul class="contact">
-				<li>대표전화 : 02-718-3732</li>
-				<li>팩스 : 02-718-3521</li>
-				<li>E-mail : <a href="mailto:k-carphq@hanmail.net" target="_blank">k-carphq@hanmail.net</a></li>
-			</ul>
-			<p class="copyright">(C)2017 한국대학원리연구회. ALL RIGHT RESERVED. <br class="visible-xs">SITE BY <a href="//movementk.com" target="_blank">MOVEMENT K GROUP</a>.</p>
-		</div>
-	</footer>
+	
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="/assets/jquery.bxslider/jquery.bxslider.min.js"></script>
+    <script src="/assets/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 	<script>
 		(function($) {
 			$(document).on('click', '#header .btn-nav-open', function() {
@@ -269,6 +235,25 @@
 				}
 				e.preventDefault();
 			});
+            
+            
+            //일정표 달력
+            $( "#schedule" ).datepicker({
+                dateFormat: 'yy-mm-dd',
+                prevText: '이전 달',
+                nextText: '다음 달',
+                monthNames: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+                monthNamesShort: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
+                showMonthAfterYear: true,
+            });
+            
+            // 메인 슬라이더
+            $(document).ready(function(){
+                $('.jumbotron > ul').bxSlider({
+                    auto: false,
+                    controls: false
+                });
+            });
 		})(jQuery);
 	</script>
 </body>

@@ -3,4 +3,6 @@
 .icon-eye:before { content: '\e801'; } /* '' */
 .icon-comment:before { content: '\e802'; } /* '' */
 .icon-dot:before { content: '\e803'; } /* '' */
+.icon-plus:before { content: '\e804'; } /* '' */
+.icon-minus:before { content: '\e805'; } /* '' */
 .icon-facebook:before { content: '\f30c'; } /* '' */

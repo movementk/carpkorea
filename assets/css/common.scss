@@ -50,6 +50,10 @@ a {
     font-family: "NanumBarunGothic", sans-serif;
 }
 
+@mixin lato() {
+    font-family: 'Lato', sans-serif;
+}
+
 @mixin jjmj() {
     font-family: 'Jeju Myeongjo', serif;
 }

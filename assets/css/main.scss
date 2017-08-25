@@ -1,0 +1,420 @@
+@import 'common';
+
+// visual 슬라이더
+.jumbotron {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    ul {
+        > li {
+            padding: 65px 0 90px;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: auto 100%;
+            .slogan {
+                display: block;
+                width: 252px;
+                text-align: left;
+                margin: 0 auto;
+                padding: 20px 28px 25px;
+                background-color: rgba(0, 0, 0, .77);
+                p {
+                    position: relative;
+                    width: 100%;
+                    font-size: 14px;
+                    color: #fff;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                    &:after {
+                        position: absolute;
+                        bottom: 5px;
+                        left: 90px;
+                        width: 100px;
+                        content: "";
+                        border-bottom: 1px solid #fff;
+                    }
+                }
+                .slogan-title {
+                    font-size: 25px;
+                    color: #fff;
+                    line-height: 34px;
+                    margin-bottom: 20px;
+                }
+                small {
+                    font-size: 12px;
+                    color: #fff;
+                    opacity: .5;
+                    line-height: 18px;
+                }
+            }
+            @media(min-width: $sm) {
+                padding: 70px 0;
+                .slogan {
+                    width: 370px;
+                    margin-left: 50px;
+                    padding: 50px 37px 40px;
+                    p {
+                        font-size: 15px;
+                        margin-bottom: 30px;
+                        &:after {
+                            width: 208px;
+                        }
+                    }
+                    .slogan-title {
+                        font-size: 38px;
+                        line-height: 50px;
+                        margin-bottom: 25px;
+                    }
+                    small {
+                        font-size: 13px;
+                        line-height: 23px;
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                .slogan {
+                    margin-left: 0;
+                }
+            }
+            /* 이미지는 배경으로 클래스 1식 추가 */
+            &.slogan-1 {
+                background-image: url(/assets/images/main/jumbo_visual_img01.jpg);
+            }
+            &.slogan-2 {
+                background-image: url(/assets/images/main/jumbo_visual_img02.jpg);
+            }
+            &.slogan-3 {
+                background-image: url(/assets/images/main/jumbo_visual_img01.jpg);
+            }
+            &.slogan-4 {
+                background-image: url(/assets/images/main/jumbo_visual_img02.jpg);
+            }
+        }
+    }
+    .bx-wrapper {
+        position: relative;
+        .bx-controls {
+            position: absolute;
+            bottom: 15px;
+            width: 100%;
+            .bx-pager {
+                text-align: center;
+                height: 14px;
+                .bx-pager-item {
+                    display: inline-block;
+                    margin: 0 3px;
+                    a {
+                        display: inline-block;
+                        width: 14px;
+                        height: 14px;
+                        text-indent: -99999px;
+                        border: 1px solid #fff;
+                        border-radius: 50%;
+                        &.active {
+                            background-color: #fff;
+                        }
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                bottom: 20px;
+                .bx-pager {
+                    height: 15px;
+                    .bx-pager-item {
+                        a {
+                            width: 15px;
+                            height: 15px;
+                        }
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                bottom: 25px;
+                .bx-pager {
+                    height: 15px;
+                    .bx-pager-item {
+                        margin: 0 5px;
+                        a {
+                            width: 16px;
+                            height: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//참부모선포
+.declare {
+    position: relative;
+    text-align: center;
+    background-color: #02b1a0;
+    .declare-content {
+        height: 386px;
+        padding-top: 60px;
+        background-image: url(/assets/images/main/declare_xs_bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 100%;
+        h2 {
+            font-size: 28px;
+            color: #fff;
+            margin-bottom: 30px;
+        }
+        .summary {
+            font-size: 12px;
+            color: #fff;
+            line-height: 20px;
+        }
+        @media(min-width: $sm) {
+            height: 416px;
+            padding-top: 70px;
+            background-size: auto 416px;
+            background-image: url(/assets/images/main/declare_sm_bg.jpg);
+            h2 {
+                font-size: 36px;
+                margin-bottom: 38px;
+            }
+            .summary {
+                font-size: 14px;
+                line-height: 25px;
+            }
+        }
+        @media(min-width: $md) {
+            padding-top: 90px;
+            background-image: url(/assets/images/main/declare_lg_bg.jpg);
+            h2 {
+                font-size: 38px;
+            }
+            .summary {
+                font-size: 15px;
+            }
+        }
+    }
+    .speech-bubble {
+        position: absolute;
+        bottom: 25px;
+        left: 50%;
+        width: 150px;
+        margin-left: -75px;
+        .details {
+            width: 100%;
+            height: 53px;
+            margin-bottom: 22px;
+            background-image: url(/assets/images/main/bubble_bottom_bg.png);
+            background-repeat: no-repeat;
+            background-position: 50% 100%;
+            @media(min-width: $sm) {
+                margin-bottom: 8px;
+            }
+            @media(min-width: $sm) {
+                margin-bottom: 10px;
+            }
+            p {
+                width: 100%;
+                height: 45px;
+                color: #ff6c00;
+                font-size: 16px;
+                font-weight: bold;
+                line-height: 45px;
+                border-radius: 30px;
+                background-color: #fff;
+                i {
+                    @include lato();
+                    font-weight: bold;
+                    font-style: normal;
+                }
+            }
+        }
+        .figure {
+            padding-right: 15px;
+            @media(min-width: $sm) {
+                padding-right: 20px;
+            }
+            img {
+                height: 55px;
+                @media(min-width: $sm) {
+                    height: 67px;
+                }
+                @media(min-width: $md) {
+                    height: 75px;
+                }
+            }
+        }
+    }
+    .achievement {
+        position: relative;
+        height: 25px;
+        text-align: right;
+        margin: 0;
+        background-color: #ccc;
+        border-radius: 0;
+        box-shadow: none;
+        z-index: 1;
+        .target {
+            display: none;
+            @media(min-width: $md) {
+                display: inline-block;
+                font-size: 15px;
+                font-weight: bold;
+                color: #333;
+                line-height: 25px;
+                @include lato();
+                padding-right: 30px;
+            }
+        }
+        .progress-bar {
+            font-size: 15px;
+            color: #f7f7f7;
+            font-weight: bold;
+            text-align: right;
+            padding-right: 20px;
+            line-height: 25px;
+            box-shadow: none;
+            border-radius: 0 12px 12px 0;
+            @include lato();
+            background-color: #ff6c00;
+        }
+    }
+}
+
+//information 
+.information {
+    padding: 40px 0;
+    background-color: #f8f8f8;
+    @media(min-width: $sm) {
+        padding: 50px 0 60px;
+    }
+    .row {
+        .col-xs-4 {
+            > div {
+                text-align: center;
+                .link-box {
+                    text-decoration: none;
+                    .figure {
+                        height: 44px;
+                        line-height: 44px;
+                        img {
+                            width: 40px;
+                            display: inline-block;
+                        }
+                        @media(min-width: $sm) {
+                            height: 64px;
+                            line-height: 64px;
+                        }
+                    }
+                    .details {
+                        font-size: 13px;
+                        color: #333;
+                        font-weight: 400;
+                        margin-top: 15px;
+                        @media(min-width: $sm) {
+                            font-size: 16px;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    &.news {
+                        .link-box {
+                            img {
+                                width: 61px;
+                            }
+                        }
+                    }
+                    &.schedule {
+                        .link-box {
+                            img {
+                                width: 54px;
+                            }
+                        }
+                    }
+                    &.cms {
+                        .link-box {
+                            img {
+                                width: 59px;
+                            }
+                        }
+                    }
+                }
+                .title {
+                    position: relative;
+                    display: block;
+                    font-size: 25px;
+                    color: #333;
+                    text-align: left;
+                    padding-top: 20px;
+                    &:before {
+                        position: absolute;
+                        top: 0;
+                        content: "";
+                        width: 40px;
+                        border-top: 3px solid $kcolor;
+                    }
+                    a {
+                        position: absolute;
+                        right: 0;
+                        width: 25px;
+                        height: 25px;
+                        vertical-align: top;
+                        line-height: 23px;
+                        text-align: center;
+                        border: 1px solid #ccc;
+                        .icon-plus {
+                            font-size: 17px;
+                            color: #949494;
+                        }
+                    }
+                }
+                .carp-news {
+                    .news-list {
+                        margin-top: 45px;
+                        li {
+                            line-height: 35px;
+                            a {
+                                position: relative;
+                                display: block;
+                                font-size: 14px;
+                                color: #666;
+                                font-weight: 400;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                padding-right: 80px;
+                                padding-left: 13px;
+                                &:before {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    color: $kcolor;
+                                    content: "\E803";
+                                    font-family: "fontello";
+                                }
+                                .date {
+                                    position: absolute;
+                                    top: 3px;
+                                    right: 0;
+                                    font-size: 13px;
+                                    color: #666;
+                                }
+                            }
+                        }
+                    }
+                }
+                .calendar {
+                    padding: 0 20px;
+                }
+                .cms-sponsor {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
