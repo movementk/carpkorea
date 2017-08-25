@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "remove",
   "css_prefix_text": "icon-",
   "css_use_suffix": false,
   "hinting": true,
@@ -34,6 +34,18 @@
       "uid": "bc50457410acf467b8b5721240768742",
       "css": "facebook",
       "code": 62220,
+      "src": "entypo"
+    },
+    {
+      "uid": "70370693ada58ef0a60fa0984fe8d52a",
+      "css": "plus",
+      "code": 59396,
+      "src": "entypo"
+    },
+    {
+      "uid": "1256e3054823e304d7e452a589cf8bb8",
+      "css": "minus",
+      "code": 59397,
       "src": "entypo"
     }
   ]

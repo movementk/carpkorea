@@ -127,93 +127,83 @@
 	<div id="nav-side" class="hidden-lg">
 		<div class="nav-content">
 			<div class="nav-header">
-				<h1><a href="/"><span class="sr-only">한국대학원리연구회</span></a></h1>
+				<h1 class="logo"><a href="/"><span class="sr-only">한국대학원리연구회</span></a></h1>
 				<button type="button" class="btn btn-link btn-nav-close"><img src="/assets/images/ico_close.png" alt="닫기"></button>
 			</div>
 			<div class="nav-body">
+				<div class="quick">
+					<ul>
+						<li><a class="login" href="">로그인</a></li>
+						<li><a class="join" href="">회원가입</a></li>
+						<li><a class="modify" href="">정보수정</a></li>
+					</ul>
+				</div>
 				<nav class="nav">
 					<ul>
-						<li class="has-child">
-							<a href="#">R&amp;D</a>
+						<li class="selected">
+							<a href="#">CARP</a>
 							<ul>
-								<li class="has-child">
-									<a href="#">Research</a>
-									<ul>
-										<li><a href="/rnd/new_material.php">바이오신소재</a></li>
-										<li class="has-child">
-											<a href="/rnd/platform_technology.php">플랫폼 기술</a>
-											<ul>
-												<li><a href="/rnd/platform_technology.php?tab=1">Innovation Gene Therapy</a></li>
-												<li><a href="/rnd/platform_technology.php?tab=2">Homologous Epitopes Region Immunization Technology</a></li>
-												<li><a href="/rnd/platform_technology.php?tab=3">Cancer Therapies in Models</a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-								<li>
-									<a href="/rnd/development.php">Development</a>
-								</li>
+								<li><a href="#">CARP 소개</a></li>
+								<li><a href="#">회장 인사말</a></li>
+								<li><a href="#">설립자 소개</a></li>
+								<li><a href="#">연혁</a></li>
+								<li><a href="#">조직도</a></li>
+								<li><a href="#">프로필 게시판</a></li>
+								<li><a href="#">찾아오시는 길</a></li>
 							</ul>
 						</li>
-						<li class="has-child">
-							<a href="#">GLP</a>
+						<li>
+							<a href="#">공지사항</a>
 							<ul>
-								<li class="has-child">
-									<a href="#">Safety Study</a>
-									<ul>
-										<li><a href="/glp/safety_study.php">GLP Safety Study</a></li>
-										<li><a href="/glp/safety_study.php">시험항목</a></li>
-										<li><a href="/glp/safety_study.php">시험문의</a></li>
-									</ul>
-								</li>
+								<li><a href="#">공지사항</a></li>
+								<li><a href="#">일정게시판</a></li>
+								<li><a href="#">뉴스</a></li>
 							</ul>
 						</li>
-						<li class="has-child">
-							<a href="#">CRO</a>
+						<li>
+							<a href="#">CARP 광장</a>
 							<ul>
-								<li class="has-child">
-									<a href="#">정밀의학</a>
-									<ul>
-										<li><a href="/cro/vivo_efficacy.php">기능성 효능평가 서비스(Preclinical in vivo efficacy service)</a></li>
-									</ul>
-								</li>
-								<li class="has-child">
-									<a href="#">Global CRO</a>
-									<ul>
-										<li><a href="/cro/snbl.php">SNBL</a></li>
-										<li><a href="/cro/senzagen.php">Senzagen</a></li>
-									</ul>
-								</li>
-								<li>
-									<a href="/cro/zebrafish.php">Zebrafish Screening</a>
-								</li>
+								<li><a href="#">참부모선포 광장</a></li>
+								<li><a href="#">말씀 광장</a></li>
+								<li><a href="#">남북통일 광장</a></li>
+								<li><a href="#">사회 광장</a></li>
+								<li><a href="#">심정문화 광장</a></li>
+								<li><a href="#">자유 광장</a></li>
+								<li><a href="#">콜라멘토스 광장</a></li>
 							</ul>
 						</li>
-						<li class="has-child">
-							<a href="#">실험동물센터</a>
+						<li>
+							<a href="#">활동게시판</a>
 							<ul>
-								<li><a href="/animal/experimental_animals.php">실험동물 생산</a></li>
-								<li><a href="/animal/disease_modeling.php">질환모델 제작 - KO제작, 관리</a></li>
-								<li><a href="/animal/breeding_management.php">청정화, 사육관리</a></li>
-								<li><a href="/animal/request_write.php">유전자변형 문의</a></li>
+								<li><a href="#">CARP 활동게시판</a></li>
+								<li><a href="#">Q&amp;A</a></li>
 							</ul>
 						</li>
-						<li class="has-child">
-							<a href="#">PRODUCT</a>
+						<li>
+							<a href="#">자료실</a>
 							<ul>
-								<li><a href="/products/gene_delivery.php">Gene Delivery</a></li>
-								<li><a href="/products/antibody_production.php">Antibody Production</a></li>
-								<li><a href="/products/npg.php">면역부전 모델 (NPG)</a></li>
-								<li><a href="/products/urg.php">인간화 간 모델 (URG)</a></li>
-								<li><a href="/products/ag129.php">지카, 메르스, 뎅기, 인플루엔자 바이러스 연구 (AG129)</a></li>
-								<li><a href="/products/vaccine.php">인플루엔자 바이러스, 백신 연구</a></li>
-								<li><a href="/products/ellegaard_gottingen.php">Ellegaard Göttingen</a></li>
+								<li><a href="#">사진게시판</a></li>
+								<li><a href="#">영상게시판</a></li>
 							</ul>
 						</li>
-						<li class="has-child">
-							<a href="#">문의</a>
+						<li>
+							<a href="#">학생회게시판</a>
 							<ul>
-								<li><a href="/center/notice_list.php">문의<span></span></a></li>
+								<li><a href="#">소개</a></li>
+								<li><a href="#">비전목표</a></li>
+								<li><a href="#">중앙학생회</a></li>
+								<li><a href="#">51주년 종횡일치</a></li>
+								<li><a href="#">팀별소개</a></li>
+								<li><a href="#">현장회장단</a></li>
+								<li><a href="#">학군학사지회</a></li>
+								<li><a href="#">하고싶은 말</a></li>
+							</ul>
+						</li>
+						<li>
+							<a href="#">CMS 후원</a>
+							<ul>
+								<li><a href="#">CMS 후원</a></li>
+								<li><a href="#">CARP 소식</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -269,6 +259,15 @@
 			$(document).on('mouseleave', '#header', function() {
 				//$('body').removeClass('nav-expanded');
 				$('#header .nav > ul > li').removeClass('active');
+			});
+			$(document).on('click', '#nav-side .nav > ul > li > a', function(e) {
+				if ($(this).parent().hasClass("selected")) {
+					$(this).parent().removeClass("selected")
+				} else {
+					$(this).parent().siblings(".selected").removeClass("selected");
+					$(this).parent().addClass("selected")
+				}
+				e.preventDefault();
 			});
 		})(jQuery);
 	</script>
