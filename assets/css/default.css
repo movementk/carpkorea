@@ -451,6 +451,7 @@ body {
   left: 0;
   width: 100%;
   height: 30px;
+  z-index: 999;
   background-color: #02b1a0; }
   #top-nav ul li {
     float: left; }
@@ -494,7 +495,8 @@ body {
   height: 60px;
   border-top: 3px solid #02b1a0;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
-  background-color: #fff; }
+  background-color: #fff;
+  z-index: 999; }
   #header .logo {
     position: absolute;
     top: 15px;

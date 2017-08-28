@@ -72,6 +72,7 @@
                 }
             }
             @media(min-width: $md) {
+                background-size: cover;
                 .slogan {
                     margin-left: 0;
                 }
@@ -403,14 +404,439 @@
                 }
                 .calendar {
                     padding: 0 20px;
+                    #schedule {
+                        .ui-datepicker {
+                            width: 100%;
+                            margin: 0 auto;
+                            .ui-widget-header {
+                                position: relative;
+                                width: 100%;
+                                height: 55px;
+                                text-align: center;
+                                background-color: #7b7b7b;
+                                a {
+                                    position: absolute;
+                                    top: 50%;
+                                    font-size: 18px;
+                                    color: #fff;
+                                    cursor: pointer;
+                                    margin-top: -9px;
+                                }
+                                .ui-datepicker-prev {
+                                    left: 15px;
+                                }
+                                .ui-datepicker-next {
+                                    right: 15px;
+                                }
+                                .ui-datepicker-title {
+                                    span {
+                                        font-size: 18px;
+                                        font-weight: bold;
+                                        color: #fff;
+                                        line-height: 55px;
+                                        @include lato();
+                                        &.ui-datepicker-month {
+                                            &:before {
+                                                content: ".";
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .ui-datepicker-calendar {
+                                width: 100%;
+                                min-height: 217px;
+                                border: 1px solid #ebebeb;
+                                background-color: #fff;
+                                thead {
+                                    display: none;
+                                }
+                                tbody {
+                                    tr {
+                                        &:first-child {
+                                            td {
+                                                padding-top: 20px;
+                                            }
+                                        }
+                                        &:last-child {
+                                            td {
+                                                padding-bottom: 20px;
+                                            }
+                                        }
+                                        td {
+                                            text-align: center;
+                                            a {
+                                                display: inline-block;
+                                                width: 25px;
+                                                height: 25px;
+                                                font-size: 13px;
+                                                color: #b3b3b3;
+                                                line-height: 25px;
+                                                text-decoration: none;
+                                                margin: 5px 0;
+                                                @include lato();
+                                                &.ui-state-active {
+                                                    color: #fff !important;
+                                                    border-radius: 50%;
+                                                    background-color: $kcolor;
+                                                }
+                                            }
+                                            &:first-child {
+                                                padding-left: 20px;
+                                                a {
+                                                    color: #ff7f66;
+                                                }
+                                            }
+                                            &:last-child {
+                                                padding-right: 20px;
+                                                a {
+                                                    color: #6dcff6;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
                 .cms-sponsor {
                     text-align: left;
+                    P {
+                        font-size: 15px;
+                        color: #555;
+                        line-height: 22px;
+                        margin-top: 35px;
+                        margin-bottom: 40px;
+                    }
+                    ul {
+                        li {
+                            text-align: center;
+                            a {
+                                display: inline-block;
+                                text-align: center;
+                                &:hover,&:focus {
+                                    figcaption {
+                                        color: $kcolor;
+                                        text-decoration: underline;
+                                    }
+                                }
+                                figure {
+                                    img {
+                                        display: inline-block;
+                                    }
+                                    figcaption {
+                                        font-size: 14px;
+                                        color: #666;
+                                        line-height: 20px;
+                                        margin-top: 10px;
+                                        @include transition();
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
     }
 }
+
+//carp-section 
+.carp-section {
+    padding: 60px 0;
+    background-image: url(/assets/images/main/carp_action_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    @media(min-width: $sm) {
+        padding: 90px 0;
+    }
+    @media(min-width: $sm) {
+        padding: 100px 0 110px;
+    }
+    h2 {
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-bottom: 35px;
+        @media(min-width: $sm) {
+            font-size: 38px;
+            margin-bottom: 40px;
+        }
+        @media(min-width: $md) {
+            font-size: 42px;
+        }
+    }
+    .summary {
+        font-size: 12px;
+        color: #fff;
+        line-height: 20px;
+        text-align: center;
+        @media(min-width: $sm) {
+            font-size: 14px;
+            line-height: 25px;
+        }
+        @media(min-width: $md) {
+            font-size: 15px;
+        }
+    }
+    .action-list {
+        overflow: hidden;
+        margin-top: 20px;
+        li {
+            float: left;
+            width: 50%;
+            text-align: center;
+            padding: 0 18px;
+            margin-top: 40px;
+            figure {
+                display: inline-block;
+                .img-responsive {
+                    display: inline-block;
+                }
+                figcaption {
+                    font-size: 13px;
+                    color: #fff;
+                    line-height: 22px;
+                    margin-top: 20px;
+                }
+            }
+            @media(min-width: $sm) {
+                padding: 0;
+                width: 33%;
+                margin-top: 50px;
+                figure {
+                    figcaption {
+                        font-size: 14px;
+                        line-height: 25px;
+                    }
+                }
+                &:nth-of-type(1) {
+                    width: 50%;
+                    text-align: right;
+                    padding-right: 25px;
+                    figure {
+                        width: 190px;
+                        text-align: center;
+                    }
+                }
+                &:nth-of-type(2) {
+                    width: 50%;
+                    text-align: left;
+                    padding-left: 25px;
+                    figure {
+                        width: 190px;
+                        text-align: center;
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                margin-top: 60px;
+                padding: 0;
+                width: 20%;
+                figure {
+                    padding: 0 10px;
+                    figcaption {
+                        font-size: 16px;
+                        margin-top: 35px;
+                    }
+                }
+                &:nth-of-type(1) {
+                    width: 20%;
+                    text-align: center;
+                    padding-right: 0;
+                }
+                &:nth-of-type(2) {
+                    width: 20%;
+                    text-align: center;
+                    padding-left: 0;
+                }
+            }
+            @media(min-width: $lg) {
+                figure {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}
+
+//영상및 사진 게시판
+.board-list {
+    padding: 60px 0;
+    @media(min-width: $sm) {
+        padding: 90px 0;
+    }
+    .title {
+        position: relative;
+        display: block;
+        font-size: 25px;
+        color: #333;
+        text-align: left;
+        padding-top: 20px;
+        margin-bottom: 30px;
+        &:before {
+            position: absolute;
+            top: 0;
+            content: "";
+            width: 40px;
+            border-top: 3px solid $kcolor;
+        }
+        a {
+            position: absolute;
+            right: 0;
+            width: 25px;
+            height: 25px;
+            vertical-align: top;
+            line-height: 23px;
+            text-align: center;
+            border: 1px solid #ccc;
+            .icon-plus {
+                font-size: 17px;
+                color: #949494;
+            }
+        }
+    }
+    .video {
+        margin-bottom: 30px;
+        @media(min-width: $md) {
+            margin: 0;
+            .embed-responsive {
+                height: 380px;
+            }
+        }
+    }
+    .photo-list {
+        ul {
+            > li {
+                a {
+                    text-decoration: none;
+                    .figure {
+                        .img-responsive {
+                            width: 100%;
+                        }
+                    }
+                    .details {
+                        h4 {
+                            font-size: 14px;
+                            color: #111;
+                            font-weight: 600;
+                            margin: 20px 0;
+                        }
+                        .summary {
+                            font-size: 12px;
+                            color: #666;
+                            line-height: 20px;
+                        }
+                        > ul {
+                            margin-top: 20px;
+                            li {
+                                display: inline-block;
+                                margin-right: 20px;
+                                p {
+                                    font-size: 11px;
+                                    color: #888;
+                                    i {
+                                        margin-right: 5px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    @media(min-width: $sm) {
+                        .details {
+                            h4 {
+                                font-size: 16px;
+                                margin-top: 30px;
+                            }
+                            .summary {
+                                font-size: 13px;
+                                line-height: 22px;
+                            }
+                            > ul {
+                                li {
+                                    p {
+                                        font-size: 12px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    @media(min-width: $md) {
+                        .figure {
+                            .img-responsive {
+                                width: 100%;
+                                height: 214px;
+                            }
+                        }
+                        .details {
+                            max-height: 136px;
+                            h4 {
+                                margin-top: 30px;
+                                margin-bottom: 20px;
+                            }
+                            .summary {
+                                font-size: 14px;
+                                line-height: 20px;
+                                letter-spacing: -.5px;
+                            }
+                            ul {
+                                margin-top: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//진행중인 이벤트
+.event-list {
+    padding-bottom: 60px;
+    @media(min-width: $sm) {
+        padding-bottom: 90px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

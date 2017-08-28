@@ -18,6 +18,12 @@
 
 <glyph glyph-name="minus" unicode="&#xe805;" d="M550 400q30 0 30-50t-30-50l-520 0q-30 0-30 50t30 50l520 0z" horiz-adv-x="580" />
 
+<glyph glyph-name="left-open" unicode="&#xe806;" d="M242 626q14 16 39 16t41-16q38-36 0-80l-186-196 186-194q38-44 0-80-16-16-40-16t-40 16l-226 236q-16 16-16 38 0 24 16 40 206 214 226 236z" horiz-adv-x="341" />
+
+<glyph glyph-name="right-open" unicode="&#xe807;" d="M98 626l226-236q16-16 16-40 0-22-16-38l-226-236q-16-16-40-16t-40 16q-36 36 0 80l186 194-186 196q-36 44 0 80 16 16 41 16t39-16z" horiz-adv-x="340" />
+
+<glyph glyph-name="right-dir" unicode="&#xe808;" d="M0 580l400-230-400-230 0 460z" horiz-adv-x="400" />
+
 <glyph glyph-name="facebook" unicode="&#xf30c;" d="M500 644l-142 0q-14 0-25-15t-11-37l0-102 178 0 0-148-178 0 0-442-170 0 0 442-152 0 0 148 152 0 0 86q0 94 59 159t147 65l142 0 0-156z" horiz-adv-x="500" />
 </font>
 </defs>
