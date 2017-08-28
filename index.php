@@ -336,99 +336,176 @@
             </div>
         </section>
         <section class="event-list">
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <ul class="row">
-                        <li class="col-xs-12 col-sm-6">
-                            <p class="event-item">
-                                <img src="" alt="">
-                                <a href="#">바로가기<i class="icon-right-dir"></i></a>
-                            </p>
-                        </li>
-                        <li class="col-xs-12 col-sm-6">
-                            <p class="event-item">
-                                <img src="" alt="">
-                                <a href="#">바로가기<i class="icon-right-dir"></i></a>
-                            </p>
-                        </li>
-                        <li class="col-xs-12 col-sm-6">
-                            <p class="event-item">
-                                <img src="" alt="">
-                                <a href="#">바로가기<i class="icon-right-dir"></i></a>
-                            </p>
-                        </li>
-                        <li class="col-xs-12 col-sm-6">
-                            <p class="event-item">
-                                <img src="" alt="">
-                                <a href="#">바로가기<i class="icon-right-dir"></i></a>
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-xs-12 col-md-6">
-                    111
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-6">
+                        <ul class="row">
+                            <li class="col-xs-12 col-sm-6">
+                                <div class="event-item">
+                                    <img src="/assets/images/main/event_xs_img01.jpg" class="img-responsive hidden-md hidden-lg" alt="노래/율동/가사">
+                                    <img src="/assets/images/main/event_md_img01.jpg" class="img-responsive visible-md visible-lg" alt="노래/율동/가사">
+                                    <div class="details">
+                                        <p>우리 노래/율동/가사</p>
+                                        <a href="#">바로가기<i class="icon-right-dir"></i></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-xs-12 col-sm-6">
+                                <div class="event-item">
+                                    <img src="/assets/images/main/event_xs_img02.jpg" class="img-responsive hidden-md hidden-lg" alt="공직자 프로필">
+                                    <img src="/assets/images/main/event_md_img02.jpg" class="img-responsive visible-md visible-lg" alt="공직자 프로필">
+                                    <div class="details">
+                                        <p>공직자 프로필</p>
+                                        <a href="#">바로가기<i class="icon-right-dir"></i></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-xs-12 col-sm-6">
+                                <div class="event-item">
+                                    <img src="/assets/images/main/event_xs_img03.jpg" class="img-responsive hidden-md hidden-lg" alt="전국 학사주소">
+                                    <img src="/assets/images/main/event_md_img03.jpg" class="img-responsive visible-md visible-lg" alt="전국 학사주소">
+                                    <div class="details">
+                                        <p>전국 학사주소</p>
+                                        <a href="#">바로가기<i class="icon-right-dir"></i></a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="col-xs-12 col-sm-6">
+                                <div class="event-item">
+                                    <img src="/assets/images/main/event_xs_img04.jpg" class="img-responsive hidden-md hidden-lg" alt="세계평화교수협의회">
+                                    <img src="/assets/images/main/event_md_img04.jpg" class="img-responsive visible-md visible-lg" alt="세계평화교수협의회">
+                                    <div class="details">
+                                        <p>세계평화교수협의회</p>
+                                        <a href="#">바로가기<i class="icon-right-dir"></i></a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-md-6">
+                        <div class="event-banner">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/main/event_banner_img.jpg" class="img-responsive" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="/assets/images/main/event_banner_img.jpg" class="img-responsive" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+        <section class="carp-square">
+            <div class="container">
+                <h3 class="title">CARP 광장</h3>
+                <nav class="square-list">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <img src="/assets/images/main/carp_square_img01.png" class="img-responsive" alt="">
+                                </div>
+                                <p class="details">참부모선포 광장</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <img src="/assets/images/main/carp_square_img02.png" class="img-responsive" alt="">
+                                </div>
+                                <p class="details">말씀 광장</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <img src="/assets/images/main/carp_square_img03.png" class="img-responsive" alt="">
+                                </div>
+                                <p class="details">남북통일 광장</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <img src="/assets/images/main/carp_square_img04.png" class="img-responsive" alt="">
+                                </div>
+                                <p class="details">사회 광장</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <img src="/assets/images/main/carp_square_img05.png" class="img-responsive" alt="">
+                                </div>
+                                <p class="details">심정문화 광장</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <img src="/assets/images/main/carp_square_img06.png" class="img-responsive" alt="">
+                                </div>
+                                <p class="details">자유 광장</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <div class="figure">
+                                    <img src="/assets/images/main/carp_square_img07.png" class="img-responsive" alt="">
+                                </div>
+                                <p class="details">콜라멘토스 광장</p>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
+        <div class="partner">
+            <div class="container">
+                <ul class="partner-list">
+                    <li>
+                        <a href="https://www.ffwp.org" target="_blank">
+                            <figure>
+                                <img src="/assets/images/main/partner_img01.jpg" class="img-responsive" alt="">
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.purelove.or.kr" target="_blank">
+                            <figure>
+                                <img src="/assets/images/main/partner_img02.jpg" class="img-responsive" alt="">
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.yfwp.or.kr" target="_blank">
+                            <figure>
+                                <img src="/assets/images/main/partner_img03.jpg" class="img-responsive" alt="">
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://lily.sunmoon.ac.kr" target="_blank">
+                            <figure>
+                                <img src="/assets/images/main/partner_img04.jpg" class="img-responsive" alt="">
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
 	</main>
 	
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="/assets/jquery.bxslider/jquery.bxslider.min.js"></script>
     <script src="/assets/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
-	<script>
-		(function($) {
-			$(document).on('click', '#header .btn-nav-open', function() {
-				$('body').addClass('nav-opened');
-			});
-			$(document).on('click', '#nav-side', function(e) {
-				if ($(e.target).attr('id') == 'nav-side') {
-					$('body').removeClass('nav-opened');
-				}
-			});
-			$(document).on('click', '#nav-side .btn-nav-close', function() {
-				$('body').removeClass('nav-opened');
-			});
-
-			$(document).on('mouseenter focus', '#header .nav > ul > li > a', function(e) {
-				$(this).parent().siblings('.active').removeClass('active');
-				$(this).parent().addClass('active');
-				e.preventDefault();
-			});
-			$(document).on('mouseleave', '#header', function() {
-				//$('body').removeClass('nav-expanded');
-				$('#header .nav > ul > li').removeClass('active');
-			});
-			$(document).on('click', '#nav-side .nav > ul > li > a', function(e) {
-				if ($(this).parent().hasClass("selected")) {
-					$(this).parent().removeClass("selected")
-				} else {
-					$(this).parent().siblings(".selected").removeClass("selected");
-					$(this).parent().addClass("selected")
-				}
-				e.preventDefault();
-			});
-            
-            
-            //일정표 달력
-            $( "#schedule" ).datepicker({
-                dateFormat: 'yy-mm-dd',
-                prevText: '<span class="ui-icon ui-icon-circle-triangle-w"><i class="icon-left-open"><span class="sr-only">이전달</span></i></span>',
-                nextText: '<span class="ui-icon ui-icon-circle-triangle-e"><i class="icon-right-open"><span class="sr-only">다음달</span></i></span>',
-                monthNames: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
-                monthNamesShort: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
-                showMonthAfterYear: true,
-            });
-            
-            // 메인 슬라이더
-            $(document).ready(function(){
-                $('.jumbotron > ul').bxSlider({
-                    auto: false,
-                    controls: false
-                });
-            });
-		})(jQuery);
-	</script>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>

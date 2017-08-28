@@ -415,6 +415,41 @@ a {
           padding-left: 15px;
           padding-right: 15px; } }
 
+#content {
+  background-color: #f8f8f8; }
+
+.title {
+  position: relative;
+  display: block;
+  font-size: 20px;
+  color: #333;
+  text-align: left;
+  padding-top: 20px; }
+  @media (min-width: 768px) {
+    .title {
+      font-size: 24px; } }
+  @media (min-width: 992px) {
+    .title {
+      font-size: 25px; } }
+  .title:before {
+    position: absolute;
+    top: 0;
+    content: "";
+    width: 40px;
+    border-top: 3px solid #02b1a0; }
+  .title a {
+    position: absolute;
+    right: 0;
+    width: 25px;
+    height: 25px;
+    vertical-align: top;
+    line-height: 23px;
+    text-align: center;
+    border: 1px solid #ccc; }
+    .title a .icon-plus {
+      font-size: 17px;
+      color: #949494; }
+
 .jumbotron {
   margin: 0;
   padding: 0;
@@ -680,31 +715,6 @@ a {
         width: 54px; }
       .information .row .col-xs-4 > div.cms .link-box img {
         width: 59px; } }
-    .information .row .col-xs-4 > div .title {
-      position: relative;
-      display: block;
-      font-size: 25px;
-      color: #333;
-      text-align: left;
-      padding-top: 20px; }
-      .information .row .col-xs-4 > div .title:before {
-        position: absolute;
-        top: 0;
-        content: "";
-        width: 40px;
-        border-top: 3px solid #02b1a0; }
-      .information .row .col-xs-4 > div .title a {
-        position: absolute;
-        right: 0;
-        width: 25px;
-        height: 25px;
-        vertical-align: top;
-        line-height: 23px;
-        text-align: center;
-        border: 1px solid #ccc; }
-        .information .row .col-xs-4 > div .title a .icon-plus {
-          font-size: 17px;
-          color: #949494; }
     .information .row .col-xs-4 > div .carp-news .news-list {
       margin-top: 45px; }
       .information .row .col-xs-4 > div .carp-news .news-list li {
@@ -880,7 +890,8 @@ a {
       .carp-section .action-list li figure {
         display: inline-block; }
         .carp-section .action-list li figure .img-responsive {
-          display: inline-block; }
+          display: inline-block;
+          width: 100%; }
         .carp-section .action-list li figure figcaption {
           font-size: 13px;
           color: #fff;
@@ -936,31 +947,7 @@ a {
     .board-list {
       padding: 90px 0; } }
   .board-list .title {
-    position: relative;
-    display: block;
-    font-size: 25px;
-    color: #333;
-    text-align: left;
-    padding-top: 20px;
     margin-bottom: 30px; }
-    .board-list .title:before {
-      position: absolute;
-      top: 0;
-      content: "";
-      width: 40px;
-      border-top: 3px solid #02b1a0; }
-    .board-list .title a {
-      position: absolute;
-      right: 0;
-      width: 25px;
-      height: 25px;
-      vertical-align: top;
-      line-height: 23px;
-      text-align: center;
-      border: 1px solid #ccc; }
-      .board-list .title a .icon-plus {
-        font-size: 17px;
-        color: #949494; }
   .board-list .video {
     margin-bottom: 30px; }
     @media (min-width: 992px) {
@@ -1021,5 +1008,212 @@ a {
   @media (min-width: 768px) {
     .event-list {
       padding-bottom: 90px; } }
+  .event-list ul li .event-item {
+    position: relative;
+    width: 100%;
+    max-width: 352px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px; }
+    @media (min-width: 768px) {
+      .event-list ul li .event-item {
+        margin-bottom: 20px; } }
+    @media (min-width: 992px) {
+      .event-list ul li .event-item {
+        margin-bottom: 30px; } }
+    .event-list ul li .event-item .details {
+      position: absolute;
+      top: 50%;
+      right: 30px;
+      margin-top: -22px; }
+      @media (min-width: 768px) {
+        .event-list ul li .event-item .details {
+          right: 20px; } }
+      .event-list ul li .event-item .details p {
+        font-size: 15px;
+        color: #333; }
+        @media (min-width: 1280px) {
+          .event-list ul li .event-item .details p {
+            font-size: 16px; } }
+      .event-list ul li .event-item .details a {
+        float: right;
+        width: 72px;
+        height: 18px;
+        font-size: 11px;
+        color: #000;
+        text-align: center;
+        line-height: 18px;
+        margin-top: 5px;
+        padding-left: 8px;
+        border-radius: 15px;
+        border: 1px solid #bbb;
+        background-color: #f7f7f7;
+        text-decoration: none; }
+        .event-list ul li .event-item .details a .icon-right-dir {
+          color: #02b1a0; }
+  .event-list ul li:last-child .event-item {
+    margin-bottom: 0; }
+  @media (min-width: 768px) {
+    .event-list ul li:nth-of-type(3) .event-item {
+      margin-bottom: 0; } }
+
+.event-banner {
+  border: 1px solid #dfdfdf;
+  margin-top: 10px; }
+  @media (min-width: 768px) {
+    .event-banner {
+      margin-top: 20px; } }
+  @media (min-width: 992px) {
+    .event-banner {
+      margin-top: 0; } }
+  .event-banner .bx-wrapper {
+    position: relative; }
+    .event-banner .bx-wrapper .bx-viewport ul li {
+      background-color: #fff; }
+      .event-banner .bx-wrapper .bx-viewport ul li .img-responsive {
+        margin: 0 auto; }
+        @media (min-width: 992px) {
+          .event-banner .bx-wrapper .bx-viewport ul li .img-responsive {
+            width: auto;
+            height: 203px; } }
+        @media (min-width: 1280px) {
+          .event-banner .bx-wrapper .bx-viewport ul li .img-responsive {
+            width: auto;
+            height: 250px; } }
+    .event-banner .bx-wrapper .bx-controls {
+      position: absolute;
+      top: 12px;
+      right: 12px; }
+      .event-banner .bx-wrapper .bx-controls .bx-pager-item {
+        display: inline-block;
+        margin: 0 4px; }
+        .event-banner .bx-wrapper .bx-controls .bx-pager-item a {
+          display: block;
+          width: 12px;
+          height: 12px;
+          text-indent: -99999px;
+          background-color: #d1d1d1;
+          border-radius: 50%; }
+          .event-banner .bx-wrapper .bx-controls .bx-pager-item a.active {
+            background-color: #02b1a0; }
+      @media (min-width: 768px) {
+        .event-banner .bx-wrapper .bx-controls {
+          top: 20px;
+          right: 20px; }
+          .event-banner .bx-wrapper .bx-controls .bx-pager-item a {
+            width: 15px;
+            height: 15px; } }
+
+.carp-square {
+  padding: 60px 0;
+  background-image: url(/assets/images/main/carp_square_bg.gif); }
+  .carp-square .square-list ul {
+    font-size: 0; }
+    .carp-square .square-list ul li {
+      margin-top: 50px;
+      width: 50%;
+      display: inline-block; }
+      .carp-square .square-list ul li:nth-of-type(2n + 1) {
+        padding-right: 10px; }
+      .carp-square .square-list ul li:nth-of-type(2n + 2) {
+        padding-left: 10px; }
+      .carp-square .square-list ul li a {
+        display: block;
+        text-align: center;
+        text-decoration: none; }
+        .carp-square .square-list ul li a .figure .img-responsive {
+          display: inline-block;
+          width: 100%;
+          max-width: 166px; }
+        .carp-square .square-list ul li a .details {
+          font-size: 13px;
+          color: #333;
+          margin-top: 20px; }
+      @media (min-width: 768px) {
+        .carp-square .square-list ul li {
+          width: 25%;
+          padding-left: 10px;
+          padding-right: 10px;
+          margin-top: 55px; }
+          .carp-square .square-list ul li a .details {
+            font-size: 15px; } }
+    @media (min-width: 992px) {
+      .carp-square .square-list ul {
+        display: table; }
+        .carp-square .square-list ul li {
+          display: table-cell;
+          width: 1%;
+          padding-top: 35px; }
+          .carp-square .square-list ul li a {
+            position: relative; }
+            .carp-square .square-list ul li a:after {
+              position: absolute;
+              top: 0;
+              left: 0;
+              border-radius: 50%;
+              content: "";
+              width: 100%;
+              height: 115px;
+              background-color: #ff6c00;
+              background-image: url(/assets/images/main/icon_search_img.png);
+              background-repeat: no-repeat;
+              background-position: 50% 50%;
+              opacity: 0;
+              -webkit-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.15s;
+              transition-duration: 0.15s;
+              -webkit-transition-timing-function: linear;
+              transition-timing-function: linear;
+              -webkit-transition-delay: 0s;
+              transition-delay: 0s;
+              box-shadow: 1px 2px 2px 0px rgba(0, 0, 0, 0.3) inset;
+              -moz-box-shadow: rgba(0, 0, 0, 0.3) 1px 2px 2px 0px inset;
+              -webkit-box-shadow: rgba(0, 0, 0, 0.3) 1px 2px 2px 0px inset; }
+            .carp-square .square-list ul li a:hover:after, .carp-square .square-list ul li a:focus:after {
+              opacity: 1; }
+            .carp-square .square-list ul li a:hover .details, .carp-square .square-list ul li a:focus .details {
+              font-weight: bold; } }
+    @media (min-width: 1280px) {
+      .carp-square .square-list ul li a:after {
+        height: 148px; } }
+
+.partner {
+  padding: 25px 0 30px; }
+  @media (min-width: 768px) {
+    .partner {
+      padding: 35px 0; } }
+  @media (min-width: 992px) {
+    .partner {
+      padding: 40px 65px; } }
+  .partner .bx-wrapper {
+    position: relative;
+    padding-top: 30px; }
+    .partner .bx-wrapper .bx-viewport ul li {
+      text-align: center; }
+      .partner .bx-wrapper .bx-viewport ul li a {
+        display: inline-block; }
+        .partner .bx-wrapper .bx-viewport ul li a figure .img-responsive {
+          margin: 0 auto; }
+    .partner .bx-wrapper .bx-controls {
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .partner .bx-wrapper .bx-controls .bx-pager-item {
+        display: inline-block;
+        margin: 0 4px; }
+        .partner .bx-wrapper .bx-controls .bx-pager-item a {
+          display: block;
+          width: 12px;
+          height: 12px;
+          text-indent: -99999px;
+          background-color: #d1d1d1;
+          border-radius: 50%; }
+          .partner .bx-wrapper .bx-controls .bx-pager-item a.active {
+            background-color: #02b1a0; }
+      @media (min-width: 768px) {
+        .partner .bx-wrapper .bx-controls .bx-pager-item a {
+          width: 15px;
+          height: 15px; } }
 
 /*# sourceMappingURL=main.css.map */
