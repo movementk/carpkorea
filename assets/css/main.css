@@ -476,8 +476,10 @@ a {
             font-size: 13px;
             line-height: 23px; } }
     @media (min-width: 992px) {
-      .jumbotron ul > li .slogan {
-        margin-left: 0; } }
+      .jumbotron ul > li {
+        background-size: cover; }
+        .jumbotron ul > li .slogan {
+          margin-left: 0; } }
     .jumbotron ul > li.slogan-1 {
       background-image: url(/assets/images/main/jumbo_visual_img01.jpg); }
     .jumbotron ul > li.slogan-2 {
@@ -733,7 +735,291 @@ a {
             color: #666; }
     .information .row .col-xs-4 > div .calendar {
       padding: 0 20px; }
+      .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker {
+        width: 100%;
+        margin: 0 auto; }
+        .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-widget-header {
+          position: relative;
+          width: 100%;
+          height: 55px;
+          text-align: center;
+          background-color: #7b7b7b; }
+          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-widget-header a {
+            position: absolute;
+            top: 50%;
+            font-size: 18px;
+            color: #fff;
+            cursor: pointer;
+            margin-top: -9px; }
+          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-widget-header .ui-datepicker-prev {
+            left: 15px; }
+          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-widget-header .ui-datepicker-next {
+            right: 15px; }
+          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-widget-header .ui-datepicker-title span {
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            line-height: 55px;
+            font-family: 'Lato', sans-serif; }
+            .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-widget-header .ui-datepicker-title span.ui-datepicker-month:before {
+              content: "."; }
+        .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar {
+          width: 100%;
+          min-height: 217px;
+          border: 1px solid #ebebeb;
+          background-color: #fff; }
+          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar thead {
+            display: none; }
+          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr:first-child td {
+            padding-top: 20px; }
+          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr:last-child td {
+            padding-bottom: 20px; }
+          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td {
+            text-align: center; }
+            .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td a {
+              display: inline-block;
+              width: 25px;
+              height: 25px;
+              font-size: 13px;
+              color: #b3b3b3;
+              line-height: 25px;
+              text-decoration: none;
+              margin: 5px 0;
+              font-family: 'Lato', sans-serif; }
+              .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td a.ui-state-active {
+                color: #fff !important;
+                border-radius: 50%;
+                background-color: #02b1a0; }
+            .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td:first-child {
+              padding-left: 20px; }
+              .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td:first-child a {
+                color: #ff7f66; }
+            .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td:last-child {
+              padding-right: 20px; }
+              .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td:last-child a {
+                color: #6dcff6; }
     .information .row .col-xs-4 > div .cms-sponsor {
       text-align: left; }
+      .information .row .col-xs-4 > div .cms-sponsor P {
+        font-size: 15px;
+        color: #555;
+        line-height: 22px;
+        margin-top: 35px;
+        margin-bottom: 40px; }
+      .information .row .col-xs-4 > div .cms-sponsor ul li {
+        text-align: center; }
+        .information .row .col-xs-4 > div .cms-sponsor ul li a {
+          display: inline-block;
+          text-align: center; }
+          .information .row .col-xs-4 > div .cms-sponsor ul li a:hover figcaption, .information .row .col-xs-4 > div .cms-sponsor ul li a:focus figcaption {
+            color: #02b1a0;
+            text-decoration: underline; }
+          .information .row .col-xs-4 > div .cms-sponsor ul li a figure img {
+            display: inline-block; }
+          .information .row .col-xs-4 > div .cms-sponsor ul li a figure figcaption {
+            font-size: 14px;
+            color: #666;
+            line-height: 20px;
+            margin-top: 10px;
+            -webkit-transition-property: all;
+            transition-property: all;
+            -webkit-transition-duration: 0.15s;
+            transition-duration: 0.15s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s; }
+
+.carp-section {
+  padding: 60px 0;
+  background-image: url(/assets/images/main/carp_action_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  @media (min-width: 768px) {
+    .carp-section {
+      padding: 90px 0; } }
+  @media (min-width: 768px) {
+    .carp-section {
+      padding: 100px 0 110px; } }
+  .carp-section h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 35px; }
+    @media (min-width: 768px) {
+      .carp-section h2 {
+        font-size: 38px;
+        margin-bottom: 40px; } }
+    @media (min-width: 992px) {
+      .carp-section h2 {
+        font-size: 42px; } }
+  .carp-section .summary {
+    font-size: 12px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .carp-section .summary {
+        font-size: 14px;
+        line-height: 25px; } }
+    @media (min-width: 992px) {
+      .carp-section .summary {
+        font-size: 15px; } }
+  .carp-section .action-list {
+    overflow: hidden;
+    margin-top: 20px; }
+    .carp-section .action-list li {
+      float: left;
+      width: 50%;
+      text-align: center;
+      padding: 0 18px;
+      margin-top: 40px; }
+      .carp-section .action-list li figure {
+        display: inline-block; }
+        .carp-section .action-list li figure .img-responsive {
+          display: inline-block; }
+        .carp-section .action-list li figure figcaption {
+          font-size: 13px;
+          color: #fff;
+          line-height: 22px;
+          margin-top: 20px; }
+      @media (min-width: 768px) {
+        .carp-section .action-list li {
+          padding: 0;
+          width: 33%;
+          margin-top: 50px; }
+          .carp-section .action-list li figure figcaption {
+            font-size: 14px;
+            line-height: 25px; }
+          .carp-section .action-list li:nth-of-type(1) {
+            width: 50%;
+            text-align: right;
+            padding-right: 25px; }
+            .carp-section .action-list li:nth-of-type(1) figure {
+              width: 190px;
+              text-align: center; }
+          .carp-section .action-list li:nth-of-type(2) {
+            width: 50%;
+            text-align: left;
+            padding-left: 25px; }
+            .carp-section .action-list li:nth-of-type(2) figure {
+              width: 190px;
+              text-align: center; } }
+      @media (min-width: 992px) {
+        .carp-section .action-list li {
+          margin-top: 60px;
+          padding: 0;
+          width: 20%; }
+          .carp-section .action-list li figure {
+            padding: 0 10px; }
+            .carp-section .action-list li figure figcaption {
+              font-size: 16px;
+              margin-top: 35px; }
+          .carp-section .action-list li:nth-of-type(1) {
+            width: 20%;
+            text-align: center;
+            padding-right: 0; }
+          .carp-section .action-list li:nth-of-type(2) {
+            width: 20%;
+            text-align: center;
+            padding-left: 0; } }
+      @media (min-width: 1280px) {
+        .carp-section .action-list li figure {
+          padding: 0; } }
+
+.board-list {
+  padding: 60px 0; }
+  @media (min-width: 768px) {
+    .board-list {
+      padding: 90px 0; } }
+  .board-list .title {
+    position: relative;
+    display: block;
+    font-size: 25px;
+    color: #333;
+    text-align: left;
+    padding-top: 20px;
+    margin-bottom: 30px; }
+    .board-list .title:before {
+      position: absolute;
+      top: 0;
+      content: "";
+      width: 40px;
+      border-top: 3px solid #02b1a0; }
+    .board-list .title a {
+      position: absolute;
+      right: 0;
+      width: 25px;
+      height: 25px;
+      vertical-align: top;
+      line-height: 23px;
+      text-align: center;
+      border: 1px solid #ccc; }
+      .board-list .title a .icon-plus {
+        font-size: 17px;
+        color: #949494; }
+  .board-list .video {
+    margin-bottom: 30px; }
+    @media (min-width: 992px) {
+      .board-list .video {
+        margin: 0; }
+        .board-list .video .embed-responsive {
+          height: 380px; } }
+  .board-list .photo-list ul > li a {
+    text-decoration: none; }
+    .board-list .photo-list ul > li a .figure .img-responsive {
+      width: 100%; }
+    .board-list .photo-list ul > li a .details h4 {
+      font-size: 14px;
+      color: #111;
+      font-weight: 600;
+      margin: 20px 0; }
+    .board-list .photo-list ul > li a .details .summary {
+      font-size: 12px;
+      color: #666;
+      line-height: 20px; }
+    .board-list .photo-list ul > li a .details > ul {
+      margin-top: 20px; }
+      .board-list .photo-list ul > li a .details > ul li {
+        display: inline-block;
+        margin-right: 20px; }
+        .board-list .photo-list ul > li a .details > ul li p {
+          font-size: 11px;
+          color: #888; }
+          .board-list .photo-list ul > li a .details > ul li p i {
+            margin-right: 5px; }
+    @media (min-width: 768px) {
+      .board-list .photo-list ul > li a .details h4 {
+        font-size: 16px;
+        margin-top: 30px; }
+      .board-list .photo-list ul > li a .details .summary {
+        font-size: 13px;
+        line-height: 22px; }
+      .board-list .photo-list ul > li a .details > ul li p {
+        font-size: 12px; } }
+    @media (min-width: 992px) {
+      .board-list .photo-list ul > li a .figure .img-responsive {
+        width: 100%;
+        height: 214px; }
+      .board-list .photo-list ul > li a .details {
+        max-height: 136px; }
+        .board-list .photo-list ul > li a .details h4 {
+          margin-top: 30px;
+          margin-bottom: 20px; }
+        .board-list .photo-list ul > li a .details .summary {
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: -.5px; }
+        .board-list .photo-list ul > li a .details ul {
+          margin-top: 16px; } }
+
+.event-list {
+  padding-bottom: 60px; }
+  @media (min-width: 768px) {
+    .event-list {
+      padding-bottom: 90px; } }
 
 /*# sourceMappingURL=main.css.map */
