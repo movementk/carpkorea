@@ -2,31 +2,8 @@
 <link href="/assets/css/sub.css" rel="stylesheet">
 </head>
 <body class=""> <!-- Class 폴더 -->
-	<div id="top-nav" class="visible-lg">
-		<div class="container">
-			<ul class="sns">
-				<li><a class="fb" href="#" target="_blank"><span class="sr-only">페이스북</span></a></li>
-				<li><a class="dc" href="#" target="_blank"><span class="sr-only">다음</span></a></li>
-			</ul>
-			<ul class="util">
-				<li><a href="#">로그인</a></li>
-				<li><a href="#">회원가입</a></li>
-				<li><a href="#">정보수정</a></li>
-			</ul>
-		</div>
-	</div>
-	<header id="header">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3">
-					<h1 class="logo"><a href="/"><span class="sr-only">한국대학원리연구회</span></a></h1>
-					<button class="btn btn-link btn-nav-open hidden-lg"><span class="sr-only">메뉴 열기</span></button>
-				</div>
-				<div class="col-lg-9 visible-lg">
-				</div>
-			</div>
-		</div>
-	</header>
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/header.php"); ?>
+   
     <!-- Content Start -->
 	<main id="content">
         <!-- Page-Header -->
@@ -55,33 +32,228 @@
                         의 하나는<br class="hidden-xs"> 대학생들의 그 <i>젊음과 열정</i>
                         에 있습니다.
                     </p>
+                    
+                    <br><br>
+                    
+                    <!-- 검색폼 -->
+                    <div class="search-form">
+                        <form action="#">
+                            <div class="form-group">
+                                <select class="form-control">
+                                    <option>제목</option>
+                                </select>
+                                <label for="search" class="sr-only">검색어</label>
+                                <input type="text" id="search" class="form-control">
+                            </div>
+                            <p class="btn-search">
+                                <button type="submit" class="btn">검색</button>
+                            </p>
+                        </form>
+                    </div>
+                    
+                    <br><br>
+                    
+                    <!-- 게시판 리스트 -->
+                    <div class="table-wrap board-list">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>번호</th>
+                                    <th>분류</th>
+                                    <th>제목</th>
+                                    <th>작성자</th>
+                                    <th>등록일</th>
+                                    <th>조회수</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>10</td>
+                                    <td>제작문의</td>
+                                    <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자! CARP특공대! 세상으로 총 진군하자!</a></td>
+                                    <td>관리자</td>
+                                    <td>2017-08-05</td>
+                                    <td>27</td>
+                                </tr>
+                                <tr>
+                                    <td>09</td>
+                                    <td>제작문의</td>
+                                    <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자!</a></td>
+                                    <td>관리자</td>
+                                    <td>2017-08-05</td>
+                                    <td>27</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <br><br>
+                    
+                    <!-- 게시판 쓰기 -->
+                    <div class="table-wrap board-write">
+                        <form action="#">
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <th>작성자</th>
+                                        <td><p class="u-id">작성자id**</p></td>
+                                    </tr>
+                                    <tr>
+                                        <th>연락처</th>
+                                        <td class="phone">
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>010</option>
+                                                    <option>011</option>
+                                                    <option>017</option>
+                                                    <option>018</option>
+                                                    <option>016</option>
+                                                </select> -
+                                                <input type="text" id="phone-2" class="form-control"> -
+                                                <label for="phone-2" class="sr-only">연락처</label>
+                                                <input type="text" id="phone-3" class="form-control">
+                                                <label for="phone-3" class="sr-only">연락처</label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="u-mail">이메일</label></th>
+                                        <td class="mail">
+                                            <div class="form-group">
+                                                <input type="email" id="u-mail" class="form-control">
+                                                @
+                                                <label for="domail" class="sr-only">도메인</label>
+                                                <input type="text" id="domail" class="form-control">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>공개여부</th>
+                                        <td class="disclose">
+                                            <div class="form-group">
+                                                <label>
+                                                    <input type="radio"> 공개
+                                                </label>
+                                                <label>
+                                                    <input type="radio"> 비공개
+                                                </label>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th><label for="subject">제목</label></th>
+                                        <td>
+                                            <div class="form-group">
+                                                <input type="text" id="subject" class="form-control">
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th>구분</th>
+                                        <td>
+                                            <div class="form-group">
+                                                <select class="form-control">
+                                                    <option>선택하세요</option>
+                                                </select>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th class="content"><label for="u-content">내용</label></th>
+                                        <td>
+                                            <div class="form-group">
+                                                <textarea id="u-content" class="form-control"></textarea>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </form>
+                    </div>
+                    
+                    <br><br>
+                    
+                    <!-- 게시판 뷰 -->
+                    <article class="board-view">
+                        <div class="view-header">
+                            <h4 class="subject">CARP특공대! 세상으로 총 진군하자!</h4>
+                            <ul class="writer-info">
+                                <li class="writer">
+                                    <p class="u-id">작성자아이디**</p>
+                                </li>
+                                <li class="date">
+                                    <dl>
+                                        <dt>등록일</dt>
+                                        <dd>2017-08-05</dd>
+                                    </dl>
+                                </li>
+                                <li class="count">
+                                    <dl>
+                                        <dt>조회수</dt>
+                                        <dd>1,234</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="view-content">
+                            게시판 상세 내용
+                        </div>
+                        <div class="reply-area">
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </article>
+                    
+                    <br><br>
+                    
+                    <!-- paging -->
+                    <nav class="paging" aria-label="Page navigation">
+                        <ul class="pagination">
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <i class="icon-angle-double-left"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Previous">
+                                    <i class="icon-angle-left"></i>
+                                </a>
+                            </li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li class="hidden-xs"><a href="#">6</a></li>
+                            <li class="hidden-xs"><a href="#">7</a></li>
+                            <li class="hidden-xs"><a href="#">8</a></li>
+                            <li class="hidden-xs"><a href="#">9</a></li>
+                            <li class="hidden-xs"><a href="#">10</a></li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <i class="icon-angle-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <i class="icon-angle-double-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    
+                    <br><br>
+                    
+                    
+                    
+                    
                 </div>
             </div>
         </section>
 	</main>
-	<!-- Content End -->
-	<nav id="policy">
-		<div class="container">
-			<ul>
-				<li class="hidden-xs"><a href="#">연구회 소개</a></li>
-				<li class="hidden-xs"><a href="#">위치 및 연락처</a></li>
-				<li><a href="#">이용약관</a></li>
-				<li><a href="#">개인정보취급방침</a></li>
-				<li><a href="#">이메일수집무단거부</a></li>
-			</ul>
-		</div>
-	</nav>
-	<footer id="footer">
-		<div class="container">
-			<address>04309 서울시 용산구 청파로 47나길 28 (청파동 2가 9-1) 한국대학원리연구회</address>
-			<ul class="contact">
-				<li>대표전화 : 02-718-3732</li>
-				<li>팩스 : 02-718-3521</li>
-				<li>E-mail : <a href="mailto:k-carphq@hanmail.net" target="_blank">k-carphq@hanmail.net</a></li>
-			</ul>
-			<p class="copyright">(C)2017 한국대학원리연구회. ALL RIGHT RESERVED. <br class="visible-xs">SITE BY <a href="//movementk.com" target="_blank">MOVEMENT K GROUP</a>.</p>
-		</div>
-	</footer>
+	
+	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
 </body>
 </html>

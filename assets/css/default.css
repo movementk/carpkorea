@@ -804,8 +804,7 @@ body.nav-opened #nav-side {
     transition-delay: 0s; }
 
 #content {
-  min-height: 500px;
-  background-color: #eee; }
+  min-height: 500px; }
 
 #policy {
   height: 46px;
