@@ -847,6 +847,9 @@ section {
       @media (min-width: 768px) {
         .board-write .table tbody tr td .form-control {
           width: 210px; } }
+      @media (min-width: 992px) {
+        .board-write .table tbody tr td .form-control {
+          width: 350px; } }
     .board-write .table tbody tr td .u-id {
       line-height: 30px; }
     .board-write .table tbody tr td textarea {
@@ -882,6 +885,28 @@ section {
         margin-right: 6px; }
       .board-write .table tbody tr td.disclose .form-group label:first-child {
         margin-right: 30px; }
+    .board-write .table tbody tr td.file .form-group {
+      position: relative;
+      padding-right: 70px; }
+      .board-write .table tbody tr td.file .form-group label {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60px;
+        height: 30px;
+        color: #333;
+        cursor: pointer;
+        text-align: center;
+        line-height: 30px;
+        background-color: #ececec; }
+        @media (min-width: 768px) {
+          .board-write .table tbody tr td.file .form-group label {
+            left: 220px;
+            width: 80px; } }
+        @media (min-width: 992px) {
+          .board-write .table tbody tr td.file .form-group label {
+            left: 360px;
+            width: 80px; } }
     @media (min-width: 768px) {
       .board-write .table tbody tr td {
         font-size: 14px;
@@ -954,8 +979,169 @@ section {
       font-size: 14px;
       line-height: 24px;
       padding: 25px 40px; } }
-.board-view .reply-area {
+.board-view .attach {
+  padding: 15px 10px;
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 2px solid #555; }
+  .board-view .attach dt {
+    display: inline-block;
+    font-size: 13px;
+    color: #222;
+    margin-right: 30px; }
+    .board-view .attach dt .icon-attach {
+      margin-right: 5px; }
+  .board-view .attach dd {
+    display: inline-block; }
+    .board-view .attach dd a {
+      display: inline-block; }
+      .board-view .attach dd a:after {
+        content: ",";
+        margin-right: 5px; }
+      .board-view .attach dd a:last-child:after {
+        content: "";
+        margin-right: 0; }
+  @media (min-width: 768px) {
+    .board-view .attach {
+      padding-left: 40px;
+      padding-right: 40px; }
+      .board-view .attach dt {
+        font-size: 14px; }
+      .board-view .attach dd a {
+        font-size: 14px; } }
+.board-view .reply-area .form-group {
+  position: relative;
+  padding: 10px;
+  padding-right: 70px;
+  border: 1px solid #e0e0e0;
   background-color: #f8f9fa; }
+  .board-view .reply-area .form-group .form-control {
+    width: 100%;
+    height: 32px;
+    border: 1px solid #e4e4e4; }
+  .board-view .reply-area .form-group .btn-comment {
+    position: absolute;
+    top: 10px;
+    right: 10px; }
+    .board-view .reply-area .form-group .btn-comment .btn {
+      width: 50px;
+      height: 32px;
+      font-size: 12px;
+      color: #fff;
+      line-height: 32px;
+      text-align: center;
+      background-color: #ec6708; }
+  @media (min-width: 768px) {
+    .board-view .reply-area .form-group {
+      padding: 30px;
+      padding-right: 140px; }
+      .board-view .reply-area .form-group .form-control {
+        height: 42px; }
+      .board-view .reply-area .form-group .btn-comment {
+        position: absolute;
+        top: 30px;
+        right: 30px; }
+        .board-view .reply-area .form-group .btn-comment .btn {
+          width: 100px;
+          height: 42px;
+          font-size: 13px;
+          line-height: 42px; } }
+  @media (min-width: 992px) {
+    .board-view .reply-area .form-group .btn-comment .btn {
+      font-size: 14px; } }
+.board-view .reply-area .comment-list > li {
+  padding: 20px 10px;
+  border-bottom: 1px solid #dfdfdf; }
+  @media (min-width: 768px) {
+    .board-view .reply-area .comment-list > li {
+      padding: 20px 30px; } }
+  .board-view .reply-area .comment-list > li .info {
+    overflow: hidden;
+    margin-bottom: 15px; }
+    .board-view .reply-area .comment-list > li .info p {
+      float: left;
+      display: inline-block;
+      font-size: 12px; }
+      .board-view .reply-area .comment-list > li .info p.u-name {
+        color: #333;
+        margin-right: 10px;
+        font-weight: 600; }
+      .board-view .reply-area .comment-list > li .info p.date {
+        position: relative;
+        top: -1px;
+        color: #666;
+        font-family: 'Lato', sans-serif; }
+      @media (min-width: 768px) {
+        .board-view .reply-area .comment-list > li .info p {
+          font-size: 13px; } }
+    .board-view .reply-area .comment-list > li .info ul {
+      float: right;
+      font-size: 0; }
+      .board-view .reply-area .comment-list > li .info ul li {
+        display: inline-block;
+        font-size: 12px; }
+        .board-view .reply-area .comment-list > li .info ul li a {
+          color: #999; }
+        .board-view .reply-area .comment-list > li .info ul li:after {
+          content: "|";
+          color: #999;
+          padding: 0 10px; }
+        .board-view .reply-area .comment-list > li .info ul li:last-child:after {
+          content: "";
+          padding: 0; }
+        @media (min-width: 768px) {
+          .board-view .reply-area .comment-list > li .info ul li {
+            font-size: 13px; } }
+  .board-view .reply-area .comment-list > li .content {
+    font-size: 12px;
+    color: #999; }
+    @media (min-width: 768px) {
+      .board-view .reply-area .comment-list > li .content {
+        font-size: 13px; } }
+  .board-view .reply-area .comment-list > li.reply {
+    padding-left: 40px;
+    background-image: url(/assets/images/sub/reply_bg.gif);
+    background-repeat: no-repeat;
+    background-position: 10px 35px; }
+    @media (min-width: 768px) {
+      .board-view .reply-area .comment-list > li.reply {
+        padding-left: 60px;
+        background-position: 30px 35px; } }
+
+.btn-area {
+  text-align: center; }
+  .btn-area p {
+    font-size: 0; }
+    .btn-area p .btn {
+      display: inline-block;
+      font-size: 13px;
+      color: #fff;
+      line-height: 40px;
+      text-align: center; }
+      @media (min-width: 768px) {
+        .btn-area p .btn {
+          font-size: 14px; } }
+      .btn-area p .btn:last-child {
+        margin-right: 0 !important; }
+      .btn-area p .btn.btn-xs {
+        width: 96px;
+        margin-right: 6px; }
+      .btn-area p .btn.btn-lg {
+        width: 300px; }
+        @media (min-width: 768px) {
+          .btn-area p .btn.btn-lg {
+            width: 96px; } }
+      .btn-area p .btn.btn-sm {
+        width: 145px;
+        margin-right: 10px; }
+        @media (min-width: 768px) {
+          .btn-area p .btn.btn-sm {
+            width: 96px; } }
+      .btn-area p .btn.btn-org {
+        background-color: #ec6708; }
+      .btn-area p .btn.btn-gray {
+        background-color: #4c4c4c; }
+      .btn-area p .btn.btn-aqua {
+        background-color: #02b1a0; }
 
 .paging {
   text-align: center;

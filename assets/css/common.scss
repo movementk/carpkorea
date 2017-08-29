@@ -58,6 +58,10 @@ a {
     font-family: 'Jeju Myeongjo', serif;
 }
 
+@mixin roboto() {
+    font-family: 'Roboto', sans-serif;
+}
+
 .nbg {
 	@include nbg();
 }
