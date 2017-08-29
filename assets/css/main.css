@@ -605,9 +605,17 @@ a {
   .declare .speech-bubble {
     position: absolute;
     bottom: 25px;
-    left: 50%;
     width: 150px;
-    margin-left: -75px; }
+    margin-left: -75px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 5s;
+    transition-duration: 5s;
+    -webkit-transition-timing-function: ease;
+    transition-timing-function: ease;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    left: 0; }
     .declare .speech-bubble .details {
       width: 100%;
       height: 53px;
@@ -668,6 +676,8 @@ a {
           font-family: 'Lato', sans-serif;
           padding-right: 30px; } }
     .declare .achievement .progress-bar {
+      position: absolute;
+      top: 0;
       font-size: 15px;
       color: #f7f7f7;
       font-weight: bold;
@@ -677,7 +687,21 @@ a {
       box-shadow: none;
       border-radius: 0 12px 12px 0;
       font-family: 'Lato', sans-serif;
-      background-color: #ff6c00; }
+      background-color: #ff6c00;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 5s;
+      transition-duration: 5s;
+      -webkit-transition-timing-function: ease;
+      transition-timing-function: ease;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s;
+      width: 0%; }
+
+.declare.on .speech-bubble {
+  left: 50%; }
+.declare.on .achievement .progress-bar {
+  width: 50%; }
 
 .information {
   padding: 40px 0;

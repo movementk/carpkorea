@@ -1,0 +1,362 @@
+@import 'common';
+
+.cms {
+    #policy {
+        margin-top: 110px;
+        @media(min-width: $sm) {
+            margin-top: 130px;
+        }
+        @media(min-width: $md) {
+            margin-top: 150px;
+        }
+    }
+}
+
+//page-header bg
+.page-header {
+    margin-bottom: 0;
+    .header-title {
+        background-image: url(/assets/images/cms/page_header_xs.jpg);
+        @media(min-width: $sm) {
+            background-image: url(/assets/images/cms/page_header_lg.jpg);
+        }
+    }
+}
+
+//CMS 소식 리스트
+.notice-list {
+    .search-form {
+        margin-bottom: 45px;
+        @media(min-width: $sm) {
+            margin-bottom: 30px;
+        }
+        @media(min-width: $md) {
+            margin-bottom: 50px;
+        }
+    }
+    .btn-area {
+        margin-top: 20px;
+        @media(min-width: $sm) {
+            text-align: right;
+            margin-top: 50px;
+        }
+        @media(min-width: $md) {
+            margin-top: 50px;
+        }
+    }
+    .paging {
+        margin-top: 35px;
+        @media(min-width: $sm) {
+            margin-top: 10px;
+        }
+        @media(min-width: $md) {
+            margin-top: 40px;
+        }
+    }
+}
+
+//CMS 소식 뷰
+.notice-view {
+    .btn-area {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        p {
+            ~ p {
+                margin-top: 10px;
+                @media(min-width: $sm) {
+                    margin-top: 0;
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            overflow: hidden;
+            margin-top: 25px;
+            margin-bottom: 75px;
+            p {
+                &:nth-of-type(1) {
+                    float: left;
+                }
+                &:nth-of-type(2) {
+                    float: right;
+                }
+            }
+        }
+        @media(min-width: $md) {
+            margin-top: 30px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+//CMS 소식 쓰기
+.notice-write {
+    .btn-area {
+        margin-top: 30px;
+        @media(min-width: $sm) {
+            text-align: right;
+            margin-top: 20px;
+        }
+        @media(min-width: $md) {
+            margin-top: 35px;
+        }
+    }
+}
+
+// CMS 후원
+.cms-sponsor {
+    section {
+        padding-bottom: 0;
+        ~ section {
+            margin-top: 70px;
+            @media(min-width: $sm) {
+                margin-top: 120px;
+            }
+            @media(min-width: $md) {
+                margin-top: 150px;
+            }
+        }
+        .section-content {
+            margin-top: 50px;
+            @media(min-width: $sm) {
+                margin-top: 60px;
+            }
+            @media(min-width: $md) {
+                margin-top: 80px;
+            }
+        }
+    }
+    .private-support {
+        .section-content {
+            .figure {
+                .img-responsive {
+                    margin: 0 auto;
+                }
+            }
+            h5 {
+                font-size: 20px;
+                color: #333;
+                line-height: 30px;
+                font-weight: 400;
+                @include jjmj();
+                margin-top: 40px;
+                i {
+                    font-style: normal;
+                    color: $kcolor;
+                }
+                @media(min-width: $sm) {
+                    font-size: 24px;
+                    line-height: 40px;
+                    margin-top: 8px;
+                }
+                @media(min-width: $md) {
+                    font-size: 30px;
+                    line-height: 48px;
+                    margin-top: 0;
+                }
+                @media(min-width: $lg) {
+                    margin-top: 20px;
+                }
+            }
+            .summary {
+                font-size: 12px;
+                color: #666;
+                line-height: 22px;
+                margin-top: 30px;
+                margin-bottom: 40px;
+                @media(min-width: $sm) {
+                    font-size: 15px;
+                    line-height: 34px;
+                    margin-top: 50px;
+                    margin-bottom: 55px;
+                }
+                @media(min-width: $md) {
+                    font-size: 16px;
+                    margin-top: 70px;
+                    margin-bottom: 60px;
+                }
+            }
+            figure {
+                .img-responsive {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+    .method-supporting {
+        .section-content {
+            ul {
+                font-size: 0;
+                li {
+                    position: relative;
+                    text-align: center;
+                    padding-bottom: 70px;
+                    &:after {
+                        position: absolute;
+                        top: 100%;
+                        left: 50%;
+                        margin-left: -15px;
+                        margin-top: -40px;
+                        content: url(/assets/images/cms/method_arrow_bottom.png);
+                    }
+                    ~ li {
+                        margin-top: 30px;
+                    }
+                    &:last-child {
+                        padding: 0;
+                        &:after {
+                            content: "";
+                            margin: 0;
+                        }
+                    }
+                    figure {
+                        img {
+                            display: inline-block;
+                        }
+                        figcaption {
+                            font-size: 16px;
+                            color: #666;
+                            line-height: 24px;
+                            margin-top: 30px;
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    li {
+                        display: inline-block;
+                        width: 33.33%;
+                        padding-bottom: 0;
+                        ~ li {
+                            margin-top: 0;
+                        }
+                        &:after {
+                            top: 60px;
+                            left: 100%;
+                            margin: 0;
+                            margin-left: -20px;
+                            content: url(/assets/images/cms/method_arrow_right.png);
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 50px;
+                @media(min-width: $sm) {
+                    p {
+                        .btn {
+                            width: 270px;
+                        }
+                    }
+                }
+                @media(min-width: $md) {
+                    margin-top: 80px;    
+                }
+            }
+        }
+    }
+    .support-service {
+        .section-content {
+            ul {
+                font-size: 0;
+                li {
+                    position: relative;
+                    text-align: center;
+                    vertical-align: top;
+                    padding-bottom: 70px;
+                    &:after {
+                        position: absolute;
+                        top: 100%;
+                        left: 50%;
+                        margin-left: -15px;
+                        margin-top: -40px;
+                        content: url(/assets/images/cms/service_arrow_bottom.png);
+                    }
+                    ~ li {
+                        margin-top: 30px;
+                    }
+                    &:last-child {
+                        padding: 0;
+                        &:after {
+                            content: "";
+                            margin: 0;
+                        }
+                    }
+                    figure {
+                        img {
+                            display: inline-block;
+                        }
+                        figcaption {
+                            font-size: 16px;
+                            color: #666;
+                            line-height: 24px;
+                            margin-top: 30px;
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    li {
+                        display: inline-block;
+                        width: 50%;
+                        padding-bottom: 0;
+                        ~ li {
+                            margin-top: 0;
+                        }
+                        &:after {
+                            top: 60px;
+                            left: 100%;
+                            margin: 0;
+                            margin-left: -20px;
+                            content: url(/assets/images/cms/service_arrow_right.png);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

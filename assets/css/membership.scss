@@ -164,10 +164,598 @@
     }
 }
 
+// 회원가입 
+.join {
+    .join-form {
+        padding-bottom: 100px;
+        @media(min-width: $md) {
+            padding-bottom: 150px;
+        }
+        .vitally {
+            font-size: 12px;
+            color: #e61937;
+            text-align: right;
+            margin-bottom: 10px;
+            &:before {
+                content: "*";
+            }
+            @media(min-width: $md) {
+                font-size: 13px;
+            }
+        }
+        .join-write {
+            .table {
+                border: 0;
+                border-top: 2px solid #555;
+                border-bottom: 2px solid #555;
+                tbody {
+                    tr {
+                        &:last-child {
+                            th {
+                                border-bottom: 0;
+                            }
+                            td {
+                                border-bottom: 0;
+                            }
+                        }
+                        th {
+                            width: 100px;
+                            font-size: 13px;
+                            color: #303030;
+                            text-align: left;
+                            font-weight: 400;
+                            vertical-align: middle;
+                            padding-left: 10px;
+                            border: 0;
+                            border-bottom: 1px solid #d1d1d1;
+                            background-color: #f7f8f9;
+                            &:before {
+                                content: "*";
+                                color: #e61937;
+                                margin-right: 3px;
+                            }
+                            @media(min-width: $sm) {
+                                width: 130px;
+                                font-size: 14px;
+                                padding-left: 20px;
+                            }
+                        }
+                        td {
+                            font-size: 13px;
+                            color: #555;
+                            padding: 15px 10px;
+                            vertical-align: middle;
+                            border: 0;
+                            border-bottom: 1px solid #d1d1d1;
+                            .form-control {
+                                font-size: 13px;
+                                height: 30px;
+                                border: 1px solid #a2a2a2;
+                                @media(min-width: $sm) {
+                                    width: 315px;
+                                }
+                            }
+                            &.phone {
+                                .form-group {
+                                    .form-control {
+                                        display: inline-block;
+                                        width: 28%;
+                                        padding: 5px 2px;
+                                        @media(min-width: $sm) {
+                                            width: 96px;
+                                            padding: 6px 12px;
+                                        }
+                                    }
+                                }
+                            }
+                            &.mail {
+                                .form-group {
+                                    .form-control {
+                                        width: 41%;
+                                        display: inline-block;
+                                        &:first-child {
+                                            margin-right: 5px;
+                                        }
+                                        &:last-child {
+                                            margin-left: 5px;
+                                        }
+                                        @media(min-width: $sm) {
+                                            width: 143px;
+                                        }
+                                    }
+                                }
+                            }
+                            &.addr {
+                                .form-group {
+                                    .form-control {
+                                        width: 100%;
+                                        @media(min-width: $md) {
+                                            width: 540px;
+                                        }
+                                    }
+                                }
+                            }
+                            @media(min-width: $sm) {
+                                font-size: 14px;
+                                padding-left: 30px;
+                                padding-right: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 30px;
+            @media(min-width: $sm) {
+                margin-top: 60px;
+            }
+            @media(min-width: $md) {
+                margin-top: 50px;
+            }
+        }
+    }
+}
 
+// 가입완료
+.success {
+    article {
+        padding-bottom: 85px;
+        @media(min-width: $sm) {
+            margin-top: 85px;
+            padding-bottom: 200px;
+        }
+        @media(min-width: $md) {
+            margin-top: 140px;
+            padding-bottom: 240px;
+        }
+        figure {
+            padding: 0 80px;
+            .img-responsive {
+                margin: 0 auto;
+            }
+            @media(min-width: $sm) {
+                padding: 0 45px;
+            }
+            @media(min-width: $sm) {
+                padding: 0;
+                text-align: right;
+                padding-right: 63px;
+                .img-responsive {
+                    display: inline-block;
+                }
+            }
+        }
+        .success-summary {
+            margin-top: 30px;
+            text-align: center;
+            h4 {
+                font-size: 22px;
+                color: #555;
+                line-height: 36px;
+                margin-bottom: 25px;
+                i {
+                    font-style: normal;
+                    color: $kcolor;
+                }
+            }
+            small {
+                font-size: 14px;
+                color: #333;
+                line-height: 22px;
+            }
+            .btn-area {
+                margin-top: 50px;
+            }
+            @media(min-width: $sm) {
+                margin-top: 0;
+                text-align: left;
+                padding-left: 10px;
+                h4 {
+                    font-size: 30px;
+                }
+                small {
+                    font-size: 16px;
+                }
+                .btn-area {
+                    margin-top: 30px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
 
+// 아이디 비밀번호 찾기 공통
+.find {
+    width: 300px;
+    margin: 0 auto;
+    padding: 50px 0 90px;
+    @media(min-width: $sm) {
+        width: 570px;
+        padding: 80px 0 140px;
+    }
+    @media(min-width: $md) {
+        width: 470px;
+        padding: 130px 0 240px;
+    }
+    .article-title {
+        font-size: 13px;
+        color: #666;
+        opacity: .5;
+        padding-left: 15px;
+        margin-bottom: 15px;
+        @media(min-width: $sm) {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+    }
+    .article-content {
+        .form-group {
+            width: 100%;
+            ~ .form-group {
+                margin-top: 10px;
+            }
+            .form-control {
+                font-size: 13px;
+                width: 100%;
+                height: 42px;
+                @media(min-width: $sm) {
+                    font-size: 14px;
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 20px;
+            p {
+                .btn {
+                    width: 100% !important;
+                }
+            }
+            @media(min-width: $sm) {
+                margin-top: 10px;
+            }
+        }
+    }
+}
+//결과
+.success-id {
+    .article-content {
+        text-align: center;
+        .success-txt {
+            font-size: 15px;
+            color: #666;
+            line-height: 20px;
+            margin-top: 50px;
+            margin-bottom: 60px;
+            @media(min-width: $md) {
+                font-size: 16px;
+            }
+        }
+    }
+}
 
+//정보수정
+.modify {
+    .modify-form {
+        .join-write {
+            .table {
+                tbody {
+                    tr {
+                        th {
+                            
+                        }
+                        td {
+                            p {
+                                color: #333;
+                                opacity: .5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
+//로그인
+.login {
+    padding: 40px 0 140px;
+    @media(min-width: $sm) {
+        padding-top: 70px;
+    }
+    @media(min-width: $md) {
+        padding: 190px 0 230px;
+    }
+    .article-title {
+        font-size: 20px;
+        color: $kcolor;
+        @media(min-width: $sm) {
+            font-size: 24px;
+        }
+    }
+    .form-control {
+        height: 40px;
+        border-color: #dfdfdf;
+    }
+    article {
+        width: 300px;
+        margin: 0 auto;
+        @media(min-width: $sm) {
+            width: 100%;
+            border: 1px solid #ccc;
+        }
+        @media(min-width: $lg) {
+            display: table-cell;
+            height: 460px;
+        }
+    }
+    .general-login {
+        border-bottom: 0;
+        @media(min-width: $sm) {
+            padding: 45px 70px 50px;
+        }
+        @media(min-width: $lg) {
+            width: 687px;
+            padding: 84px 110px;
+            border-bottom: 1px solid #ccc;
+            border-right: 0;
+        }
+        .article-title {
+            margin-bottom: 20px;
+            @media(min-width: $sm) {
+                margin-bottom: 30px;
+            }
+        }
+        .article-content {
+            .form-group {
+                ~ .form-group {
+                    margin-top: 10px;
+                }
+            }
+            .btn-area {
+                margin-top: 20px;
+                p {
+                    .btn {
+                        height: 40px;
+                        line-height: 40px;
+                    }
+                }
+                @media(min-width: $sm) {
+                    margin-top: 10px;
+                    p {
+                        .btn {
+                            width: 49%;
+                            margin-right: 2%;
+                        }
+                    }
+                }
+            }
+            ul {
+                margin-top: 15px;
+                li {
+                    dl {
+                        overflow: hidden;
+                        dt {
+                            float: left;
+                            font-size: 12px;
+                            line-height: 26px;
+                            color: #666;
+                            font-weight: 400;
+                            &:before {
+                                content: "\E803";
+                                font-family: "fontello";
+                                margin-right: 10px;
+                            }
+                        }
+                        dd {
+                            float: right;
+                            font-size: 12px;
+                            line-height: 26px;
+                            color: #666;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    margin-top: 30px;
+                    li {
+                        dl {
+                            dt {
+                                font-size: 15px;
+                                line-height: 30px;
+                            }
+                            dd {
+                                font-size: 15px;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .sns-login {
+        margin-top: 60px;
+        @media(min-width: $sm) {
+            padding: 55px 70px 80px;
+            margin-top: 0;
+        }
+        @media(min-width: $lg) {
+            width: 483px;
+            padding: 84px 110px;
+        }
+        .article-title {
+            margin-bottom: 30px;
+        }
+        .article-content {
+            .sns-list {
+                li {
+                    ~ li {
+                        margin-top: 10px;
+                    }
+                    a {
+                        position: relative;
+                        display: block;
+                        width: 100%;
+                        height: 62px;
+                        font-size: 16px;
+                        line-height: 60px;
+                        text-align: left;
+                        color: #fff;
+                        border: 1px solid #dfdfdf;
+                        padding-left: 90px;
+                        @include transition();
+                        text-decoration: none;
+                        .link-icon {
+                            position: absolute;
+                            top: 0;
+                            display: inline-block;
+                            width: 30px;
+                            text-align: center;
+                        }
+                        &:hover, &:focus {
+                            opacity: .7;
+                        }
+                    }
+                    &.facebook {
+                        a {
+                            background-color: #00539e;
+                            .link-icon {
+                                left: 44px;
+                            }
+                        }
+                    }
+                    &.naver {
+                        a {
+                            background-color: #0cc400;
+                            .link-icon {
+                                left: 40px;
+                            }
+                        }
+                    }
+                    &.kakao {
+                        a {
+                            background-color: #efca04;
+                            .link-icon {
+                                left: 36px;
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    font-size: 0;
+                    li {
+                        display: inline-block;
+                        width: 32%;
+                        margin: 0;
+                        margin-right: 2%;
+                        &:last-child {
+                            margin-right: 0;
+                        }
+                        a {
+                            padding: 14px 0;
+                            padding-left: 55px;
+                            font-size: 16px;
+                            line-height: 18px;
+                        }
+                        &.facebook {
+                            a {
+                                .link-icon {
+                                    top: 17px;
+                                    left: 20px;
+                                }
+                            }
+                        }
+                        &.naver {
+                            a {
+                                .link-icon {
+                                    top: 20px;
+                                    left: 15px;
+                                }
+                            }
+                        }
+                        &.kakao {
+                            a {
+                                .link-icon {
+                                    top: 18px;
+                                    left: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $md) {
+                    li {
+                        a {
+                            padding: 0;
+                            padding-left: 60px;
+                            line-height: 60px;
+                        }
+                        &.facebook {
+                            a {
+                                .link-icon {
+                                    top: 0;
+                                    left: 20px;
+                                }
+                            }
+                        }
+                        &.naver {
+                            a {
+                                .link-icon {
+                                    top: 0;
+                                    left: 15px;
+                                }
+                            }
+                        }
+                        &.kakao {
+                            a {
+                                .link-icon {
+                                    top: 0;
+                                    left: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $lg) {
+                    li {
+                        display: block;
+                        width: 100%;
+                        margin: 0;
+                        ~ li {
+                            margin-top: 20px;
+                        }
+                        a {
+                            padding-left: 70px;
+                        }
+                        &.facebook {
+                            a {
+                                .link-icon {
+                                    left: 24px;
+                                }
+                            }
+                        }
+                        &.naver {
+                            a {
+                                .link-icon {
+                                    left: 21px;
+                                }
+                            }
+                        }
+                        &.kakao {
+                            a {
+                                .link-icon {
+                                    left: 18px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

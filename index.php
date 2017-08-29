@@ -73,7 +73,7 @@
                 </li>
             </ul>
         </div>
-        <section class="declare">
+        <section class="declare" id="declare">
             <div class="declare-content">
                 <div class="container">
                     <h2>참부모선포</h2>
@@ -94,7 +94,7 @@
             </div>
             <div class="progress achievement">
                 <span class="target">100%</span>
-                <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                <div class="progress-bar" role="progressbar" style="width: 50%;">
                     50%
                 </div>
             </div>
