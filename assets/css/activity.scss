@@ -1,0 +1,322 @@
+@import 'common';
+
+.activity {
+    #policy {
+        margin-top: 110px;
+        @media(min-width: $sm) {
+            margin-top: 130px;
+        }
+        @media(min-width: $md) {
+            margin-top: 150px;
+        }
+    }
+}
+
+//page-header bg
+.page-header {
+    margin-bottom: 0;
+    .header-title {
+        background-image: url(/assets/images/activity/page_header_xs.jpg);
+        @media(min-width: $sm) {
+            background-image: url(/assets/images/activity/page_header_lg.jpg);
+        }
+    }
+}
+
+//활동게시판 리스트
+.activity-list {
+    .search-form {
+        margin-bottom: 45px;
+        @media(min-width: $sm) {
+            margin-bottom: 30px;
+        }
+        @media(min-width: $md) {
+            margin-bottom: 50px;
+        }
+    }
+    .btn-area {
+        margin-top: 20px;
+        @media(min-width: $sm) {
+            text-align: right;
+            margin-top: 50px;
+        }
+        @media(min-width: $md) {
+            margin-top: 50px;
+        }
+    }
+    .paging {
+        margin-top: 35px;
+        @media(min-width: $sm) {
+            margin-top: 10px;
+        }
+        @media(min-width: $md) {
+            margin-top: 40px;
+        }
+    }
+}
+
+//활동게시판 뷰
+.activity-view {
+    .btn-area {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        p {
+            ~ p {
+                margin-top: 10px;
+                @media(min-width: $sm) {
+                    margin-top: 0;
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            overflow: hidden;
+            margin-top: 25px;
+            margin-bottom: 75px;
+            p {
+                &:nth-of-type(1) {
+                    float: left;
+                }
+                &:nth-of-type(2) {
+                    float: right;
+                }
+            }
+        }
+        @media(min-width: $md) {
+            margin-top: 30px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+//활동게시판 쓰기
+.activity-write {
+    .btn-area {
+        margin-top: 30px;
+        @media(min-width: $sm) {
+            text-align: right;
+            margin-top: 20px;
+        }
+        @media(min-width: $md) {
+            margin-top: 35px;
+        }
+    }
+}
+
+//Q&A 리스트
+.qna-list {
+    .board-list {
+        .table {
+            tbody {
+                tr {
+                    td {
+                        &.reply {
+                            a {
+                                span {
+                                    display: inline-block;
+                                    width: 40px;
+                                    height: 18px;
+                                    font-size: 13px;
+                                    color: #fff;
+                                    line-height: 20px;
+                                    text-align: center;
+                                    margin-right: 10px;
+                                    background-color: #f36c21;
+                                    @media(min-width: $sm) {
+                                        font-size: 14px;
+                                        height: 20px;
+                                        line-height: 22px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .search-form {
+        margin-bottom: 45px;
+        @media(min-width: $sm) {
+            margin-bottom: 30px;
+        }
+        @media(min-width: $md) {
+            margin-bottom: 50px;
+        }
+    }
+    .btn-area {
+        margin-top: 20px;
+        @media(min-width: $sm) {
+            text-align: right;
+            margin-top: 50px;
+        }
+        @media(min-width: $md) {
+            margin-top: 50px;
+        }
+    }
+    .paging {
+        margin-top: 35px;
+        @media(min-width: $sm) {
+            margin-top: 10px;
+        }
+        @media(min-width: $md) {
+            margin-top: 40px;
+        }
+    }
+}
+
+//Q&A 뷰
+.qna-view {
+    .btn-area {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        p {
+            ~ p {
+                margin-top: 10px;
+                @media(min-width: $sm) {
+                    margin-top: 0;
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            overflow: hidden;
+            margin-top: 25px;
+            margin-bottom: 75px;
+            p {
+                &:nth-of-type(1) {
+                    float: left;
+                }
+                &:nth-of-type(2) {
+                    float: right;
+                }
+            }
+        }
+        @media(min-width: $md) {
+            margin-top: 30px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+//Q&A 쓰기
+.qna-write {
+    .btn-area {
+        margin-top: 30px;
+        @media(min-width: $sm) {
+            text-align: right;
+            margin-top: 20px;
+        }
+        @media(min-width: $md) {
+            margin-top: 35px;
+        }
+    }
+}
+
+// 게시판 비밀번호 확인
+.pw-confirm {
+    .section-content {
+        .summary {
+            font-size: 12px;
+            color: #666;
+            line-height: 22px;
+            @media(min-width: $sm) {
+                font-size: 14px;
+                line-height: 23px;
+            }
+        }
+        ul {
+            margin-top: 45px;
+            padding: 80px 0;
+            border-top: 1px solid $kcolor;
+            border-bottom: 1px solid $kcolor;
+            background-color: #f7f7f7;
+            @media(min-width: $sm) {
+                margin-top: 60px;
+            }
+            li {
+                &.u-pw {
+                    margin-top: 30px;
+                    @media(min-width: $sm) {
+                        margin-top: 35px;
+                    }
+                }
+                dl {
+                    width: 245px;
+                    font-size: 0;
+                    margin: 0 auto;
+                    @media(min-width: $sm) {
+                        width: 348px;
+                    }
+                    dt {
+                        width: 100px;
+                        display: inline-block;
+                        font-size: 13px;
+                        line-height: 30px;
+                        font-weight: 400;
+                        color: #303030;
+                        label {
+                            color: #303030;
+                        }
+                        @media(min-width: $sm) {
+                            width: 125px;
+                            font-size: 15px;
+                        }
+                    }
+                    dd {
+                        display: inline-block;
+                        line-height: 30px;
+                        font-size: 13px;
+                        color: #555;
+                        width: 145px;
+                        .form-group {
+                            .form-control {
+                                height: 30px;
+                                border-color: #a2a2a2;
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            width: 220px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 25px;
+            @media(min-width: $sm) {
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

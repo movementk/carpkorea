@@ -235,9 +235,12 @@
     .speech-bubble {
         position: absolute;
         bottom: 25px;
-        left: 50%;
+//        left: 50%;
         width: 150px;
         margin-left: -75px;
+        
+        @include transition($property: all, $duration: 5s, $timing: ease, $delay: 0s);
+        left: 0;
         .details {
             width: 100%;
             height: 53px;
@@ -305,6 +308,8 @@
             }
         }
         .progress-bar {
+            position: absolute;
+            top: 0;
             font-size: 15px;
             color: #f7f7f7;
             font-weight: bold;
@@ -315,9 +320,25 @@
             border-radius: 0 12px 12px 0;
             @include lato();
             background-color: #ff6c00;
+            @include transition($property: all, $duration: 5s, $timing: ease, $delay: 0s);
+            width: 0%;
         }
     }
 }
+// declare event 
+.declare.on {
+    .speech-bubble {
+        left: 50%;
+    }
+    .achievement {
+        .progress-bar {
+            width: 50%;
+        }
+    }
+}
+
+
+
 
 //information 
 .information {

@@ -23,6 +23,14 @@
             controls: false
         });
     });
+    
+    // 목표달설 이벤트
+    
+    $(window).on("load", function() {
+        $("#declare").addClass("on");
+    });
+    
+    
 
     // 파트너 슬라이더
     var partnerSliderOpt = {
