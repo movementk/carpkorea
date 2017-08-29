@@ -1,0 +1,211 @@
+@import 'common';
+
+//page-header bg
+.page-header {
+    margin-bottom: 0;
+    .header-title {
+        color: #333;
+        background-image: url(/assets/images/membership/page_header_xs.jpg);
+        @media(min-width: $sm) {
+            background-image: url(/assets/images/membership/page_header_lg.jpg);
+        }
+    }
+}
+
+// step-list
+.step-list {
+    overflow: hidden;
+    margin-bottom: 50px;
+    @media(min-width: $sm) {
+        margin-bottom: 30px;
+    }
+    @media(min-width: $md) {
+        margin-bottom: 45px;
+    }
+    li {
+        position: relative;
+        float: left;
+        width: 33.33%;
+        font-size: 13px;
+        color: #6f848e;
+        text-align: center;
+        @include roboto();
+        &:after {
+            position: absolute;
+            top: 50%;
+            right: 0;
+            margin-top: -15px;
+            content: "\E807";
+            font-family: "fontello";
+        }
+        &:last-child {
+            &:after {
+                content: "";
+            }
+        }
+        &.active {
+            color: $kcolor;
+            &:after {
+                color: #6f848e;
+            }
+            .hidden-xs {
+                display: none;
+                @media(min-width: $sm) {
+                    display: inline-block !important;
+                }
+            }
+            .visible-xs {
+                display: inline-block !important;
+                @media(min-width: $sm) {
+                    display: none !important;
+                }
+            }
+        }
+        .figure {
+            line-height: 30px;
+            img {
+                display: inline-block;
+            }
+        }
+        .details {
+            font-size: 13px;
+            line-height: 22px;
+            margin-top: 10px;
+            font-weight: 600;
+            i {
+                font-style: normal;
+                font-weight: 500;
+                @include roboto();
+            }
+        }
+        @media(min-width: $sm) {
+            padding: 28px 0;
+            &:after {
+                content: "";
+            }
+            background-color: #f5f5f5;
+            &.active {
+                color: #fff;
+                background-color: #02b1a0;
+            }
+            .figure {
+                display: inline-block;
+            }
+            .details {
+                display: inline-block;
+                font-size: 16px;
+                margin-top: 0;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+//회원 가입 Step01
+.terms {
+    padding-bottom: 70px;
+    @media(min-width: $sm) {
+        padding-bottom: 110px;
+    }
+    @media(min-width: $sm) {
+        padding-bottom: 150px;
+    }
+    .agree {
+        article {
+            h4 {
+                font-size: 15px;
+                color: #333;
+                font-weight: 600;
+                margin-bottom: 25px;
+                @media(min-width: $sm) {
+                    font-size: 16px;
+                }
+            }
+            .article-content {
+                overflow-y: scroll;
+                height: 265px;
+                font-size: 13px;
+                color: #666;
+                line-height: 22px;
+                padding: 15px;
+                border: 1px solid #eaeaea;
+                @media(min-width: $sm) {
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+            label {
+                font-size: 13px;
+                color: #666;
+                margin-top: 15px;
+                input {
+                    position: relative;
+                    top: 2px;
+                    margin-right: 5px;
+                }
+                @media(min-width: $sm) {
+                    font-size: 14px;
+                }
+            }
+            &.privacy {
+                margin-top: 70px;
+                @media(min-width: $sm) {
+                    margin-top: 120px;
+                }
+                
+            }
+        }
+        .btn-area {
+            margin-top: 40px;
+            @media(min-width: $sm) {
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

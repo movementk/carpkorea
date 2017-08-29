@@ -166,6 +166,15 @@
                                             </div>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <th>파일첨부</th>
+                                        <td class="file">
+                                            <div class="form-group">
+                                                <input type="file" id="file" class="form-control">
+                                                <label for="file">파일첨부</label>
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </form>
@@ -198,12 +207,86 @@
                         <div class="view-content">
                             게시판 상세 내용
                         </div>
+                        <dl class="attach">
+                            <dt><i class="icon-attach"></i>첨부파일</dt>
+                            <dd>
+                                <a href="#">attach.pdf</a>
+                                <a href="#">attach.pdf</a>
+                            </dd>
+                        </dl>
+                        
+                        <br><br>
+                        
                         <div class="reply-area">
-                            <ul>
-                                <li></li>
+                            <form action="#">
+                                <div class="form-group">
+                                    <label for="comment" class="sr-only">댓글달기</label>
+                                    <input type="text" id="comment" class="form-control" placeholder="댓글을 입력하세요.">
+                                    <p class="btn-comment">
+                                        <button type="submit" class="btn">확인</button>
+                                    </p>
+                                </div>
+                            </form>
+                            <ul class="comment-list">
+                                <li>
+                                    <div class="info">
+                                        <p class="u-name">대학원리</p>
+                                        <p class="date">2016.10.10</p>
+                                        <ul>
+                                            <li><a href="#">답글</a></li>
+                                            <li><a href="#">수정</a></li>
+                                            <li><a href="#">삭제</a></li>
+                                        </ul>
+                                    </div>
+                                    <p class="content">댓글을 입력하세요. 댓글을 입력하세요.</p>
+                                </li>
+                                <li class="reply">
+                                    <div class="info">
+                                        <p class="u-name">대학원리</p>
+                                        <p class="date">2016.10.10</p>
+                                        <ul>
+                                            <li><a href="#">답글</a></li>
+                                            <li><a href="#">수정</a></li>
+                                            <li><a href="#">삭제</a></li>
+                                        </ul>
+                                    </div>
+                                    <p class="content">댓글을 입력하세요. 댓글을 입력하세요.</p>
+                                </li>
+                                <li>
+                                    <div class="info">
+                                        <p class="u-name">대학원리</p>
+                                        <p class="date">2016.10.10</p>
+                                        <ul>
+                                            <li><a href="#">답글</a></li>
+                                            <li><a href="#">수정</a></li>
+                                            <li><a href="#">삭제</a></li>
+                                        </ul>
+                                    </div>
+                                    <p class="content">댓글을 입력하세요. 댓글을 입력하세요.</p>
+                                </li>
                             </ul>
                         </div>
                     </article>
+                    
+                    <br><br>
+                    
+                    <!-- paging -->
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-xs btn-org" role="button">글쓰기</a>
+                            <a href="#" class="btn btn-xs btn-gray" role="button">수정하기</a>
+                            <a href="#" class="btn btn-xs btn-gray" role="button">삭제하기</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="#" class="btn btn-lg btn-aqua" role="button">목록</a>
+                        </p>
+                        <br>
+                        <p>
+                            <a href="#" class="btn btn-sm btn-aqua" role="button">다음</a>
+                            <a href="#" class="btn btn-sm btn-gray" role="button">취소</a>
+                        </p>
+                    </div>
                     
                     <br><br>
                     
@@ -242,11 +325,6 @@
                             </li>
                         </ul>
                     </nav>
-                    
-                    <br><br>
-                    
-                    
-                    
                     
                 </div>
             </div>
