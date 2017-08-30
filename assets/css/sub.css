@@ -979,6 +979,8 @@ section {
       font-size: 14px;
       line-height: 24px;
       padding: 25px 40px; } }
+  .board-view .view-content .img-responsive {
+    margin: 0 auto; }
 .board-view .attach {
   padding: 15px 10px;
   border-top: 1px solid #d1d1d1;

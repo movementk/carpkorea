@@ -5,9 +5,9 @@
             <li><a class="dc" href="#" target="_blank"><span class="sr-only">다음</span></a></li>
         </ul>
         <ul class="util">
-            <li><a href="#">로그인</a></li>
-            <li><a href="#">회원가입</a></li>
-            <li><a href="#">정보수정</a></li>
+            <li><a href="/membership/login.php">로그인</a></li>
+            <li><a href="/membership/terms.php">회원가입</a></li>
+            <li><a href="/membership/modify.php">정보수정</a></li>
         </ul>
     </div>
 </div>
@@ -42,9 +42,9 @@
                             <div>
                                 <div class="container">
                                     <ul>
-                                        <li><a href="#">공지사항</a></li>
+                                        <li><a href="/notice/news_list.php">공지사항</a></li>
                                         <li><a href="#">일정게시판</a></li>
-                                        <li><a href="#">뉴스</a></li>
+                                        <li><a href="/notice/news_list.php">뉴스</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -70,8 +70,8 @@
                             <div>
                                 <div class="container">
                                     <ul>
-                                        <li><a href="#">CARP 활동게시판</a></li>
-                                        <li><a href="#">Q&amp;A</a></li>
+                                        <li><a href="/activity/activity_list.php">CARP 활동게시판</a></li>
+                                        <li><a href="/activity/qna_list.php">Q&amp;A</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -109,7 +109,7 @@
                             <div>
                                 <div class="container">
                                     <ul>
-                                        <li><a href="#">CMS 후원</a></li>
+                                        <li><a href="/cms/cms_sponsor.php">CMS 후원</a></li>
                                         <li><a href="#">CARP 소식</a></li>
                                     </ul>
                                 </div>
@@ -130,9 +130,9 @@
         <div class="nav-body">
             <div class="quick">
                 <ul>
-                    <li><a class="login" href="">로그인</a></li>
-                    <li><a class="join" href="">회원가입</a></li>
-                    <li><a class="modify" href="">정보수정</a></li>
+                    <li><a class="login" href="/membership/login.php">로그인</a></li>
+                    <li><a class="join" href="/membership/terms.php">회원가입</a></li>
+                    <li><a class="modify" href="/membership/modify.php">정보수정</a></li>
                 </ul>
             </div>
             <nav class="nav">
@@ -152,9 +152,9 @@
                     <li>
                         <a href="#">공지사항</a>
                         <ul>
-                            <li><a href="#">공지사항</a></li>
+                            <li><a href="/notice/news_list.php">공지사항</a></li>
                             <li><a href="#">일정게시판</a></li>
-                            <li><a href="#">뉴스</a></li>
+                            <li><a href="/notice/news_list.php">뉴스</a></li>
                         </ul>
                     </li>
                     <li>
@@ -172,8 +172,8 @@
                     <li>
                         <a href="#">활동게시판</a>
                         <ul>
-                            <li><a href="#">CARP 활동게시판</a></li>
-                            <li><a href="#">Q&amp;A</a></li>
+                            <li><a href="/activity/activity_list.php">CARP 활동게시판</a></li>
+                            <li><a href="/activity/qna_list.php">Q&amp;A</a></li>
                         </ul>
                     </li>
                     <li>
@@ -199,7 +199,7 @@
                     <li>
                         <a href="#">CMS 후원</a>
                         <ul>
-                            <li><a href="#">CMS 후원</a></li>
+                            <li><a href="/cms/cms_sponsor.php">CMS 후원</a></li>
                             <li><a href="#">CARP 소식</a></li>
                         </ul>
                     </li>
