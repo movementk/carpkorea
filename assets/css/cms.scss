@@ -314,6 +314,595 @@
     }
 }
 
+//CMS 후원 신청서 업로드
+.application-upload {
+    .btn-area {
+        margin-top: 30px;
+        @media(min-width: $sm) {
+            text-align: right;
+            margin-top: 20px;
+        }
+        @media(min-width: $md) {
+            margin-top: 35px;
+        }
+    }
+}
+
+// cms 후원
+.application {
+    section {
+        padding-bottom: 0;
+        ~ section {
+            margin-top: 60px;
+            @media(min-width: $sm) {
+                margin-top: 70px;
+            }
+            @media(min-width: $md) {
+                margin-top: 100px;
+            }
+        }
+        .title {
+            small {
+                font-size: 12px;
+                color: #666;
+                margin-left: 10px;
+                &:before {
+                    content: "(";
+                }
+                &:after {
+                    content: ")";
+                }
+            }
+        }
+        .table-wrap {
+            .table {
+                border: 0;
+                border-top: 3px solid $kcolor;
+                border-bottom: 1px solid #6f848e;
+                tbody {
+                    tr {
+                        &:last-child {
+                            th {
+                                border-bottom: 0;
+                            }
+                            td {
+                                border-bottom: 0;
+                            }
+                        }
+                        th {
+                            width: 95px;
+                            font-size: 12px;
+                            color: #444;
+                            font-weight: 400;
+                            vertical-align: middle;
+                            padding-left: 10px;
+                            border: 0;
+                            border-bottom: 1px solid #d6d6d6;
+                            background-color: #f5f5f5;
+                            label {
+                                color: #444;
+                            }
+                            &.v-top {
+                                padding-top: 20px;
+                                vertical-align: top;
+                                @media(min-width: $sm) {
+                                    padding-top: 0;
+                                    vertical-align: middle;
+                                }
+                            }
+                            &.agreement {
+                                @media(min-width: $sm) {
+                                    padding-top: 25px;
+                                    vertical-align: top;
+                                }
+                            }
+                            @media(min-width: $sm) {
+                                width: 140px;
+                                padding-left: 18px;
+                                font-size: 14px;
+                            }
+                            @media(min-width: $lg) {
+                                width: 156px;
+                            }
+                        }
+                        td {
+                            font-size: 12px;
+                            color: #666;
+                            height: 56px;
+                            vertical-align: middle;
+                            padding: 10px 0 10px 20px;
+                            border: 0;
+                            border-bottom: 1px solid #d6d6d6;
+                            label {
+                                color: #444;
+                            }
+                            .form-group {
+                                input {
+                                    font-size: 12px;
+                                    @media(min-width: $sm) {
+                                        font-size: 13px;
+                                    }
+                                }
+                                .form-control {
+                                    height: 32px;
+                                    border-radius: 3px;
+                                    border-color: #d6d6d6;
+                                }
+                            }
+                            @media(min-width: $sm) {
+                                font-size: 13px;
+                                padding-left: 30px;
+                                padding-right: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.receiving-company {
+            .section-content {
+                .table {
+                    tbody {
+                        tr {
+                            td {
+                                @media(min-width: $sm) {
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.automatic-withdrawal {
+            .section-content {
+                .table {
+                    tbody {
+                        tr {
+                            th {
+                                small {
+                                    display: block;
+                                    font-size: 11px;
+                                    color: #444;
+                                    opacity: .5;
+                                    line-height: 16px;
+                                } 
+                            }
+                            td {
+                                label {
+                                    vertical-align: middle;
+                                    input {
+                                        box-shadow: none;
+                                    }
+                                    input[type="checkbox"] {
+                                        position: relative;
+                                        top: 3px;
+                                    }
+                                }
+                                .form-control {
+                                    @media(min-width: $sm) {
+                                        width: 404px;
+                                    }
+                                }
+                                //신청인
+                                &.applicant {
+                                    .form-group {
+                                        label {
+                                            margin-top: 8px;
+                                            input {
+                                                width: 40px;
+                                                border: 1px solid #fff;
+                                            }
+                                        }
+                                        @media(min-width: $sm) {
+                                            .form-control {
+                                                display: inline-block;
+                                                width: 140px;
+                                            }
+                                            label {
+                                                margin-top: 0;
+                                                margin-left: 20px;
+                                            }
+                                        }
+                                    }
+                                }
+                                //연락처
+                                &.contact {
+                                    .form-group {
+                                        .form-control {
+                                            width: 100%;
+                                        }
+                                    }
+                                }
+                                //남부금액
+                                &.amount-paid {
+                                    .form-group {
+                                        label {
+                                            line-height: 26px;
+                                            input[type="checkbox"] {
+                                                margin-right: 5px;
+                                            }
+                                            input[type="text"] {
+                                                width: 90px;
+                                                border: 1px solid #fff;
+                                            }
+                                            &:nth-of-type(2) {
+                                                position: relative;
+                                                top: 2px;
+                                            }
+                                            &:nth-of-type(3) {
+                                                display: block;
+                                            }
+                                        }
+                                        @media(min-width: $sm) {
+                                            label {
+                                                line-height: 25px;
+                                                &:nth-of-type(2) {
+                                                    margin-right: 50px;
+                                                }
+                                                &:nth-of-type(3) {
+                                                    display: inline-block;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                //납부일
+                                &.date-payment {
+                                    .form-group {
+                                        label {
+                                            display: block;
+                                            ~ label {
+                                                margin-top: 8px;
+                                            }
+                                        }
+                                        .form-control {
+                                            display: inline-block;
+                                            width: 60px;
+                                        }
+                                        @media(min-width: $sm) {
+                                            display: inline-block;
+                                            label {
+                                                display: inline-block;
+                                                ~ label {
+                                                    margin-top: 0;
+                                                }
+                                                &:nth-of-type(2) {
+                                                    margin-left: 100px;
+                                                }
+                                                &:nth-of-type(3) {
+                                                    margin-left: 10px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                //납부방법
+                                &.method-payment {
+                                    .form-group {
+                                        label {
+                                            display: block;
+                                            input[type="checkbox"] {
+                                                margin-right: 5px;
+                                            }
+                                            ~ label {
+                                                margin-top: 8px;
+                                            }
+                                        }
+                                        @media(min-width: $sm) {
+                                            label {
+                                                display: inline-block;
+                                                ~ label {
+                                                    margin-top: 0;
+                                                    margin-left: 50px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                                //결제자명
+                                &.depositor {
+                                    .form-group {
+                                        @media(min-width: $sm) {
+                                            .form-control {
+                                                width: 140px;
+                                            }
+                                        }
+                                    }
+                                }
+                                //생년월일
+                                &.birthday {
+                                    .form-group {
+                                        .attention {
+                                            margin-top: 8px;
+                                            color: #444;
+                                            font-size: 11px;
+                                            &:before {
+                                                content: "※";
+                                                margin-right: 5px;
+                                            }
+                                        }
+                                        @media(min-width: $lg) {
+                                            .form-control {
+                                                display: inline-block;
+                                            }
+                                            .attention {
+                                                display: inline-block;
+                                                margin-left: 15px;
+                                            }
+                                        }
+                                    }
+                                }
+                                //결제자 휴대전화번호
+                                &.phone {
+                                    .form-group {
+                                        .form-control {
+                                            display: inline-block;
+                                            width: 28.5%;
+                                        }
+                                        @media(min-width: $sm) {
+                                            .form-control {
+                                                width: 60px;
+                                            }
+                                        }
+                                    }
+                                }
+                                //개인정보 수집 및 이용동의, 개인정보 제 3자 제공 동의
+                                &.agreement {
+                                    padding-top: 20px;
+                                    padding-bottom: 20px;
+                                    @media(min-width: $sm) {
+                                        padding-top: 30px;
+                                        padding-bottom: 30px;
+                                    }
+                                    .square-title {
+                                        font-size: 12px;
+                                        color: #444;
+                                        margin-bottom: 30px;
+                                    }
+                                    
+                                    dl {
+                                        overflow: hidden;
+                                        dt {
+                                            float: left;
+                                            clear: both;
+                                            color: #444;
+                                            font-weight: 400;
+                                            line-height: 24px;
+                                            &:before {
+                                                content: "◆";
+                                                margin-right: 3px;
+                                            }
+                                            &:after {
+                                                content: ":";
+                                                margin: 0 3px;
+                                            }
+                                            @media(min-width: $sm) {
+                                                position: relative;
+                                                padding-left: 18px;
+                                                &:before {
+                                                    position: absolute;
+                                                    top: 0;
+                                                    left: 0;
+                                                }
+                                            }
+                                        }
+                                        dd {
+                                            color: #444;
+                                            font-weight: 400;
+                                            line-height: 24px;
+                                            label {
+                                                position: relative;
+                                                top: -1px;
+                                                input[type="checkbox"] {
+                                                    margin-left: 2px;
+                                                }
+                                                ~ label {
+                                                    margin-left: 10px;
+                                                }
+                                            }
+                                            @media(min-width: $sm) {
+                                                &.space {
+                                                    position: relative;
+                                                    padding-left: 75px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    p {
+                                        color: #444;
+                                        font-weight: 400;
+                                        line-height: 24px;
+                                        &:before {
+                                            content: "◆";
+                                            margin-right: 3px;
+                                        }
+                                        @media(min-width: $sm) {
+                                            position: relative;
+                                            padding-left: 18px;
+                                            &:before {
+                                                position: absolute;
+                                                top: 0;
+                                                left: 0;
+                                            }
+                                        }
+                                    }
+                                    span {
+                                        color: #444;
+                                        line-height: 24px;
+                                    }
+                                    ul {
+                                        li {
+                                            color: #444;
+                                            line-height: 24px;
+                                            label {
+                                                input[type="checkbox"] {
+                                                    margin-left: 2px;
+                                                }
+                                                ~ label {
+                                                    margin-left: 10px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                    .form-group {
+                                        margin-top: 30px;
+                                        label {
+                                            input[type="checkbox"] {
+                                                margin-left: 5px;
+                                            }
+                                            ~ label {
+                                                margin-left: 15px;
+                                            }
+                                        }
+                                        @media(min-width: $sm) {
+                                            margin-top: 20px;
+                                        }
+                                    }
+                                }
+                                //
+                                //
+                                //
+                            }
+                        }
+                    }
+                }
+                strong {
+                    display: inline-block;
+                    width: 100%;
+                    font-size: 15px;
+                    color: #333;
+                    line-height: 28px;
+                    text-align: center;
+                    margin: 35px 0 50px;
+                    @media(min-width: $sm) {
+                        font-size: 17px;
+                        line-height: 32px;
+                        margin: 55px 0 80px;
+                    }
+                    @media(min-width: $md) {
+                        font-size: 18px;
+                        margin: 30px 0 40px;
+                    }
+                }
+                .signature {
+                    text-align: right;
+                    .date {
+                        font-size: 13px;
+                        color: #444;
+                        margin-bottom: 15px;
+                        span {
+                            display: inline-block;
+                            padding-left: 25px;
+                            &.year {
+                                padding-left: 15px;
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            font-size: 15px;
+                            span {
+                                padding-left: 30px;
+                                &.year {
+                                    padding-left: 20px;
+                                }
+                            }
+                        }
+                    }
+                    dl {
+                        ~ dl {
+                            margin-top: 20px;
+                        }
+                        dt {
+                            
+                            display: inline-block;
+                            font-size: 13px;
+                            color: #444;
+                            font-weight: 400;
+                            &:after {
+                                content: ":";
+                            }
+                        }
+                        dd {
+                            display: inline-block;
+                            font-size: 13px;
+                            color: #444;
+                            font-weight: 400;
+                            padding-left: 100px;
+                        }
+                        @media(min-width: $sm) {
+                            dt {
+                                font-size: 15px;
+                            }
+                            dd {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                    .note {
+                        font-size: 11px;
+                        display: inline-block;
+                        margin-top: 5px;
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 50px;
+                p {
+                    .btn {
+                        &.btn-gray {
+                            background-color: #979797;
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    margin-top: 75px;
+                    p {
+                        .btn-sm {
+                            width: 140px;
+                        }
+                    }
+                }
+                @media(min-width: $md) {
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+    .decimal-list {
+        margin-top: 40px;
+        padding: 35px 25px;
+        background-color: #f5f5f5;
+        > li {
+            font-size: 12px;
+            line-height: 24px;
+            color: #666;
+            list-style: decimal;
+            list-style-position: inside;
+            ~ li {
+                margin-top: 10px;
+            }
+        }
+        @media(min-width: $sm) {
+            margin-top: 70px;
+            padding: 55px 25px 55px 42px;
+            > li {
+                font-size: 14px;
+                line-height: 30px;
+                list-style-position: outside;
+                ~ li {
+                    margin-top: 0;
+                }
+            }
+        }
+        @media(min-width: $lg) {
+            padding: 45px 140px;
+            > li {
+                list-style-position: inside;
+            }
+        }
+    }
+}
+
 
 
 
