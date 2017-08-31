@@ -440,14 +440,213 @@
             }
         }
     }
+    .article-content {
+        text-align: right;
+        .summary {
+            font-size: 12px;
+            color: #666;
+            text-align: left;
+            line-height: 24px;
+            margin-bottom: 70px;
+            @media(min-width: $sm) {
+                font-size: 15px;
+                line-height: 34px;
+                margin-bottom: 80px;
+            }
+            @media(min-width: $lg) {
+                font-size: 16px;
+                margin-bottom: 105px;
+            }
+        }
+        small {
+            font-size: 13px;
+            color: #444;
+            @include jjmj();
+            @media(min-width: $sm) {
+                font-size: 15px;
+            }
+        }
+        h5 {
+            font-size: 32px;
+            color: #222;
+            @include jjmj();
+            letter-spacing: 3px;
+            margin-top: 10px;
+            @media(min-width: $sm) {
+                font-size: 36px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+//설립자 소개
+.introduce {
+    .page-header {
+        margin-bottom: 0;
+    }
+    section {
+        .section-content {
+            .page-summary {
+                font-size: 22px;
+                line-height: 40px;
+                i {
+                    color: $kcolor;
+                }
+                @media(min-width: $sm) {
+                    font-size: 25px;
+                    line-height: 48px;
+                }
+                @media(min-width: $lg) {
+                    font-size: 26px;
+                }
+            }
+            .infancy-ceo {
+                margin-top: 35px;
+                text-align: right;
+                padding-bottom: 380px;
+                background-image: url(/assets/images/carp/introduce_bg.jpg);
+                background-repeat: no-repeat;
+                background-position: 100% 100%;
+                small {
+                    font-size: 13px;
+                    color: #666;
+                }
+                @media(min-width: $sm) {
+                    margin-top: 10px;
+                    small {
+                        font-size: 15px;
+                    }
+                }
+                @media(min-width: $lg) {
+                    z-index: 2;
+                    margin-top: 40px;
+                    padding-right: 360px;
+                    padding-bottom: 162px;
+                    background: none;
+                }
+            }
+            @media(min-width: $lg) {
+                padding-top: 30px;
+                background-image: url(/assets/images/carp/introduce_bg.jpg);
+                background-repeat: no-repeat;
+                background-position: 50% 100%;
+            }
+        }
+        .summary {
+            font-size: 12px;
+            color: #666;
+            line-height: 28px;
+            margin-top: 40px;
+            @media(min-width: $sm) {
+                font-size: 15px;
+                line-height: 34px;
+            }
+            @media(min-width: $lg) {
+                font-size: 16px;
+            }
+        }
+    }
 }
 
 
+// 조직도
+.group {
+    .page-header {
+        margin-bottom: 0;
+    }
+    article {
+        padding-bottom: 120px;
+        @media(min-width: $sm) {
+            padding-bottom: 130px;
+        }
+        @media(min-width: $lg) {
+            padding-bottom: 220px;
+        }
+        figure {
+            .img-responsive {
+                margin: 0 auto;
+            }
+        }
+    }
+}
 
-
-
-
-
+//프로필 게시판
+.profile {
+    .page-header {
+        .sub-snb {
+            ul {
+                display: table;
+                li {
+                    width: 1%;
+                    display: table-cell;
+                }
+            }
+        }
+    }
+    .member {
+        .member-list {
+            margin-top: 30px;
+            margin-bottom: 60px;
+            .member-info {
+                text-align: center;
+                padding: 30px 0;
+                border-bottom: 1px solid #e7e7e7;
+                &:first-child {
+                    border-top: 1px solid #e7e7e7;
+                }
+                .member-img {
+                    width: 300px;
+                    text-align: center;
+                    margin: 0 auto;
+                    border: 1px solid #e5e5e5;
+                    p {
+                        display: inline-block;
+                        padding-top: 20px;
+                        img {
+                            max-height: 170px;
+                        }
+                    }
+                }
+                .details {
+                    margin-top: 35px;
+                    .name {
+                        font-size: 20px;
+                        color: #333;
+                        margin-bottom: 10px;
+                    }
+                    ul {
+                        li {
+                            font-size: 12px;
+                            color: #666;
+                            line-height: 26px;
+                            a {
+                                text-decoration: none;
+                            }
+                            i {
+                                color: $kcolor;
+                                margin-right: 5px;
+                            }
+                            dl {
+                                dt {
+                                    display: inline-block;
+                                    font-weight: 400;
+                                    &:after {
+                                        content: ":";
+                                        padding: 0 2px 0 4px;
+                                    }
+                                }
+                                dd {
+                                    display: inline-block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

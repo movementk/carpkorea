@@ -755,5 +755,155 @@ a {
           .greeting .article-header .ceo-greeting p {
             font-size: 16px;
             line-height: 34px; } }
+  .greeting .article-content {
+    text-align: right; }
+    .greeting .article-content .summary {
+      font-size: 12px;
+      color: #666;
+      text-align: left;
+      line-height: 24px;
+      margin-bottom: 70px; }
+      @media (min-width: 768px) {
+        .greeting .article-content .summary {
+          font-size: 15px;
+          line-height: 34px;
+          margin-bottom: 80px; } }
+      @media (min-width: 1280px) {
+        .greeting .article-content .summary {
+          font-size: 16px;
+          margin-bottom: 105px; } }
+    .greeting .article-content small {
+      font-size: 13px;
+      color: #444;
+      font-family: 'Jeju Myeongjo', serif; }
+      @media (min-width: 768px) {
+        .greeting .article-content small {
+          font-size: 15px; } }
+    .greeting .article-content h5 {
+      font-size: 32px;
+      color: #222;
+      font-family: 'Jeju Myeongjo', serif;
+      letter-spacing: 3px;
+      margin-top: 10px; }
+      @media (min-width: 768px) {
+        .greeting .article-content h5 {
+          font-size: 36px;
+          margin-top: 20px; } }
+
+.introduce .page-header {
+  margin-bottom: 0; }
+.introduce section .section-content .page-summary {
+  font-size: 22px;
+  line-height: 40px; }
+  .introduce section .section-content .page-summary i {
+    color: #02b1a0; }
+  @media (min-width: 768px) {
+    .introduce section .section-content .page-summary {
+      font-size: 25px;
+      line-height: 48px; } }
+  @media (min-width: 1280px) {
+    .introduce section .section-content .page-summary {
+      font-size: 26px; } }
+.introduce section .section-content .infancy-ceo {
+  margin-top: 35px;
+  text-align: right;
+  padding-bottom: 380px;
+  background-image: url(/assets/images/carp/introduce_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%; }
+  .introduce section .section-content .infancy-ceo small {
+    font-size: 13px;
+    color: #666; }
+  @media (min-width: 768px) {
+    .introduce section .section-content .infancy-ceo {
+      margin-top: 10px; }
+      .introduce section .section-content .infancy-ceo small {
+        font-size: 15px; } }
+  @media (min-width: 1280px) {
+    .introduce section .section-content .infancy-ceo {
+      z-index: 2;
+      margin-top: 40px;
+      padding-right: 360px;
+      padding-bottom: 162px;
+      background: none; } }
+@media (min-width: 1280px) {
+  .introduce section .section-content {
+    padding-top: 30px;
+    background-image: url(/assets/images/carp/introduce_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%; } }
+.introduce section .summary {
+  font-size: 12px;
+  color: #666;
+  line-height: 28px;
+  margin-top: 40px; }
+  @media (min-width: 768px) {
+    .introduce section .summary {
+      font-size: 15px;
+      line-height: 34px; } }
+  @media (min-width: 1280px) {
+    .introduce section .summary {
+      font-size: 16px; } }
+
+.group .page-header {
+  margin-bottom: 0; }
+.group article {
+  padding-bottom: 120px; }
+  @media (min-width: 768px) {
+    .group article {
+      padding-bottom: 130px; } }
+  @media (min-width: 1280px) {
+    .group article {
+      padding-bottom: 220px; } }
+  .group article figure .img-responsive {
+    margin: 0 auto; }
+
+.profile .page-header .sub-snb ul {
+  display: table; }
+  .profile .page-header .sub-snb ul li {
+    width: 1%;
+    display: table-cell; }
+.profile .member .member-list {
+  margin-top: 30px;
+  margin-bottom: 60px; }
+  .profile .member .member-list .member-info {
+    text-align: center;
+    padding: 30px 0;
+    border-bottom: 1px solid #e7e7e7; }
+    .profile .member .member-list .member-info:first-child {
+      border-top: 1px solid #e7e7e7; }
+    .profile .member .member-list .member-info .member-img {
+      width: 300px;
+      text-align: center;
+      margin: 0 auto;
+      border: 1px solid #e5e5e5; }
+      .profile .member .member-list .member-info .member-img p {
+        display: inline-block;
+        padding-top: 20px; }
+        .profile .member .member-list .member-info .member-img p img {
+          max-height: 170px; }
+    .profile .member .member-list .member-info .details {
+      margin-top: 35px; }
+      .profile .member .member-list .member-info .details .name {
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 10px; }
+      .profile .member .member-list .member-info .details ul li {
+        font-size: 12px;
+        color: #666;
+        line-height: 26px; }
+        .profile .member .member-list .member-info .details ul li a {
+          text-decoration: none; }
+        .profile .member .member-list .member-info .details ul li i {
+          color: #02b1a0;
+          margin-right: 5px; }
+        .profile .member .member-list .member-info .details ul li dl dt {
+          display: inline-block;
+          font-weight: 400; }
+          .profile .member .member-list .member-info .details ul li dl dt:after {
+            content: ":";
+            padding: 0 2px 0 4px; }
+        .profile .member .member-list .member-info .details ul li dl dd {
+          display: inline-block; }
 
 /*# sourceMappingURL=carp.css.map */

@@ -107,6 +107,18 @@
       "css": "download",
       "code": 59403,
       "src": "iconic"
+    },
+    {
+      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
+      "css": "phone",
+      "code": 59404,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "937f4db8b6ff3348a1d9fcd5e12fd2fe",
+      "css": "mail",
+      "code": 59405,
+      "src": "iconic"
     }
   ]
 }
