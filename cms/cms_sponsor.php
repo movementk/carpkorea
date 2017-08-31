@@ -71,7 +71,7 @@
                         </ul>
                         <div class="btn-area">
                             <p>
-                                <a href="#" class="btn btn-lg btn-aqua" role="button">개인 CMS 후원 신청서 작성하기</a>
+                                <a href="/cms/application.php" class="btn btn-lg btn-aqua" role="button">개인 CMS 후원 신청서 작성하기</a>
                             </p>
                         </div>
                     </div>

@@ -1,0 +1,197 @@
+@import 'common';
+
+
+//창립목적
+.founding {
+    padding-bottom: 30px;
+    @media(min-width: $sm) {
+        padding-bottom: 100px;
+    }
+    @media(min-width: $lg) {
+        padding-bottom: 220px;
+    }
+    .section-content {
+        p {
+            font-size: 12px;
+            line-height: 20px;
+            color: #666;
+            text-align: justify;
+            margin-top: 50px;
+            padding-bottom: 618px;
+            background-image: url(/assets/images/carp/founding_xs_bg.png);
+            background-repeat: no-repeat;
+            background-position: 50% 100%;
+            @media(min-width: $sm) {
+                font-size: 16px;
+                line-height: 34px;
+                padding-bottom: 510px;
+                background-image: url(/assets/images/carp/founding_sm_bg.png);
+            }
+            @media(min-width: $md) {
+                font-size: 16px;
+                line-height: 34px;
+                padding-bottom: 510px;
+                background-image: url(/assets/images/carp/founding_sm_bg.png);
+            }
+            @media(min-width: $lg) {
+                font-size: 16px;
+                line-height: 34px;
+                padding: 0;
+                background: none;
+            }
+        }
+        strong {
+            font-size: 17px;
+            color: #333;
+            margin-top: 85px;
+        }
+        @media(min-width: $lg) {
+            padding-right: 585px;
+            background-position: 100% 0;
+            background-image: url(/assets/images/carp/founding_lg_bg.png);
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+//비전
+.vision {
+    padding-bottom: 0;
+    .section-content {
+        .page-summary {
+            @include nbg();
+            i {
+                color: $kcolor;
+            }
+            @media(min-width: $sm) {
+                text-align: center;
+            }
+        }
+        figure {
+            margin-top: 45px;
+            .img-responsive {
+                margin: 0 auto;
+            }
+            @media(min-width: $sm) {
+                margin-top: 75px;
+            }
+            @media(min-width: $md) {
+                margin-top: 80px;
+            }
+        }
+    }
+}
+.mission {
+    margin-top: 100px;
+    @media(min-width: $sm) {
+        margin-top: 140px;
+    }
+    @media(min-width: $sm) {
+        margin-top: 170px;
+    }
+    .section-content {
+        ol {
+            li {
+                div {
+                    position: relative;
+                    width: 300px;
+                    height: 190px;
+                    margin: 0 auto;
+                    margin-bottom: 10px;
+                    padding: 20px 0 0 20px;
+                    border: 2px solid #f0f0f0;
+                    p {
+                        position: relative;
+                        display: inline-block;
+                        font-size: 14px;
+                        line-height: 24px;
+                        color: #666;
+                        z-index: 2;
+                        padding-left: 60px;
+                        i {
+                            position: absolute;
+                            top: 4px;
+                            left: 0;
+                            display: inline-block;
+                            font-size: 36px;
+                            color: $kcolor;
+                            font-weight: bold;
+                            @include lato;
+                        }
+                    }
+                    figure {
+                        position: absolute;
+                        bottom: 8px;
+                        right: 18px;
+                        z-index: 1;
+                    }
+                    @media(min-width: $sm) {
+                        width: 100%;
+                        margin-bottom: 20px;
+                        p {
+                            font-size: 15px;
+                            line-height: 28px;
+                        }
+                    }
+                    @media(min-width: $lg) {
+                        margin-bottom: 45px;
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

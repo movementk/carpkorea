@@ -642,6 +642,34 @@ a {
         margin-left: -20px;
         content: url(/assets/images/cms/service_arrow_right.png); } }
 
+.application-list .search-form {
+  margin-bottom: 45px; }
+  @media (min-width: 768px) {
+    .application-list .search-form {
+      margin-bottom: 30px; } }
+  @media (min-width: 992px) {
+    .application-list .search-form {
+      margin-bottom: 50px; } }
+.application-list .btn-area {
+  margin-top: 20px; }
+  .application-list .btn-area p .btn {
+    width: 140px; }
+  @media (min-width: 768px) {
+    .application-list .btn-area {
+      text-align: right;
+      margin-top: 50px; } }
+  @media (min-width: 992px) {
+    .application-list .btn-area {
+      margin-top: 50px; } }
+.application-list .paging {
+  margin-top: 35px; }
+  @media (min-width: 768px) {
+    .application-list .paging {
+      margin-top: 10px; } }
+  @media (min-width: 992px) {
+    .application-list .paging {
+      margin-top: 40px; } }
+
 .application-upload .btn-area {
   margin-top: 30px; }
   @media (min-width: 768px) {
@@ -980,13 +1008,22 @@ a {
       margin-top: 5px; }
   .application section.automatic-withdrawal .btn-area {
     margin-top: 50px; }
+    .application section.automatic-withdrawal .btn-area p ~ p {
+      margin-top: 10px; }
     .application section.automatic-withdrawal .btn-area p .btn.btn-gray {
       background-color: #979797; }
     @media (min-width: 768px) {
       .application section.automatic-withdrawal .btn-area {
         margin-top: 75px; }
-        .application section.automatic-withdrawal .btn-area p .btn-sm {
-          width: 140px; } }
+        .application section.automatic-withdrawal .btn-area p {
+          display: inline-block; }
+          .application section.automatic-withdrawal .btn-area p ~ p {
+            margin-top: 0;
+            margin-left: 6px; }
+          .application section.automatic-withdrawal .btn-area p .btn-sm {
+            width: 140px; }
+          .application section.automatic-withdrawal .btn-area p .btn-lg {
+            width: 140px; } }
     @media (min-width: 992px) {
       .application section.automatic-withdrawal .btn-area {
         margin-top: 50px; } }

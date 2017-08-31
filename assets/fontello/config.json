@@ -95,6 +95,12 @@
       "css": "attach",
       "code": 59401,
       "src": "websymbols"
+    },
+    {
+      "uid": "fe4b70ed76eb9a48877632032b33c942",
+      "css": "calendar",
+      "code": 59402,
+      "src": "zocial"
     }
   ]
 }

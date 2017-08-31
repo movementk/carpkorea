@@ -428,7 +428,7 @@ a {
 
 .carp-list {
   position: relative;
-  padding: 80px 0 184px; }
+  padding: 80px 0 30px; }
   .carp-list .article-foot {
     position: absolute;
     bottom: 0;
@@ -436,30 +436,109 @@ a {
     height: 290px;
     z-index: 1;
     background-color: #02b1a0; }
-  .carp-list .facebook-content {
+  .carp-list .facebook {
+    position: relative;
     width: 284px;
     height: 273px;
     margin: 0 auto;
     background-image: url(/assets/images/square/facebook_xs_bg.png);
     background-repeat: no-repeat;
     background-position: 50% 0; }
+    .carp-list .facebook .view-content {
+      position: absolute;
+      top: 18px;
+      left: 18px;
+      width: 250px;
+      height: 200px;
+      background-color: #fff; }
   .carp-list .link-list {
     position: relative;
     z-index: 2;
     width: 299px;
     height: 553px;
-    padding-top: 69px;
+    padding-top: 70px;
     margin: 0 auto;
-    background-image: url(/assets/images/square/link_list_bg.png);
+    background-image: url(/assets/images/square/link_list_xs_bg.png);
     background-repeat: no-repeat;
     background-position: 50% 0; }
     .carp-list .link-list ul {
+      font-size: 0;
       width: 255px;
+      height: 412px;
+      padding: 20px 25px;
       margin: 0 auto;
-      border: 1px solid red; }
+      background-color: #474747; }
+      .carp-list .link-list ul li {
+        display: inline-block; }
+        .carp-list .link-list ul li:last-child a {
+          margin-bottom: 0; }
+        .carp-list .link-list ul li:nth-of-type(2n + 2) a {
+          margin-right: 0; }
+        .carp-list .link-list ul li:nth-of-type(1) a {
+          background-color: #02b1a0; }
+        .carp-list .link-list ul li:nth-of-type(2) a {
+          background-color: #028ab1; }
+        .carp-list .link-list ul li:nth-of-type(3) a {
+          background-color: #b16102; }
+        .carp-list .link-list ul li:nth-of-type(4) a {
+          background-color: #b11f02; }
+        .carp-list .link-list ul li:nth-of-type(5) a {
+          background-color: #02b12b; }
+        .carp-list .link-list ul li:nth-of-type(6) a {
+          background-color: #b18e02; }
+        .carp-list .link-list ul li:nth-of-type(7) a {
+          background-color: #a64bb9; }
+        .carp-list .link-list ul li a {
+          display: block;
+          width: 96px;
+          height: 85px;
+          text-align: center;
+          text-decoration: none;
+          margin-right: 12px;
+          margin-bottom: 10px;
+          border-radius: 10px;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+          .carp-list .link-list ul li a:hover, .carp-list .link-list ul li a:focus {
+            opacity: .7; }
+          .carp-list .link-list ul li a .figure {
+            line-height: 60px; }
+            .carp-list .link-list ul li a .figure img {
+              display: inline-block; }
+          .carp-list .link-list ul li a .details {
+            font-size: 12px;
+            color: #fff; }
     .carp-list .link-list .people-img01 {
       position: absolute;
       bottom: -50px;
       right: -4px; }
+  .carp-list .people-img02 {
+    position: relative;
+    z-index: 3;
+    top: -55px;
+    width: 100%;
+    display: inline-block;
+    text-align: center; }
+    .carp-list .people-img02 img {
+      margin: 0 auto; }
+  @media (min-width: 768px) {
+    .carp-list {
+      overflow: hidden; }
+      .carp-list .facebook {
+        float: left;
+        width: 50%;
+        text-align: right;
+        background-image: url(/assets/images/square/facebook_sm_bg.png); }
+      .carp-list .link-list {
+        float: left;
+        width: 50%;
+        background-position: 0 100%;
+        background-image: url(/assets/images/square/test_bg.png); } }
 
 /*# sourceMappingURL=square.css.map */

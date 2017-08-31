@@ -942,4 +942,21 @@ a {
         .login .sns-login .article-content .sns-list li.kakao a .link-icon {
           left: 18px; } }
 
+.policy {
+  overflow-y: scroll;
+  height: 350px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #666;
+  margin-bottom: 100px;
+  padding: 30px 20px;
+  border: 1px solid #dfdfdf;
+  background-color: #f4f4f4; }
+  @media (min-width: 768px) {
+    .policy {
+      margin-bottom: 110px; } }
+  @media (min-width: 992px) {
+    .policy {
+      margin-bottom: 350px; } }
+
 /*# sourceMappingURL=membership.css.map */
