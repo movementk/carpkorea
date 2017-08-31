@@ -101,6 +101,12 @@
       "css": "calendar",
       "code": 59402,
       "src": "zocial"
+    },
+    {
+      "uid": "815576dccc008afcfd83a38378a4fdde",
+      "css": "download",
+      "code": 59403,
+      "src": "iconic"
     }
   ]
 }

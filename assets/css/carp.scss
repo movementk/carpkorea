@@ -145,11 +145,302 @@
     }
 }
 
+// CI
+.ci {
+    .section-content {
+        .summary {
+            font-size: 12px;
+            color: #666;
+            line-height: 24px;
+            margin-bottom: 50px;
+            @media(min-width: $sm) {
+                font-size: 15px;
+                line-height: 30px;
+                margin-bottom: 25px;
+            }
+            @media(min-width: $md) {
+                font-size: 16px;
+                line-height: 34px;
+                margin-bottom: 65px;
+            }
+        }
+        .ci-logo {
+            text-align: center;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+            border: 1px solid #f2f2f2;
+            background-image: url(/assets/images/carp/ci_bg.gif);
+            @media(min-width: $md) {
+                margin-bottom: 0;
+            }
+            .figure {
+                line-height: 236px;
+                padding: 0 40px;
+                .img-responsive {
+                    display: inline-block;
+                }
+                @media(min-width: $sm) {
+                    padding: 0;
+                    line-height: 365px;
+                }
+            }
+            .btn-area {
+                p {
+                    ~ p {
+                        margin-top: 10px;
+                    }
+                    .btn {
+                        width: 165px;
+                        .icon-download {
+                            margin-right: 10px;
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    p {
+                        display: inline-block;
+                        ~ p {
+                            margin-top: 0;
+                            margin-left: 8px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
+//향후나아갈길
+.action100 {
+    padding-bottom: 100px;
+    @media(min-width: $sm) {
+        padding-bottom: 150px;
+    }
+    article {
+        text-align: center;
+        ~ article {
+            margin-top: 90px;
+            @media(min-width: $sm) {
+                margin-top: 80px;
+            }
+            @media(min-width: $md) {
+                margin-top: 150px;
+            }
+        }
+        .article-header {
+            small {
+                display: block;
+                font-size: 16px;
+                color: #f96900;
+                margin-bottom: 15px;
+            }
+            .article-title {
+                font-size: 24px;
+                color: #333;
+                line-height: 34px;
+                margin-bottom: 20px;
+            }
+            .figure {
+                margin-bottom: 45px;;
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+            @media(min-width: $sm) {
+                small {
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                }
+                .article-title {
+                    font-size: 34px;
+                }
+                .figure {
+                    margin-bottom: 65px;
+                }
+            }
+            @media(min-width: $md) {
+                small {
+                    font-size: 20px;
+                    margin-bottom: 15px;
+                }
+                .article-title {
+                    font-size: 36px;
+                    margin-bottom: 25px;
+                }
+                .figure {
+                    margin-bottom: 70px;
+                }
+            }
+        }
+        .article-content {
+            > div {
+                width: 300px;
+                margin: 0 auto;
+                display: block;
+                &.details {
+                    background-size: cover;
+                    background-position: 50% 50%;
+                    &.type-1 {
+                        background-image: url(/assets/images/carp/action100_bg_type1.gif);
+                        ol {
+                            li {
+                                &:before {
+                                    color: $kcolor;
+                                }
+                            }
+                        }
+                    }
+                    &.type-2 {
+                        background-image: url(/assets/images/carp/action100_bg_type2.gif);
+                    }
+                    ol {
+                        text-align: left;
+                        counter-reset: section;
+                        padding: 30px 10px;
+                        li {
+                            position: relative;
+                            font-size: 14px;
+                            color: #fff;
+                            line-height: 24px;
+                            padding-left: 32px;
+                            ~ li {
+                                margin-top: 15px;
+                            }
+                            &:before {
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                display: block;
+                                width: 22px;
+                                height: 22px;
+                                font-size: 13px;
+                                line-height: 22px;
+                                text-align: center;
+                                font-weight: bold;
+                                border-radius: 50%;
+                                color: #e96300;
+                                background-color: #fff;
+                                @include lato();
+                                counter-increment: section;
+                                content: counter(section);
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            padding: 0 35px;
+                            li {
+                                font-size: 15px;
+                                ~ li {
+                                    margin-top: 20px;
+                                }
+                            }
+                        }
+                        @media(min-width: $lg) {
+                            padding: 0;
+                            padding-left: 140px;
+                            li {
+                                font-size: 16px;
+                                ~ li {
+                                    margin-top: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                display: table;
+                > div {
+                    width: 50%;
+                    vertical-align: middle;
+                    display: table-cell;
+                }
+            }
+        }
+    }
+}
 
-
-
-
+//회장 인사말
+.carp-ceo {
+    .page-header {
+        margin-bottom: 0;
+        .page-title {
+            @media(min-width: $sm) {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+.greeting {
+    padding-bottom: 150px;
+    @media(min-width: $lg) {
+        padding-bottom: 200px;
+    }
+    .article-header {
+        height: 575px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        background-image: url(/assets/images/carp/greeting_xs_bg.jpg);
+        background-repeat: no-repeat;
+        background-color: #02b1a0;
+        background-position: 50% 100%;
+        .ceo-greeting {
+            width: 300px;
+            height: 575px;
+            margin: 0 auto;
+            padding: 42px 15px 0;
+            h4 {
+                font-size: 24px;
+                color: #fff;
+                @include jjmj();
+                line-height: 36px;
+                margin-bottom: 25px;
+            }
+            p {
+                font-size: 12px;
+                color: #fff;
+                line-height: 24px;
+            }
+        }
+        @media(min-width: $sm) {
+            width: 723px;
+            height: 442px;
+            background-image: url(/assets/images/carp/greeting_sm_bg.jpg);
+            background-color: #fff;
+            .ceo-greeting {
+                width: 100%;
+                height: 100%;
+                padding-top: 100px;
+                padding-left: 360px;
+                margin-bottom: 35px;
+                h4 {
+                    font-size: 32px;
+                    line-height: 48px;
+                }
+                p {
+                    font-size: 15px;
+                    line-height: 30px;
+                }
+            }
+        }
+        @media(min-width: $lg) {
+            width: 1170px;
+            background-image: url(/assets/images/carp/greeting_lg_bg.jpg);
+            margin-bottom: 65px;
+            .ceo-greeting {
+                padding-top: 170px;
+                padding-left: 480px;
+                h4 {
+                    font-size: 36px;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 34px;
+                }
+            }
+        }
+    }
+}
 
 
 
