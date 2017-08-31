@@ -314,6 +314,43 @@
     }
 }
 
+//CMS 후원 신청서 리스트
+.application-list {
+    .search-form {
+        margin-bottom: 45px;
+        @media(min-width: $sm) {
+            margin-bottom: 30px;
+        }
+        @media(min-width: $md) {
+            margin-bottom: 50px;
+        }
+    }
+    .btn-area {
+        margin-top: 20px;
+        p {
+            .btn {
+                width: 140px;
+            }
+        }
+        @media(min-width: $sm) {
+            text-align: right;
+            margin-top: 50px;
+        }
+        @media(min-width: $md) {
+            margin-top: 50px;
+        }
+    }
+    .paging {
+        margin-top: 35px;
+        @media(min-width: $sm) {
+            margin-top: 10px;
+        }
+        @media(min-width: $md) {
+            margin-top: 40px;
+        }
+    }
+}
+
 //CMS 후원 신청서 업로드
 .application-upload {
     .btn-area {
@@ -848,6 +885,9 @@
             .btn-area {
                 margin-top: 50px;
                 p {
+                    ~ p {
+                        margin-top: 10px;
+                    }
                     .btn {
                         &.btn-gray {
                             background-color: #979797;
@@ -857,7 +897,15 @@
                 @media(min-width: $sm) {
                     margin-top: 75px;
                     p {
+                        display: inline-block;
+                        ~ p {
+                            margin-top: 0;
+                            margin-left: 6px;
+                        }
                         .btn-sm {
+                            width: 140px;
+                        }
+                        .btn-lg {
                             width: 140px;
                         }
                     }

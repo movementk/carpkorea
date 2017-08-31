@@ -244,7 +244,10 @@
                             <div class="btn-area">
                                 <p>
                                     <a href="#" class="btn btn-sm btn-gray" role="button">취소</a>
-                                    <button type="submit" class="btn btn-sm btn-aqua">확인</button>
+                                    <a href="#" class="btn btn-sm btn-aqua" role="button">인쇄</a>
+                                </p>
+                                <p>
+                                    <a href="/cms/application_upload.php" class="btn btn-lg btn-aqua" role="button">CMS 신청서 업로드</a>
                                 </p>
                             </div>
                         </form>

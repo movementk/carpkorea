@@ -11,7 +11,7 @@
         <div class="page-header">
             <h2 class="header-title">CMS 후원</h2>
             <div class="container">
-                <h3 class="page-title">CMS 소식</h3>
+                <h3 class="page-title">CARP 소식</h3>
             </div>
         </div>
         <article class="notice-view">
@@ -50,12 +50,12 @@
 
                     <div class="btn-area">
                         <p>
-                            <a href="#" class="btn btn-xs btn-org" role="button">글쓰기</a>
+                            <a href="/cms/notice_write.php" class="btn btn-xs btn-org" role="button">글쓰기</a>
                             <a href="#" class="btn btn-xs btn-gray" role="button">수정하기</a>
                             <a href="#" class="btn btn-xs btn-gray" role="button">삭제하기</a>
                         </p>
                         <p>
-                            <a href="#" class="btn btn-lg btn-aqua" role="button">목록</a>
+                            <a href="/cms/notice_list.php" class="btn btn-lg btn-aqua" role="button">목록</a>
                         </p>
                     </div>
 

@@ -50,12 +50,12 @@
 
                     <div class="btn-area">
                         <p>
-                            <a href="#" class="btn btn-xs btn-org" role="button">글쓰기</a>
+                            <a href="/notice/news_write.php" class="btn btn-xs btn-org" role="button">글쓰기</a>
                             <a href="#" class="btn btn-xs btn-gray" role="button">수정하기</a>
                             <a href="#" class="btn btn-xs btn-gray" role="button">삭제하기</a>
                         </p>
                         <p>
-                            <a href="#" class="btn btn-lg btn-aqua" role="button">목록</a>
+                            <a href="/notice/news_list.php" class="btn btn-lg btn-aqua" role="button">목록</a>
                         </p>
                     </div>
 

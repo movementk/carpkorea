@@ -33,7 +33,7 @@
                 </div>
                 <ul class="row">
                     <li class="col-xs-12 col-sm-4 col-md-3">
-                        <a href="/data/photo_view.php">
+                        <a href="/data/video_view.php">
                             <p class="item">
                                 <img src="/assets/images/data/photo_list_img01.jpg" class="img-responsive" alt="">
                             </p>
@@ -50,7 +50,7 @@
                         </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-3">
-                        <a href="/data/photo_view.php">
+                        <a href="/data/video_view.php">
                             <p class="item">
                                 <img src="/assets/images/data/photo_list_img01.jpg" class="img-responsive" alt="">
                             </p>
@@ -67,7 +67,7 @@
                         </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-3">
-                        <a href="/data/photo_view.php">
+                        <a href="/data/video_view.php">
                             <p class="item">
                                 <img src="/assets/images/data/photo_list_img01.jpg" class="img-responsive" alt="">
                             </p>
@@ -84,7 +84,7 @@
                         </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-3">
-                        <a href="/data/photo_view.php">
+                        <a href="/data/video_view.php">
                             <p class="item">
                                 <img src="/assets/images/data/photo_list_img01.jpg" class="img-responsive" alt="">
                             </p>
@@ -101,7 +101,7 @@
                         </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-3 hidden-xs">
-                        <a href="/data/photo_view.php">
+                        <a href="/data/video_view.php">
                             <p class="item">
                                 <img src="/assets/images/data/photo_list_img01.jpg" class="img-responsive" alt="">
                             </p>
@@ -118,7 +118,7 @@
                         </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-3 hidden-xs">
-                        <a href="/data/photo_view.php">
+                        <a href="/data/video_view.php">
                             <p class="item">
                                 <img src="/assets/images/data/photo_list_img01.jpg" class="img-responsive" alt="">
                             </p>
@@ -135,7 +135,7 @@
                         </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-3 hidden-xs hidden-sm">
-                        <a href="/data/photo_view.php">
+                        <a href="/data/video_view.php">
                             <p class="item">
                                 <img src="/assets/images/data/photo_list_img01.jpg" class="img-responsive" alt="">
                             </p>
@@ -152,7 +152,7 @@
                         </a>
                     </li>
                     <li class="col-xs-12 col-sm-4 col-md-3 hidden-xs hidden-sm">
-                        <a href="/data/photo_view.php">
+                        <a href="/data/video_view.php">
                             <p class="item">
                                 <img src="/assets/images/data/photo_list_img01.jpg" class="img-responsive" alt="">
                             </p>

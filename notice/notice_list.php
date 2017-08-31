@@ -48,7 +48,7 @@
                             <tr>
                                 <td>10</td>
                                 <td>제작문의</td>
-                                <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자! CARP특공대! 세상으로 총 진군하자!</a></td>
+                                <td class="subject"><a href="/notice/notice_list.php">CARP특공대! 세상으로 총 진군하자! CARP특공대! 세상으로 총 진군하자!</a></td>
                                 <td>관리자</td>
                                 <td>2017-08-05</td>
                                 <td>27</td>
@@ -56,7 +56,7 @@
                             <tr>
                                 <td>09</td>
                                 <td>제작문의</td>
-                                <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자!</a></td>
+                                <td class="subject"><a href="/notice/notice_list.php">CARP특공대! 세상으로 총 진군하자!</a></td>
                                 <td>관리자</td>
                                 <td>2017-08-05</td>
                                 <td>27</td>
@@ -64,7 +64,7 @@
                             <tr>
                                 <td>08</td>
                                 <td>제작문의</td>
-                                <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자!</a></td>
+                                <td class="subject"><a href="/notice/notice_list.php">CARP특공대! 세상으로 총 진군하자!</a></td>
                                 <td>관리자</td>
                                 <td>2017-08-05</td>
                                 <td>27</td>
@@ -72,7 +72,7 @@
                             <tr>
                                 <td>08</td>
                                 <td>제작문의</td>
-                                <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자!</a></td>
+                                <td class="subject"><a href="/notice/notice_list.php">CARP특공대! 세상으로 총 진군하자!</a></td>
                                 <td>관리자</td>
                                 <td>2017-08-05</td>
                                 <td>27</td>
@@ -80,7 +80,7 @@
                             <tr>
                                 <td>06</td>
                                 <td>제작문의</td>
-                                <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자!</a></td>
+                                <td class="subject"><a href="/notice/notice_list.php">CARP특공대! 세상으로 총 진군하자!</a></td>
                                 <td>관리자</td>
                                 <td>2017-08-05</td>
                                 <td>27</td>
@@ -88,7 +88,7 @@
                             <tr>
                                 <td>05</td>
                                 <td>제작문의</td>
-                                <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자!</a></td>
+                                <td class="subject"><a href="/notice/notice_list.php">CARP특공대! 세상으로 총 진군하자!</a></td>
                                 <td>관리자</td>
                                 <td>2017-08-05</td>
                                 <td>27</td>
@@ -96,7 +96,7 @@
                             <tr>
                                 <td>04</td>
                                 <td>제작문의</td>
-                                <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자!</a></td>
+                                <td class="subject"><a href="/notice/notice_list.php">CARP특공대! 세상으로 총 진군하자!</a></td>
                                 <td>관리자</td>
                                 <td>2017-08-05</td>
                                 <td>27</td>
@@ -104,7 +104,7 @@
                             <tr>
                                 <td>03</td>
                                 <td>제작문의</td>
-                                <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자!</a></td>
+                                <td class="subject"><a href="/notice/notice_list.php">CARP특공대! 세상으로 총 진군하자!</a></td>
                                 <td>관리자</td>
                                 <td>2017-08-05</td>
                                 <td>27</td>
@@ -112,7 +112,7 @@
                             <tr>
                                 <td>02</td>
                                 <td>제작문의</td>
-                                <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자!</a></td>
+                                <td class="subject"><a href="/notice/notice_list.php">CARP특공대! 세상으로 총 진군하자!</a></td>
                                 <td>관리자</td>
                                 <td>2017-08-05</td>
                                 <td>27</td>
@@ -120,7 +120,7 @@
                             <tr>
                                 <td>01</td>
                                 <td>제작문의</td>
-                                <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자!</a></td>
+                                <td class="subject"><a href="/notice/notice_list.php">CARP특공대! 세상으로 총 진군하자!</a></td>
                                 <td>관리자</td>
                                 <td>2017-08-05</td>
                                 <td>27</td>
@@ -130,7 +130,7 @@
                 </div>
                 <div class="btn-area">
                     <p>
-                        <a href="#" class="btn btn-lg btn-aqua" role="button">글쓰기</a>
+                        <a href="/notice/notice_write.php" class="btn btn-lg btn-aqua" role="button">글쓰기</a>
                     </p>
                 </div>
                 <nav class="paging" aria-label="Page navigation">

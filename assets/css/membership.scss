@@ -757,7 +757,24 @@
     }
 }
 
-
+//개인정보보호정책, 개인정보취급방침
+.policy {
+    overflow-y: scroll;
+    height: 350px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #666;
+    margin-bottom: 100px;
+    padding: 30px 20px;
+    border: 1px solid #dfdfdf;
+    background-color: #f4f4f4;
+    @media(min-width: $sm) {
+        margin-bottom: 110px;
+    }
+    @media(min-width: $md) {
+        margin-bottom: 350px;
+    }
+}
 
 
 

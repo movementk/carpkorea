@@ -11,7 +11,7 @@
         <div class="page-header">
             <h2 class="header-title">CMS 후원</h2>
             <div class="container">
-                <h3 class="page-title">CMS 소식</h3>
+                <h3 class="page-title">CMS 후원</h3>
             </div>
         </div>
         <article class="application-upload">

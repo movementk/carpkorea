@@ -5,6 +5,7 @@
             <li><a class="dc" href="#" target="_blank"><span class="sr-only">다음</span></a></li>
         </ul>
         <ul class="util">
+            <li><a href="/membership/login.php">CMS 나의 후원목록</a></li>
             <li><a href="/membership/login.php">로그인</a></li>
             <li><a href="/membership/terms.php">회원가입</a></li>
             <li><a href="/membership/modify.php">정보수정</a></li>
@@ -26,13 +27,13 @@
                             <div>
                                 <div class="container">
                                     <ul>
-                                        <li class="active"><a href="#">CARP 소개</a></li>
-                                        <li><a href="#">회장 인사말</a></li>
-                                        <li><a href="#">설립자 소개</a></li>
-                                        <li><a href="#">연혁</a></li>
-                                        <li><a href="#">조직도</a></li>
-                                        <li><a href="#">프로필 게시판</a></li>
-                                        <li><a href="#">찾아오시는 길</a></li>
+                                        <li class="active"><a href="/carp/founding.php">CARP 소개</a></li>
+                                        <li><a href="/carp/greeting.php">회장 인사말</a></li>
+                                        <li><a href="/carp/introduce.php">설립자 소개</a></li>
+                                        <li><a href="/carp/history.php">연혁</a></li>
+                                        <li><a href="/carp/group.php">조직도</a></li>
+                                        <li><a href="/carp/profile.php">프로필 게시판</a></li>
+                                        <li><a href="/carp/location.php">찾아오시는 길</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -43,7 +44,7 @@
                                 <div class="container">
                                     <ul>
                                         <li><a href="/notice/news_list.php">공지사항</a></li>
-                                        <li><a href="#">일정게시판</a></li>
+                                        <li><a href="/notice/schedule.php">일정게시판</a></li>
                                         <li><a href="/notice/news_list.php">뉴스</a></li>
                                     </ul>
                                 </div>
@@ -54,13 +55,13 @@
                             <div>
                                 <div class="container">
                                     <ul>
-                                        <li><a href="#">참부모선포 광장</a></li>
-                                        <li><a href="#">말씀 광장</a></li>
-                                        <li><a href="#">남북통일 광장</a></li>
-                                        <li><a href="#">사회 광장</a></li>
-                                        <li><a href="#">심정문화 광장</a></li>
-                                        <li><a href="#">자유 광장</a></li>
-                                        <li><a href="#">콜라멘토스 광장</a></li>
+                                        <li><a href="/square/carp_list.php">참부모선포 광장</a></li>
+                                        <li><a href="/square/carp_list.php">말씀 광장</a></li>
+                                        <li><a href="/square/carp_list.php">남북통일 광장</a></li>
+                                        <li><a href="/square/carp_list.php">사회 광장</a></li>
+                                        <li><a href="/square/carp_list.php">심정문화 광장</a></li>
+                                        <li><a href="/square/carp_list.php">자유 광장</a></li>
+                                        <li><a href="/square/carp_list.php">콜라멘토스 광장</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -81,8 +82,8 @@
                             <div>
                                 <div class="container">
                                     <ul>
-                                        <li><a href="#">사진게시판</a></li>
-                                        <li><a href="#">영상게시판</a></li>
+                                        <li><a href="/data/photo_list.php">사진게시판</a></li>
+                                        <li><a href="/data/video_list.php">영상게시판</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -92,14 +93,14 @@
                             <div>
                                 <div class="container">
                                     <ul>
-                                        <li><a href="#">소개</a></li>
-                                        <li><a href="#">비전목표</a></li>
-                                        <li><a href="#">중앙학생회</a></li>
-                                        <li><a href="#">51주년 종횡일치</a></li>
-                                        <li><a href="#">팀별소개</a></li>
-                                        <li><a href="#">현장회장단</a></li>
-                                        <li><a href="#">학군학사지회</a></li>
-                                        <li><a href="#">하고싶은 말</a></li>
+                                        <li><a href="/student_council/">소개</a></li>
+                                        <li><a href="/student_council/">비전목표</a></li>
+                                        <li><a href="/student_council/">중앙학생회</a></li>
+                                        <li><a href="/student_council/">51주년 종횡일치</a></li>
+                                        <li><a href="/student_council/">팀별소개</a></li>
+                                        <li><a href="/student_council/">현장회장단</a></li>
+                                        <li><a href="/student_council/">학군학사지회</a></li>
+                                        <li><a href="/student_council/">하고싶은 말</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -110,7 +111,8 @@
                                 <div class="container">
                                     <ul>
                                         <li><a href="/cms/cms_sponsor.php">CMS 후원</a></li>
-                                        <li><a href="#">CARP 소식</a></li>
+                                        <li><a href="/cms/application.php">CMS 후원 신청서 업로드</a></li>
+                                        <li><a href="/cms/notice_list.php">CARP 소식</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -140,33 +142,33 @@
                     <li class="selected">
                         <a href="#">CARP</a>
                         <ul>
-                            <li><a href="#">CARP 소개</a></li>
-                            <li><a href="#">회장 인사말</a></li>
-                            <li><a href="#">설립자 소개</a></li>
-                            <li><a href="#">연혁</a></li>
-                            <li><a href="#">조직도</a></li>
-                            <li><a href="#">프로필 게시판</a></li>
-                            <li><a href="#">찾아오시는 길</a></li>
+                            <li><a href="/carp/founding.php">CARP 소개</a></li>
+                            <li><a href="/carp/greeting.php">회장 인사말</a></li>
+                            <li><a href="/carp/introduce.php">설립자 소개</a></li>
+                            <li><a href="/carp/history.php">연혁</a></li>
+                            <li><a href="/carp/group.php">조직도</a></li>
+                            <li><a href="/carp/profile.php">프로필 게시판</a></li>
+                            <li><a href="/carp/location.php">찾아오시는 길</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">공지사항</a>
                         <ul>
                             <li><a href="/notice/news_list.php">공지사항</a></li>
-                            <li><a href="#">일정게시판</a></li>
+                            <li><a href="/notice/schedule.php">일정게시판</a></li>
                             <li><a href="/notice/news_list.php">뉴스</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">CARP 광장</a>
                         <ul>
-                            <li><a href="#">참부모선포 광장</a></li>
-                            <li><a href="#">말씀 광장</a></li>
-                            <li><a href="#">남북통일 광장</a></li>
-                            <li><a href="#">사회 광장</a></li>
-                            <li><a href="#">심정문화 광장</a></li>
-                            <li><a href="#">자유 광장</a></li>
-                            <li><a href="#">콜라멘토스 광장</a></li>
+                            <li><a href="/square/carp_list.php">참부모선포 광장</a></li>
+                            <li><a href="/square/carp_list.php">말씀 광장</a></li>
+                            <li><a href="/square/carp_list.php">남북통일 광장</a></li>
+                            <li><a href="/square/carp_list.php">사회 광장</a></li>
+                            <li><a href="/square/carp_list.php">심정문화 광장</a></li>
+                            <li><a href="/square/carp_list.php">자유 광장</a></li>
+                            <li><a href="/square/carp_list.php">콜라멘토스 광장</a></li>
                         </ul>
                     </li>
                     <li>
@@ -179,28 +181,29 @@
                     <li>
                         <a href="#">자료실</a>
                         <ul>
-                            <li><a href="#">사진게시판</a></li>
-                            <li><a href="#">영상게시판</a></li>
+                            <li><a href="/data/photo_list.php">사진게시판</a></li>
+                            <li><a href="/data/video_list.php">영상게시판</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">학생회게시판</a>
                         <ul>
-                            <li><a href="#">소개</a></li>
-                            <li><a href="#">비전목표</a></li>
-                            <li><a href="#">중앙학생회</a></li>
-                            <li><a href="#">51주년 종횡일치</a></li>
-                            <li><a href="#">팀별소개</a></li>
-                            <li><a href="#">현장회장단</a></li>
-                            <li><a href="#">학군학사지회</a></li>
-                            <li><a href="#">하고싶은 말</a></li>
+                            <li><a href="/student_council/">소개</a></li>
+                            <li><a href="/student_council/">비전목표</a></li>
+                            <li><a href="/student_council/">중앙학생회</a></li>
+                            <li><a href="/student_council/">51주년 종횡일치</a></li>
+                            <li><a href="/student_council/">팀별소개</a></li>
+                            <li><a href="/student_council/">현장회장단</a></li>
+                            <li><a href="/student_council/">학군학사지회</a></li>
+                            <li><a href="/student_council/">하고싶은 말</a></li>
                         </ul>
                     </li>
                     <li>
                         <a href="#">CMS 후원</a>
                         <ul>
                             <li><a href="/cms/cms_sponsor.php">CMS 후원</a></li>
-                            <li><a href="#">CARP 소식</a></li>
+                            <li><a href="/cms/application.php">CMS 후원 신청서 업로드</a></li>
+                            <li><a href="/cms/notice_list.php">CARP 소식</a></li>
                         </ul>
                     </li>
                 </ul>
