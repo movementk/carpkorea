@@ -12,7 +12,8 @@
     // 메인 슬라이더
     $(document).ready(function(){
         $('.jumbotron > ul').bxSlider({
-            auto: false,
+            auto: true,
+			pause: 6000,
             controls: false,
 			onSliderLoad: function(currentIndex) {
 				$(".jumbotron ul li:not('.bx-clone'):eq("+currentIndex+")").addClass('active');

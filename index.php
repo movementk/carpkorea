@@ -86,22 +86,26 @@
                         가족과 같이<br class="hidden-xs"> 사랑하고 위해준다면 전쟁과 갈등이<br class="visible-xs">
                         없는 평화로운 세계를 만들 수 있습니다.
                     </p>
+            		<i class="cloud cloud-1"></i>
+                   	<i class="cloud cloud-2"></i>
+                   	<i class="cloud cloud-3"></i>
+                   	<i class="cloud cloud-4"></i>
                 </div>
             </div>
             <div class="speech-bubble">
                 <div class="details">
-                    <p><i>450,000</i>명 달성!</p>
+                    <p><i>0</i>명 달성!</p>
                 </div>
                 <p class="figure">
                     <img src="/assets/images/main/ico_run.png" alt="">
                 </p>
             </div>
-            <div class="progress achievement">
+            <!-- div class="progress achievement">
                 <span class="target">100%</span>
                 <div class="progress-bar" role="progressbar" style="width: 50%;">
                     50%
                 </div>
-            </div>
+            </div -->
         </section>
         <section class="information">
             <div class="container">
