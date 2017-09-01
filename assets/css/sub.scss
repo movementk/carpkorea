@@ -334,18 +334,9 @@ section {
                         }
                     }
                     &:nth-of-type(2) {
-                        width: 20%;
-                        @media(min-width: $sm) {
-                            width: 114px;
-                        }
-                        @media(min-width: $md) {
-                            width: 120px;
-                        }
-                    }
-                    &:nth-of-type(3) {
                         width: 65%;
                         @media(min-width: $sm) {
-                            width: 314px;
+                            width: 438px;
                         }
                         @media(min-width: $md) {
                             width: 420px;
@@ -354,21 +345,21 @@ section {
                             width: 650px;
                         }
                     }
-                    &:nth-of-type(4) {
+                    &:nth-of-type(3) {
                         display: none;
                         @media(min-width: $md) {
                             display: table-cell;
                             width: 90px;
                         }
                     }
-                    &:nth-of-type(5) {
+                    &:nth-of-type(4) {
                         display: none;
                         @media(min-width: $sm) {
                             display: table-cell;
                             width: 110px;
                         }
                     }
-                    &:nth-of-type(6) {
+                    &:nth-of-type(5) {
                         width: 15%;
                         @media(min-width: $sm) {
                             width: 90px;
@@ -409,18 +400,9 @@ section {
                         }
                     }
                     &:nth-of-type(2) {
-                        width: 20%;
-                        @media(min-width: $sm) {
-                            width: 114px;
-                        }
-                        @media(min-width: $md) {
-                            width: 120px;
-                        }
-                    }
-                    &:nth-of-type(3) {
                         width: 65%;
                         @media(min-width: $sm) {
-                            width: 314px;
+                            width: 438px;
                         }
                         @media(min-width: $md) {
                             width: 420px;
@@ -429,21 +411,21 @@ section {
                             width: 650px;
                         }
                     }
-                    &:nth-of-type(4) {
+                    &:nth-of-type(3) {
                         display: none;
                         @media(min-width: $md) {
                             display: table-cell;
                             width: 90px;
                         }
                     }
-                    &:nth-of-type(5) {
+                    &:nth-of-type(4) {
                         display: none;
                         @media(min-width: $sm) {
                             display: table-cell;
                             width: 110px;
                         }
                     }
-                    &:nth-of-type(6) {
+                    &:nth-of-type(5) {
                         width: 15%;
                         @media(min-width: $sm) {
                             width: 90px;
@@ -764,7 +746,7 @@ section {
         .form-group {
             position: relative;
             padding: 10px;
-            padding-right: 70px;
+            padding-right: 100px;
             border: 1px solid #e0e0e0;
             background-color: #f8f9fa;
             .form-control {
@@ -772,35 +754,84 @@ section {
                 height: 32px;
                 border: 1px solid #e4e4e4;
             }
+            textarea {
+                width: 100%;
+                height: 70px !important;
+                border: 1px solid #e4e4e4;
+            }
             .btn-comment {
                 position: absolute;
-                top: 10px;
+                bottom: 10px;
                 right: 10px;
                 .btn {
-                    width: 50px;
-                    height: 32px;
+                    width: 80px;
+                    height: 70px;
                     font-size: 12px;
                     color: #fff;
-                    line-height: 32px;
+                    line-height: 70px;
                     text-align: center;
                     background-color: #ec6708;
+                }
+            }
+            .comment_info {
+                margin-bottom: 10px;
+                margin-right: -90px;
+                @media(min-width: $sm) {
+                    margin-bottom: 20px;
+                }
+                p {
+                    font-size: 13px;
+                    color: #333;
+                    margin: 10px 0;
+                    @media(min-width: $sm) {
+                        font-size: 15px;
+                        margin-top: 20px;
+                    }
+                }
+                label {
+                    font-size: 12px;
+                    color: #666;
+                    margin-right: 10px;
+                    @media(min-width: $sm) {
+                        font-size: 13px;
+                    }
+                }
+                input[type="checkbox"] {
+                    position: relative;
+                    top: 2px;
+                }
+                .frm_input {
+                    width: 70px;
+                    height: 32px;
+                    margin-right: 20px;
+                    border: 1px solid #e4e4e4;
+                    @media(min-width: $sm) {
+                        height: 42px;
+                        width: 150px;
+                    }
+                    @media(min-width: $md) {
+                        width: 180px;
+                    }
                 }
             }
             @media(min-width: $sm) {
                 padding: 30px;
                 padding-right: 140px;
                 .form-control {
-                    height: 42px;
+                    height: 32px;
+                }
+                textarea {
+                    height: 100px !important;
                 }
                 .btn-comment {
                     position: absolute;
-                    top: 30px;
+                    bottom: 30px;
                     right: 30px;
                     .btn {
                         width: 100px;
-                        height: 42px;
+                        height: 100px;
                         font-size: 13px;
-                        line-height: 42px;
+                        line-height: 100px;
                     }
                 }
             }

@@ -34,6 +34,7 @@
                     </p>
                     <div class="row">
                         <div class="col-xs-12 col-md-6">
+                            <h5 class="logo-title">현재 CI</h5>
                             <div class="ci-logo">
                                 <p class="figure">
                                     <img src="/assets/images/carp/ci_logo01.png" class="img-responsive" alt="CI logo">
@@ -49,9 +50,10 @@
                             </div>
                         </div>
                         <div class="col-xs-12 col-md-6">
+                            <h5 class="logo-title">과거 CI</h5>
                             <div class="ci-logo">
                                 <p class="figure">
-                                    자료 요청중
+                                    <img src="/assets/images/carp/ci_logo02.png" class="img-responsive" alt="CI logo">
                                 </p>
                                 <div class="btn-area">
                                     <p>
@@ -61,6 +63,60 @@
                                         <a href="#" class="btn btn-org" role="button"><i class="icon-download"></i>EPS 다운로드</a>
                                     </p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="symbol">
+            <div class="container">
+                <div class="section-header">
+                    <h4 class="title">심벌색상</h4>
+                </div>
+                <div class="section-content">
+                    <p class="summary">
+                        실벌 색상은 영원한 질리와 생명력을 상진하는 은생(K:28)을 기본으로, 세계 여러 나라의 생동감 있는 생삭을 나타내면서 지속적이면서 변하지 않고 고품격을 상징하는 금색(C2 M39 Y89 K0)을 의도적으로 사용하였다. 바탕이 어두운 경우에 바탕의 명도에 의한 착시성을 보완하기 위하여 심벌의 생삭을 백색 또는 회색, 노랑으로 변용한다.
+                        3D심벌의 사용이 원칙이나, 단색 및 4원색 인쇄매체의 경우에는 본 내용과 같은 기준을 두어 적용하도록 하며, 별색과 원색의 표현방법은 제시한 바와 같다. 또한 적용매체의 상황에 따라 아래에 제시된 금색,은색, 회색 등을 효율적으로 사용할 수 있다. 이러한 색상을 바탕으로 사용할 경우에는 반전시켜 음화로 사용하도록 한다.
+                    </p>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <h5 class="logo-title">입체(3D)</h5>
+                            <div class="solid-logo">
+                                <p class="figure">
+                                    <img src="/assets/images/carp/solid_img01.jpg" class="img-responsive visible-xs" alt="">
+                                    <img src="/assets/images/carp/solid_lg_img01.jpg" class="img-responsive hidden-xs" alt="">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <h5 class="logo-title">평면(2D)</h5>
+                            <div class="solid-logo">
+                                <p class="figure">
+                                    <img src="/assets/images/carp/solid_img02.jpg" class="img-responsive visible-xs" alt="">
+                                    <img src="/assets/images/carp/solid_lg_img02.jpg" class="img-responsive hidden-xs" alt="">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <h5 class="logo-title">별색 Silver/Gold</h5>
+                            <div class="solid-logo">
+                                <p class="figure">
+                                    <img src="/assets/images/carp/solid_img01.jpg" class="img-responsive visible-xs" alt="">
+                                    <img src="/assets/images/carp/solid_lg_img03.jpg" class="img-responsive hidden-xs" alt="">
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+                            <h5 class="logo-title">
+                                Black
+                                <small class="visible-md visible-lg">(흑백으로 처리해야 할 경우 심벌의 K값은 예는 80%로 제한한다)</small>
+                            </h5>
+                            <div class="solid-logo">
+                                <p class="figure">
+                                    <img src="/assets/images/carp/solid_img02.jpg" class="img-responsive visible-xs" alt="">
+                                    <img src="/assets/images/carp/solid_lg_img04.jpg" class="img-responsive hidden-xs" alt="">
+                                </p>
                             </div>
                         </div>
                     </div>

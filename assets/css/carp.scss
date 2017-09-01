@@ -147,6 +147,7 @@
 
 // CI
 .ci {
+    padding-bottom: 0;
     .section-content {
         .summary {
             font-size: 12px;
@@ -162,6 +163,15 @@
                 font-size: 16px;
                 line-height: 34px;
                 margin-bottom: 65px;
+            }
+        }
+        .logo-title {
+            font-size: 16px;
+            color: #02b1a0;
+            margin-bottom: 20px;
+            @media(min-width: $sm) {
+               font-size: 20px; 
+                margin-bottom: 25px;
             }
         }
         .ci-logo {
@@ -209,6 +219,64 @@
         }
     }
 }
+.symbol {
+    @media(min-width: $md) {
+        padding-bottom: 140px;
+    }
+    .section-header {
+        margin-top: 50px;
+    }
+    .section-content {
+        .summary {
+            font-size: 12px;
+            color: #666;
+            line-height: 24px;
+            margin-bottom: 50px;
+            @media(min-width: $sm) {
+                font-size: 15px;
+                line-height: 30px;
+                margin-bottom: 25px;
+            }
+            @media(min-width: $md) {
+                font-size: 16px;
+                line-height: 34px;
+                margin-bottom: 65px;
+            }
+        }
+        .logo-title {
+            font-size: 16px;
+            color: #02b1a0;
+            margin-bottom: 20px;
+            small {
+                font-size: 14px;
+                color: #666;
+                display: inline !important;
+                margin-left: 10px;
+            }
+            @media(min-width: $sm) {
+               font-size: 20px; 
+                margin-bottom: 25px;
+            }
+        }
+        .solid-logo {
+            
+            .figure {
+                .img-responsive {
+                    margin: 0 auto;
+                }
+            }
+            @media(min-width: $md) {
+                margin-bottom: 90px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
 
 //향후나아갈길
 .action100 {
@@ -585,6 +653,13 @@
         }
     }
     .member {
+        padding-bottom: 110px;
+        @media(min-width: $sm) {
+            padding-bottom: 120px;
+        }
+        @media(min-width: $md) {
+            padding-bottom: 140px;
+        }
         .member-list {
             margin-top: 30px;
             margin-bottom: 60px;
@@ -644,13 +719,289 @@
                     }
                 }
             }
+            @media(min-width: $sm) {
+                margin-top: 40px;
+                .member-info {
+                    padding: 30px;
+                    display: table;
+                    width: 100%;
+                    .member-img {
+                        width: 270px;
+                        display: table-cell;
+                        p {
+                            padding-top: 8pz;
+                            img {
+                                height: 215px;
+                            }
+                        }
+                    }
+                    .details {
+                        display: table-cell;
+                        text-align: left;
+                        vertical-align: bottom;
+                        padding-left: 65px;
+                        .name {
+                            font-size: 24px;
+                            margin-bottom: 25px;
+                        }
+                        ul {
+                            li {
+                                font-size: 13px;
+                                line-height: 26px;
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                margin-top: 65px;
+            }
         }
     }
 }
 
+// 연혁
+.history {
+    .page-header {
+        .sub-snb {
+            ul {
+                li {
+                    width: 33.33%;
+                    &:nth-of-type(1) {
+                        width: 50%;
+                    }
+                    &:nth-of-type(2) {
+                        width: 50%;
+                    }
+                    &:nth-of-type(3) {
+                        &:after {
+                            border-right: 1px solid #d9d9d9;
+                        }
+                    }
+                    &:nth-of-type(4) {
+                        &:after {
+                            border-right: 1px solid #d9d9d9;
+                        }
+                    }   
+                }
+                @media(min-width: $sm) {
+                    display: table;
+                    li {
+                        display: table-cell;
+                        width: 1% !important;
+                    }
+                }
+            }
+        }
+    }
+    .section-header {
+        .page-title {
+            font-size: 20px;
+            color: #666;
+            line-height: 30px;
+            i {
+                font-style: normal;
+                color: $kcolor;
+            }
+            @media(min-width: $sm) {
+                font-size: 24px;
+                line-height: 34px;
+            }
+        }
+    }
+    .section-content {
+        .history-list {
+            > li {
+                position: relative;
+                padding-left: 50px;
+                padding-bottom: 35px;
+                border-left: 1px solid $kcolor;
+                &:last-child {
+                    padding-bottom: 0;
+                }
+                &:before {
+                    position: absolute;
+                    top: 0;
+                    left: -6px;
+                    content: "";
+                    display: block;
+                    width: 12px;
+                    height: 12px;
+                    border-radius: 50%;
+                    background-color: $kcolor;
+                }
+                .figure {
+                    vertical-align: top;
+                    text-align: center;
+                    .img-responsive {
+                        display: inline-block;
+                    }
+                }
+                .details {
+                    margin-top: 25px;
+                    ul {
+                        li {
+                            dl {
+                                position: relative;
+                                dt {
+                                    position: absolute;
+                                    top: 3px;
+                                    left: 0;
+                                    font-size: 15px;
+                                    color: #333;
+                                    margin-bottom: 10px;
+                                }
+                                dd {
+                                    display: inline-block;
+                                    font-size: 13px;
+                                    color: #666;
+                                    line-height: 24px;
+                                    padding-left: 85px;
+                                    margin-bottom: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $sm) {
+                    padding-left: 60px;
+                    padding-bottom: 110px;
+                    .figure {
+                        text-align: left;
+                        padding-right: 20px;
+                    }
+                    .details {
+                        margin-top: 0;
+                        ul {
+                            li {
+                                dl {
+                                    dt {
+                                        font-size: 18px;
+                                    }
+                                    dd {
+                                        font-size: 15px;
+                                        line-height: 24px;
+                                        padding-left: 140px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                @media(min-width: $md) {
+                    padding-left: 70px;
+                    .figure {
+                        padding-right: 60px;
+                    }
+                }
+            }
+        }
+    }
+}
 
-
-
+// 오시는 길
+.location {
+    .page-header {
+        .sub-snb {
+            ul {
+                li {
+                    width: 33.33%;
+                    &:nth-of-type(2n + 2) {
+                        &:after {
+                            border-right: 1px solid #d9d9d9;
+                        }
+                    }
+                    &:nth-of-type(3n + 3) {
+                        &:after {
+                            border: 0;
+                            @media(min-width: $sm) {
+                                border-right: 1px solid #d9d9d9;
+                            }
+                        }
+                    }
+                    &:last-child {
+                        &:after {
+                            border-right: 0 !important;
+                        }
+                    }
+                    @media(min-width: $sm) {
+                        width: 1%;
+                    }
+                }
+            }
+        }
+    }
+    section {
+        padding-bottom: 0;
+        ~ section {
+            margin-top: 60px;
+        }
+        &:last-child {
+            padding-bottom: 60px;
+            @media(min-width: $sm) {
+                padding-bottom: 100px;
+            }
+            @media(min-width: $md) {
+                padding-bottom: 220px;
+            }
+        }
+        .section-header {
+            margin-bottom: 10px;
+            .company-info {
+                margin-top: 15px;
+                address {
+                    font-size: 12px;
+                    color: #666;
+                    line-height: 18px;
+                }
+                ul {
+                    font-size: 0;
+                    li {
+                        display: inline-block;
+                        font-size: 12px;
+                        color: #666;
+                        line-height: 18px;
+                        &:first-child {
+                            margin-right: 15px;
+                        }
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                margin-bottom: 35px;
+                .title {
+                    display: inline-block;
+                    margin-right: 20px;
+                }
+                .company-info {
+                    display: inline-block;
+                    margin-top: 0;
+                    address {
+                        display: inline;
+                        font-size: 14px;
+                    }
+                    ul {
+                        display: inline-block;
+                        li {
+                            font-size: 14px;
+                            &:first-child {
+                                margin-right: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section-content {
+            .details {
+                margin-top: 15px;
+                @media(min-width: $sm) {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
 
 
 
