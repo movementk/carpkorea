@@ -441,6 +441,13 @@ body {
 								}
 							}
 						}
+						&.has-no-child {
+							> a {
+								&:after {
+									content: "";
+								}
+							}
+						}
 					}
 				}
 			}

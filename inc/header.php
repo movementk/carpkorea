@@ -89,8 +89,8 @@
                             </div>
                         </li>
                         <li>
-                            <a href="#">학생회게시판<span></span></a>
-                            <div>
+                            <a href="/student_council.php">학생회게시판<span></span></a>
+                            <!-- div>
                                 <div class="container">
                                     <ul>
                                         <li><a href="/student_council/">소개</a></li>
@@ -103,7 +103,7 @@
                                         <li><a href="/student_council/">하고싶은 말</a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div -->
                         </li>
                         <li>
                             <a href="#">CMS 후원<span></span></a>
@@ -185,9 +185,9 @@
                             <li><a href="/data/video_list.php">영상게시판</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="#">학생회게시판</a>
-                        <ul>
+                    <li class="has-no-child">
+                        <a href="/student_council.php">학생회게시판</a>
+                        <!-- ul>
                             <li><a href="/student_council/">소개</a></li>
                             <li><a href="/student_council/">비전목표</a></li>
                             <li><a href="/student_council/">중앙학생회</a></li>
@@ -196,7 +196,7 @@
                             <li><a href="/student_council/">현장회장단</a></li>
                             <li><a href="/student_council/">학군학사지회</a></li>
                             <li><a href="/student_council/">하고싶은 말</a></li>
-                        </ul>
+                        </ul -->
                     </li>
                     <li>
                         <a href="#">CMS 후원</a>

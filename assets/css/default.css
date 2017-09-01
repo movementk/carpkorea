@@ -754,6 +754,8 @@ body {
             display: block; }
             #nav-side .nav-content .nav-body .nav > ul > li.selected > ul > li:first-child {
               border-top: 0; }
+        #nav-side .nav-content .nav-body .nav > ul > li.has-no-child > a:after {
+          content: ""; }
   @media (min-width: 768px) {
     #nav-side .nav-content {
       padding-top: 80px;
