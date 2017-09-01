@@ -47,11 +47,26 @@
     text-align: center;
     ul {
         > li {
+			overflow: hidden;
             padding: 65px 0 90px;
             background-repeat: no-repeat;
             background-position: 50% 50%;
             background-size: auto 100%;
+			.back {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background-position: 50% 50%;
+				background-size: cover;
+				-ms-transform: scale(1);
+				-webkit-transform: scale(1);
+				transform: scale(1);
+			}
             .slogan {
+				z-index: 1;
+				position: relative;
                 display: block;
                 width: 252px;
                 text-align: left;
@@ -87,6 +102,14 @@
                     line-height: 18px;
                 }
             }
+			&.active {
+				.back {
+					-ms-transform: scale(1.2);
+					-webkit-transform: scale(1.2);
+					transform: scale(1.2);
+					@include transition($duration: 3s, $timing: "ease");
+				}
+			}
             @media(min-width: $sm) {
                 padding: 70px 0;
                 .slogan {
@@ -116,19 +139,6 @@
                 .slogan {
                     margin-left: 0;
                 }
-            }
-            /* 이미지는 배경으로 클래스 1식 추가 */
-            &.slogan-1 {
-                background-image: url(/assets/images/main/jumbo_visual_img01.jpg);
-            }
-            &.slogan-2 {
-                background-image: url(/assets/images/main/jumbo_visual_img02.jpg);
-            }
-            &.slogan-3 {
-                background-image: url(/assets/images/main/jumbo_visual_img01.jpg);
-            }
-            &.slogan-4 {
-                background-image: url(/assets/images/main/jumbo_visual_img02.jpg);
             }
         }
     }

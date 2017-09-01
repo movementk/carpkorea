@@ -9,6 +9,7 @@
             <ul>
                 <li class="slogan-1">
                     <div class="container">
+                       	<div class="back" style="background-image: url(/assets/images/main/jumbo_visual_img01.jpg);"></div>
                         <div class="slogan">
                             <p>SLOGAN01 <span></span></p>
                             <h2 class="slogan-title">
@@ -25,6 +26,7 @@
                 </li>
                 <li class="slogan-2">
                     <div class="container">
+                       	<div class="back" style="background-image: url(/assets/images/main/jumbo_visual_img02.jpg);"></div>
                         <div class="slogan">
                             <p>SLOGAN01 <span></span></p>
                             <h2 class="slogan-title">
@@ -41,6 +43,7 @@
                 </li>
                 <li class="slogan-3">
                     <div class="container">
+                       	<div class="back" style="background-image: url(/assets/images/main/jumbo_visual_img01.jpg);"></div>
                         <div class="slogan">
                             <p>SLOGAN01 <span></span></p>
                             <h2 class="slogan-title">
@@ -57,6 +60,7 @@
                 </li>
                 <li class="slogan-4">
                     <div class="container">
+                       	<div class="back" style="background-image: url(/assets/images/main/jumbo_visual_img02.jpg);"></div>
                         <div class="slogan">
                             <p>SLOGAN01 <span></span></p>
                             <h2 class="slogan-title">

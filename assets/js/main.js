@@ -12,10 +12,19 @@
     // 메인 슬라이더
     $(document).ready(function(){
         $('.jumbotron > ul').bxSlider({
-            auto: true,
-            controls: false
+            auto: false,
+            controls: false,
+			onSliderLoad: function(currentIndex) {
+				$(".jumbotron ul li:not('.bx-clone'):eq("+currentIndex+")").addClass('active');
+			},
+			onSlideAfter: function($slideElement, oldIndex, newIndex) {
+				$slideElement.siblings('.active').removeClass('active');
+				$slideElement.addClass('active');
+			}
+			
         });
     });
+	
     // 이벤트 베너 슬라이더
     $(document).ready(function(){
         $('.event-banner > ul').bxSlider({
@@ -25,12 +34,9 @@
     });
     
     // 목표달설 이벤트
-    
     $(window).on("load", function() {
         $("#declare").addClass("on");
     });
-    
-    
 
     // 파트너 슬라이더
     var partnerSliderOpt = {
