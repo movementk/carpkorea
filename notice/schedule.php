@@ -47,45 +47,45 @@
                                         <tr>
                                             <td></td>
                                             <td></td>
-                                            <td><a href="#">1</a></td>
-                                            <td><a href="#">2</a></td>
-                                            <td class="scheduled"><a href="#">3</a></td>
-                                            <td><a href="#">4</a></td>
-                                            <td><a href="#">5</a></td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                            <td class="scheduled">3</td>
+                                            <td>4</td>
+                                            <td>5</td>
                                         </tr>
                                         <tr>
-                                            <td><a href="#">6</a></td>
-                                            <td><a href="#">7</a></td>
-                                            <td class="scheduled"><a href="#">8</a></td>
-                                            <td><a href="#">9</a></td>
-                                            <td><a href="#">10</a></td>
-                                            <td><a href="#">11</a></td>
-                                            <td><a href="#">12</a></td>
+                                            <td>6</td>
+                                            <td>7</td>
+                                            <td class="scheduled">8</td>
+                                            <td>9</td>
+                                            <td>10</td>
+                                            <td>11</td>
+                                            <td>12</td>
                                         </tr>
                                         <tr>
-                                            <td><a href="#">13</a></td>
-                                            <td><a href="#">14</a></td>
-                                            <td><a href="#">15</a></td>
-                                            <td><a href="#">16</a></td>
-                                            <td><a href="#">17</a></td>
-                                            <td><a href="#">18</a></td>
-                                            <td class="scheduled"><a href="#">19</a></td>
+                                            <td>13</td>
+                                            <td>14</td>
+                                            <td>15</td>
+                                            <td>16</td>
+                                            <td>17</td>
+                                            <td>18</td>
+                                            <td class="scheduled">19</td>
                                         </tr>
                                         <tr>
-                                            <td><a href="#">20</a></td>
-                                            <td><a href="#">21</a></td>
-                                            <td><a href="#">22</a></td>
-                                            <td><a href="#">23</a></td>
-                                            <td><a href="#">24</a></td>
-                                            <td class="scheduled"><a href="#">25</a></td>
-                                            <td><a href="#">26</a></td>
+                                            <td>20</td>
+                                            <td>21</td>
+                                            <td>22</td>
+                                            <td>23</td>
+                                            <td>24</td>
+                                            <td class="scheduled">25</td>
+                                            <td>26</td>
                                         </tr>
                                         <tr>
-                                            <td><a href="#">27</a></td>
-                                            <td class="scheduled"><a href="#">28</a></td>
-                                            <td><a href="#">29</a></td>
-                                            <td><a href="#">30</a></td>
-                                            <td><a href="#">31</a></td>
+                                            <td>27</td>
+                                            <td class="scheduled">28</td>
+                                            <td>29</td>
+                                            <td>30</td>
+                                            <td>31</td>
                                             <td></td>
                                             <td></td>
                                         </tr>
@@ -101,6 +101,7 @@
                                     <span class="month">08</span>
                                     <b class="day">03</b>
                                 </span>
+                                <h5>한국대학원리연구회 일정1</h5>
                                 <p class="details">일정내용입력 눌렀을때 그 날에 있는 일정이 노출 됩니다</p>
                             </li>
                             <li>
@@ -108,6 +109,7 @@
                                     <span class="month">08</span>
                                     <b class="day">08</b>
                                 </span>
+                                <h5>한국대학원리연구회 일정1</h5>
                                 <p class="details">일정내용입력 눌렀을때 그 날에 있는 일정이 노출 됩니다</p>
                             </li>
                             <li>
@@ -115,6 +117,7 @@
                                     <span class="month">08</span>
                                     <b class="day">19</b>
                                 </span>
+                                <h5>한국대학원리연구회 일정1</h5>
                                 <p class="details">일정내용입력 눌렀을때 그 날에 있는 일정이 노출 됩니다</p>
                             </li>
                             <li>
@@ -122,6 +125,7 @@
                                     <span class="month">08</span>
                                     <b class="day">25</b>
                                 </span>
+                                <h5>한국대학원리연구회 일정1</h5>
                                 <p class="details">일정내용입력 눌렀을때 그 날에 있는 일정이 노출 됩니다</p>
                             </li>
                             <li>
@@ -129,6 +133,7 @@
                                     <span class="month">08</span>
                                     <b class="day">28</b>
                                 </span>
+                                <h5>한국대학원리연구회 일정1</h5>
                                 <p class="details">일정내용입력 눌렀을때 그 날에 있는 일정이 노출 됩니다</p>
                             </li>
                         </ul>

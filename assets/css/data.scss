@@ -196,6 +196,13 @@
             }
         }
     }
+    .btn-area {
+        margin-top: 20px;
+        @media(min-width: $sm) {
+            margin-top: 50px;
+            text-align: right;
+        }
+    }
     .paging {
         margin-top: 20px;
         @media(min-width: $sm) {

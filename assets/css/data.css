@@ -555,6 +555,12 @@ a {
     @media (min-width: 992px) {
       .common-list ul li a .details {
         padding: 20px 10px; } }
+.common-list .btn-area {
+  margin-top: 20px; }
+  @media (min-width: 768px) {
+    .common-list .btn-area {
+      margin-top: 50px;
+      text-align: right; } }
 .common-list .paging {
   margin-top: 20px; }
   @media (min-width: 768px) {
