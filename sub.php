@@ -59,7 +59,6 @@
                             <thead>
                                 <tr>
                                     <th>번호</th>
-                                    <th>분류</th>
                                     <th>제목</th>
                                     <th>작성자</th>
                                     <th>등록일</th>
@@ -69,7 +68,6 @@
                             <tbody>
                                 <tr>
                                     <td>10</td>
-                                    <td>제작문의</td>
                                     <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자! CARP특공대! 세상으로 총 진군하자!</a></td>
                                     <td>관리자</td>
                                     <td>2017-08-05</td>
@@ -77,7 +75,6 @@
                                 </tr>
                                 <tr>
                                     <td>09</td>
-                                    <td>제작문의</td>
                                     <td class="subject"><a href="#">CARP특공대! 세상으로 총 진군하자!</a></td>
                                     <td>관리자</td>
                                     <td>2017-08-05</td>
@@ -221,7 +218,7 @@
                             <form action="#">
                                 <div class="form-group">
                                     <label for="comment" class="sr-only">댓글달기</label>
-                                    <input type="text" id="comment" class="form-control" placeholder="댓글을 입력하세요.">
+                                    <textarea class="form-control"></textarea>
                                     <p class="btn-comment">
                                         <button type="submit" class="btn">확인</button>
                                     </p>

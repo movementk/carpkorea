@@ -532,51 +532,100 @@ a {
         .mission .section-content ol li div p {
           font-size: 16px; } }
 
-.ci .section-content .summary {
+.ci {
+  padding-bottom: 0; }
+  .ci .section-content .summary {
+    font-size: 12px;
+    color: #666;
+    line-height: 24px;
+    margin-bottom: 50px; }
+    @media (min-width: 768px) {
+      .ci .section-content .summary {
+        font-size: 15px;
+        line-height: 30px;
+        margin-bottom: 25px; } }
+    @media (min-width: 992px) {
+      .ci .section-content .summary {
+        font-size: 16px;
+        line-height: 34px;
+        margin-bottom: 65px; } }
+  .ci .section-content .logo-title {
+    font-size: 16px;
+    color: #02b1a0;
+    margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .ci .section-content .logo-title {
+        font-size: 20px;
+        margin-bottom: 25px; } }
+  .ci .section-content .ci-logo {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #f2f2f2;
+    background-image: url(/assets/images/carp/ci_bg.gif); }
+    @media (min-width: 992px) {
+      .ci .section-content .ci-logo {
+        margin-bottom: 0; } }
+    .ci .section-content .ci-logo .figure {
+      line-height: 236px;
+      padding: 0 40px; }
+      .ci .section-content .ci-logo .figure .img-responsive {
+        display: inline-block; }
+      @media (min-width: 768px) {
+        .ci .section-content .ci-logo .figure {
+          padding: 0;
+          line-height: 365px; } }
+    .ci .section-content .ci-logo .btn-area p ~ p {
+      margin-top: 10px; }
+    .ci .section-content .ci-logo .btn-area p .btn {
+      width: 165px; }
+      .ci .section-content .ci-logo .btn-area p .btn .icon-download {
+        margin-right: 10px; }
+    @media (min-width: 768px) {
+      .ci .section-content .ci-logo .btn-area p {
+        display: inline-block; }
+        .ci .section-content .ci-logo .btn-area p ~ p {
+          margin-top: 0;
+          margin-left: 8px; } }
+
+@media (min-width: 992px) {
+  .symbol {
+    padding-bottom: 140px; } }
+.symbol .section-header {
+  margin-top: 50px; }
+.symbol .section-content .summary {
   font-size: 12px;
   color: #666;
   line-height: 24px;
   margin-bottom: 50px; }
   @media (min-width: 768px) {
-    .ci .section-content .summary {
+    .symbol .section-content .summary {
       font-size: 15px;
       line-height: 30px;
       margin-bottom: 25px; } }
   @media (min-width: 992px) {
-    .ci .section-content .summary {
+    .symbol .section-content .summary {
       font-size: 16px;
       line-height: 34px;
       margin-bottom: 65px; } }
-.ci .section-content .ci-logo {
-  text-align: center;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  border: 1px solid #f2f2f2;
-  background-image: url(/assets/images/carp/ci_bg.gif); }
-  @media (min-width: 992px) {
-    .ci .section-content .ci-logo {
-      margin-bottom: 0; } }
-  .ci .section-content .ci-logo .figure {
-    line-height: 236px;
-    padding: 0 40px; }
-    .ci .section-content .ci-logo .figure .img-responsive {
-      display: inline-block; }
-    @media (min-width: 768px) {
-      .ci .section-content .ci-logo .figure {
-        padding: 0;
-        line-height: 365px; } }
-  .ci .section-content .ci-logo .btn-area p ~ p {
-    margin-top: 10px; }
-  .ci .section-content .ci-logo .btn-area p .btn {
-    width: 165px; }
-    .ci .section-content .ci-logo .btn-area p .btn .icon-download {
-      margin-right: 10px; }
+.symbol .section-content .logo-title {
+  font-size: 16px;
+  color: #02b1a0;
+  margin-bottom: 20px; }
+  .symbol .section-content .logo-title small {
+    font-size: 14px;
+    color: #666;
+    display: inline !important;
+    margin-left: 10px; }
   @media (min-width: 768px) {
-    .ci .section-content .ci-logo .btn-area p {
-      display: inline-block; }
-      .ci .section-content .ci-logo .btn-area p ~ p {
-        margin-top: 0;
-        margin-left: 8px; } }
+    .symbol .section-content .logo-title {
+      font-size: 20px;
+      margin-bottom: 25px; } }
+.symbol .section-content .solid-logo .figure .img-responsive {
+  margin: 0 auto; }
+@media (min-width: 992px) {
+  .symbol .section-content .solid-logo {
+    margin-bottom: 90px; } }
 
 .action100 {
   padding-bottom: 100px; }
@@ -863,47 +912,238 @@ a {
   .profile .page-header .sub-snb ul li {
     width: 1%;
     display: table-cell; }
-.profile .member .member-list {
-  margin-top: 30px;
-  margin-bottom: 60px; }
-  .profile .member .member-list .member-info {
-    text-align: center;
-    padding: 30px 0;
-    border-bottom: 1px solid #e7e7e7; }
-    .profile .member .member-list .member-info:first-child {
-      border-top: 1px solid #e7e7e7; }
-    .profile .member .member-list .member-info .member-img {
-      width: 300px;
+.profile .member {
+  padding-bottom: 110px; }
+  @media (min-width: 768px) {
+    .profile .member {
+      padding-bottom: 120px; } }
+  @media (min-width: 992px) {
+    .profile .member {
+      padding-bottom: 140px; } }
+  .profile .member .member-list {
+    margin-top: 30px;
+    margin-bottom: 60px; }
+    .profile .member .member-list .member-info {
       text-align: center;
-      margin: 0 auto;
-      border: 1px solid #e5e5e5; }
-      .profile .member .member-list .member-info .member-img p {
-        display: inline-block;
-        padding-top: 20px; }
-        .profile .member .member-list .member-info .member-img p img {
-          max-height: 170px; }
-    .profile .member .member-list .member-info .details {
-      margin-top: 35px; }
-      .profile .member .member-list .member-info .details .name {
-        font-size: 20px;
+      padding: 30px 0;
+      border-bottom: 1px solid #e7e7e7; }
+      .profile .member .member-list .member-info:first-child {
+        border-top: 1px solid #e7e7e7; }
+      .profile .member .member-list .member-info .member-img {
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        border: 1px solid #e5e5e5; }
+        .profile .member .member-list .member-info .member-img p {
+          display: inline-block;
+          padding-top: 20px; }
+          .profile .member .member-list .member-info .member-img p img {
+            max-height: 170px; }
+      .profile .member .member-list .member-info .details {
+        margin-top: 35px; }
+        .profile .member .member-list .member-info .details .name {
+          font-size: 20px;
+          color: #333;
+          margin-bottom: 10px; }
+        .profile .member .member-list .member-info .details ul li {
+          font-size: 12px;
+          color: #666;
+          line-height: 26px; }
+          .profile .member .member-list .member-info .details ul li a {
+            text-decoration: none; }
+          .profile .member .member-list .member-info .details ul li i {
+            color: #02b1a0;
+            margin-right: 5px; }
+          .profile .member .member-list .member-info .details ul li dl dt {
+            display: inline-block;
+            font-weight: 400; }
+            .profile .member .member-list .member-info .details ul li dl dt:after {
+              content: ":";
+              padding: 0 2px 0 4px; }
+          .profile .member .member-list .member-info .details ul li dl dd {
+            display: inline-block; }
+    @media (min-width: 768px) {
+      .profile .member .member-list {
+        margin-top: 40px; }
+        .profile .member .member-list .member-info {
+          padding: 30px;
+          display: table;
+          width: 100%; }
+          .profile .member .member-list .member-info .member-img {
+            width: 270px;
+            display: table-cell; }
+            .profile .member .member-list .member-info .member-img p {
+              padding-top: 8pz; }
+              .profile .member .member-list .member-info .member-img p img {
+                height: 215px; }
+          .profile .member .member-list .member-info .details {
+            display: table-cell;
+            text-align: left;
+            vertical-align: bottom;
+            padding-left: 65px; }
+            .profile .member .member-list .member-info .details .name {
+              font-size: 24px;
+              margin-bottom: 25px; }
+            .profile .member .member-list .member-info .details ul li {
+              font-size: 13px;
+              line-height: 26px; } }
+    @media (min-width: 992px) {
+      .profile .member .member-list {
+        margin-top: 65px; } }
+
+.history .page-header .sub-snb ul li {
+  width: 33.33%; }
+  .history .page-header .sub-snb ul li:nth-of-type(1) {
+    width: 50%; }
+  .history .page-header .sub-snb ul li:nth-of-type(2) {
+    width: 50%; }
+  .history .page-header .sub-snb ul li:nth-of-type(3):after {
+    border-right: 1px solid #d9d9d9; }
+  .history .page-header .sub-snb ul li:nth-of-type(4):after {
+    border-right: 1px solid #d9d9d9; }
+@media (min-width: 768px) {
+  .history .page-header .sub-snb ul {
+    display: table; }
+    .history .page-header .sub-snb ul li {
+      display: table-cell;
+      width: 1% !important; } }
+.history .section-header .page-title {
+  font-size: 20px;
+  color: #666;
+  line-height: 30px; }
+  .history .section-header .page-title i {
+    font-style: normal;
+    color: #02b1a0; }
+  @media (min-width: 768px) {
+    .history .section-header .page-title {
+      font-size: 24px;
+      line-height: 34px; } }
+.history .section-content .history-list > li {
+  position: relative;
+  padding-left: 50px;
+  padding-bottom: 35px;
+  border-left: 1px solid #02b1a0; }
+  .history .section-content .history-list > li:last-child {
+    padding-bottom: 0; }
+  .history .section-content .history-list > li:before {
+    position: absolute;
+    top: 0;
+    left: -6px;
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #02b1a0; }
+  .history .section-content .history-list > li .figure {
+    vertical-align: top;
+    text-align: center; }
+    .history .section-content .history-list > li .figure .img-responsive {
+      display: inline-block; }
+  .history .section-content .history-list > li .details {
+    margin-top: 25px; }
+    .history .section-content .history-list > li .details ul li dl {
+      position: relative; }
+      .history .section-content .history-list > li .details ul li dl dt {
+        position: absolute;
+        top: 3px;
+        left: 0;
+        font-size: 15px;
         color: #333;
         margin-bottom: 10px; }
-      .profile .member .member-list .member-info .details ul li {
+      .history .section-content .history-list > li .details ul li dl dd {
+        display: inline-block;
+        font-size: 13px;
+        color: #666;
+        line-height: 24px;
+        padding-left: 85px;
+        margin-bottom: 10px; }
+  @media (min-width: 768px) {
+    .history .section-content .history-list > li {
+      padding-left: 60px;
+      padding-bottom: 110px; }
+      .history .section-content .history-list > li .figure {
+        text-align: left;
+        padding-right: 20px; }
+      .history .section-content .history-list > li .details {
+        margin-top: 0; }
+        .history .section-content .history-list > li .details ul li dl dt {
+          font-size: 18px; }
+        .history .section-content .history-list > li .details ul li dl dd {
+          font-size: 15px;
+          line-height: 24px;
+          padding-left: 140px; } }
+  @media (min-width: 992px) {
+    .history .section-content .history-list > li {
+      padding-left: 70px; }
+      .history .section-content .history-list > li .figure {
+        padding-right: 60px; } }
+
+.location .page-header .sub-snb ul li {
+  width: 33.33%; }
+  .location .page-header .sub-snb ul li:nth-of-type(2n + 2):after {
+    border-right: 1px solid #d9d9d9; }
+  .location .page-header .sub-snb ul li:nth-of-type(3n + 3):after {
+    border: 0; }
+    @media (min-width: 768px) {
+      .location .page-header .sub-snb ul li:nth-of-type(3n + 3):after {
+        border-right: 1px solid #d9d9d9; } }
+  .location .page-header .sub-snb ul li:last-child:after {
+    border-right: 0 !important; }
+  @media (min-width: 768px) {
+    .location .page-header .sub-snb ul li {
+      width: 1%; } }
+.location section {
+  padding-bottom: 0; }
+  .location section ~ section {
+    margin-top: 60px; }
+  .location section:last-child {
+    padding-bottom: 60px; }
+    @media (min-width: 768px) {
+      .location section:last-child {
+        padding-bottom: 100px; } }
+    @media (min-width: 992px) {
+      .location section:last-child {
+        padding-bottom: 220px; } }
+  .location section .section-header {
+    margin-bottom: 10px; }
+    .location section .section-header .company-info {
+      margin-top: 15px; }
+      .location section .section-header .company-info address {
         font-size: 12px;
         color: #666;
-        line-height: 26px; }
-        .profile .member .member-list .member-info .details ul li a {
-          text-decoration: none; }
-        .profile .member .member-list .member-info .details ul li i {
-          color: #02b1a0;
-          margin-right: 5px; }
-        .profile .member .member-list .member-info .details ul li dl dt {
+        line-height: 18px; }
+      .location section .section-header .company-info ul {
+        font-size: 0; }
+        .location section .section-header .company-info ul li {
           display: inline-block;
-          font-weight: 400; }
-          .profile .member .member-list .member-info .details ul li dl dt:after {
-            content: ":";
-            padding: 0 2px 0 4px; }
-        .profile .member .member-list .member-info .details ul li dl dd {
-          display: inline-block; }
+          font-size: 12px;
+          color: #666;
+          line-height: 18px; }
+          .location section .section-header .company-info ul li:first-child {
+            margin-right: 15px; }
+    @media (min-width: 768px) {
+      .location section .section-header {
+        margin-bottom: 35px; }
+        .location section .section-header .title {
+          display: inline-block;
+          margin-right: 20px; }
+        .location section .section-header .company-info {
+          display: inline-block;
+          margin-top: 0; }
+          .location section .section-header .company-info address {
+            display: inline;
+            font-size: 14px; }
+          .location section .section-header .company-info ul {
+            display: inline-block; }
+            .location section .section-header .company-info ul li {
+              font-size: 14px; }
+              .location section .section-header .company-info ul li:first-child {
+                margin-right: 10px; } }
+  .location section .section-content .details {
+    margin-top: 15px; }
+    @media (min-width: 768px) {
+      .location section .section-content .details {
+        margin-top: 30px; } }
 
 /*# sourceMappingURL=carp.css.map */
