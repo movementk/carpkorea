@@ -35,8 +35,15 @@
     });
     
     // 목표달설 이벤트
-    $(window).on("load", function() {
-        $("#declare").addClass("on");
+    $(window).on("scroll", function() {
+		if ($(window).height() - $("#declare").position().top < $(this).scrollTop()) {
+			$("#declare").addClass("on");
+			var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',');
+			$("#declare .speech-bubble .details p i").animateNumber({
+				number: 450000,
+				numberStep: comma_separator_number_step
+			}, 5000);
+		}
     });
 
     // 파트너 슬라이더

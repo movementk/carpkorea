@@ -278,7 +278,7 @@
                                 </a>
                             </h3>
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CGq7eI7Y9Gw"></iframe>
+                                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/rKe4fdq72gk"></iframe>
                             </div>
                         </div>
                     </div>
@@ -514,6 +514,7 @@
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/jquery.bxslider/jquery.bxslider.min.js"></script>
     <script src="/assets/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="/assets/jquery.animateNumber.min.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 </html>
