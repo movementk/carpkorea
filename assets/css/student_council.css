@@ -414,4 +414,861 @@ a {
           padding-left: 15px;
           padding-right: 15px; } }
 
+.student-council .student-nav {
+  height: 374px;
+  text-align: center;
+  padding-top: 95px;
+  background-image: url(/assets/images/student_council/student_council_bg.jpg);
+  background-size: cover;
+  background-position: 50% 50%; }
+  @media (min-width: 768px) {
+    .student-council .student-nav {
+      height: 328px;
+      padding-top: 100px; } }
+  @media (min-width: 992px) {
+    .student-council .student-nav {
+      height: 541px;
+      padding-top: 190px; } }
+  .student-council .student-nav .nav-title {
+    font-size: 24px;
+    color: #fff;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 45px; }
+    .student-council .student-nav .nav-title small {
+      display: inline-block;
+      font-size: 28px;
+      color: #fff;
+      font-weight: bold;
+      margin-top: 30px; }
+    @media (min-width: 768px) {
+      .student-council .student-nav .nav-title {
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 55px; }
+        .student-council .student-nav .nav-title small {
+          font-size: 30px;
+          margin-top: 25px; } }
+    @media (min-width: 992px) {
+      .student-council .student-nav .nav-title {
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 100px; }
+        .student-council .student-nav .nav-title small {
+          font-size: 44px;
+          margin-top: 20px; } }
+  .student-council .student-nav .dropdown {
+    width: 300px;
+    margin: 0 auto; }
+    .student-council .student-nav .dropdown .btn-default {
+      position: relative;
+      width: 300px;
+      height: 48px;
+      font-size: 16px;
+      color: #02b1a0;
+      text-align: left;
+      line-height: 48px;
+      padding: 0 20px;
+      border: 2px solid #02b1a0;
+      z-index: 2; }
+      .student-council .student-nav .dropdown .btn-default .caret {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        margin-top: -2px; }
+      .student-council .student-nav .dropdown .btn-default:hover, .student-council .student-nav .dropdown .btn-default:focus {
+        opacity: 1;
+        background-color: #fff; }
+    .student-council .student-nav .dropdown .dropdown-menu {
+      z-index: 1;
+      width: 100%;
+      margin: 0;
+      margin-top: -1px;
+      padding-top: 0;
+      padding-bottom: 0;
+      border-radius: 0;
+      border: 1px solid #ccc; }
+      .student-council .student-nav .dropdown .dropdown-menu li {
+        border-bottom: 1px solid #ccc; }
+        .student-council .student-nav .dropdown .dropdown-menu li:last-child {
+          border-bottom: 0; }
+        .student-council .student-nav .dropdown .dropdown-menu li a {
+          font-size: 13px;
+          color: #666;
+          padding: 0;
+          padding-left: 20px;
+          line-height: 32px; }
+    @media (min-width: 768px) {
+      .student-council .student-nav .dropdown {
+        width: 100%; }
+        .student-council .student-nav .dropdown .btn-default {
+          display: none; }
+        .student-council .student-nav .dropdown .dropdown-menu {
+          display: table;
+          border: 0;
+          -ms-transform: skewX(-30deg);
+          /* IE 9 */
+          -webkit-transform: skewX(-30deg);
+          /* Safari */
+          transform: skewX(-30deg); }
+          .student-council .student-nav .dropdown .dropdown-menu li {
+            display: table-cell;
+            width: 14.28%;
+            text-align: center;
+            vertical-align: middle;
+            border: 0; }
+            .student-council .student-nav .dropdown .dropdown-menu li:nth-of-type(odd) a {
+              background-color: #ebebeb; }
+            .student-council .student-nav .dropdown .dropdown-menu li a {
+              display: block;
+              font-size: 14px;
+              line-height: 16px;
+              padding: 15px 0;
+              font-weight: bold;
+              background-color: #e2e2e2;
+              -webkit-transition-property: all;
+              transition-property: all;
+              -webkit-transition-duration: 0.15s;
+              transition-duration: 0.15s;
+              -webkit-transition-timing-function: linear;
+              transition-timing-function: linear;
+              -webkit-transition-delay: 0s;
+              transition-delay: 0s; }
+              .student-council .student-nav .dropdown .dropdown-menu li a.space {
+                padding: 7px 0; }
+              .student-council .student-nav .dropdown .dropdown-menu li a:hover, .student-council .student-nav .dropdown .dropdown-menu li a:focus {
+                color: #fff;
+                background-color: #02b1a0; } }
+    @media (min-width: 992px) {
+      .student-council .student-nav .dropdown .dropdown-menu li a {
+        font-size: 15px; } }
+
+section {
+  padding-bottom: 0; }
+
+.section-header {
+  text-align: center; }
+  .section-header .section-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 30px; }
+    .section-header .section-title img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 18px; }
+  .section-header hr {
+    display: block;
+    width: 50px;
+    margin: 0 auto;
+    border-top: 1px solid #02b1a0; }
+  @media (min-width: 768px) {
+    .section-header .section-title {
+      font-size: 26px;
+      margin-bottom: 40px; }
+      .section-header .section-title img {
+        margin-bottom: 20px; } }
+
+#introduct {
+  padding-bottom: 70px;
+  background-image: url(/assets/images/student_council/introduct_xs_bg.gif);
+  background-repeat: no-repeat;
+  background-position: 0 0; }
+  @media (min-width: 768px) {
+    #introduct {
+      background-image: url(/assets/images/student_council/introduct_sm_bg.gif); } }
+  @media (min-width: 1280px) {
+    #introduct {
+      background-image: url(/assets/images/student_council/introduct_lg_bg.gif);
+      background-size: cover;
+      background-position: 50% 50%; } }
+  #introduct .section-header {
+    margin: 45px 0 30px; }
+    @media (min-width: 768px) {
+      #introduct .section-header {
+        margin: 80px 0 65px; } }
+    @media (min-width: 992px) {
+      #introduct .section-header {
+        margin: 145px 0 60px; } }
+  #introduct .section-content blockquote {
+    border: 0;
+    margin: 0;
+    margin-bottom: 45px;
+    padding: 0;
+    text-align: center; }
+    #introduct .section-content blockquote p {
+      font-size: 20px;
+      color: #333;
+      line-height: 30px;
+      font-weight: 400;
+      margin-bottom: 25px;
+      font-family: 'Jeju Myeongjo', serif; }
+      #introduct .section-content blockquote p i {
+        font-style: normal;
+        color: #02b1a0; }
+    #introduct .section-content blockquote cite {
+      font-size: 12px;
+      color: #666;
+      opacity: .5; }
+    @media (min-width: 768px) {
+      #introduct .section-content blockquote {
+        margin-bottom: 60px; }
+        #introduct .section-content blockquote p {
+          font-size: 28px;
+          line-height: 44px;
+          margin-bottom: 30px; }
+        #introduct .section-content blockquote cite {
+          font-size: 14px; } }
+    @media (min-width: 768px) {
+      #introduct .section-content blockquote {
+        margin-bottom: 90px; } }
+  #introduct .section-content > div {
+    width: 300px;
+    margin: 0 auto; }
+    #introduct .section-content > div .figure {
+      margin-bottom: 20px; }
+      #introduct .section-content > div .figure .img-responsive {
+        display: block;
+        margin: 0 auto; }
+    #introduct .section-content > div .details h3 {
+      font-size: 20px;
+      margin-bottom: 20px; }
+    #introduct .section-content > div .details p {
+      font-size: 12px;
+      color: #666;
+      line-height: 24px; }
+    #introduct .section-content > div.education {
+      margin-bottom: 60px;
+      text-align: left; }
+      #introduct .section-content > div.education .details h3 {
+        color: #02b1a0; }
+    #introduct .section-content > div.chemical-atoms {
+      text-align: right; }
+      #introduct .section-content > div.chemical-atoms .details h3 {
+        color: #ff6c00; }
+    @media (min-width: 768px) {
+      #introduct .section-content > div {
+        width: 100%;
+        overflow: hidden; }
+        #introduct .section-content > div .figure {
+          width: 50%;
+          float: left;
+          display: inline-block;
+          margin: 0; }
+          #introduct .section-content > div .figure .img-responsive {
+            display: inline-block; }
+        #introduct .section-content > div .details {
+          float: left;
+          width: 50%; }
+          #introduct .section-content > div .details h3 {
+            font-size: 24px;
+            margin-bottom: 30px; }
+          #introduct .section-content > div .details p {
+            font-size: 15px;
+            line-height: 28px; }
+        #introduct .section-content > div.education {
+          margin-bottom: 96px; }
+          #introduct .section-content > div.education .figure {
+            padding-right: 10px; }
+          #introduct .section-content > div.education .details {
+            padding-top: 171px;
+            padding-left: 10px; }
+        #introduct .section-content > div.chemical-atoms .figure {
+          float: right;
+          padding-left: 10px; }
+        #introduct .section-content > div.chemical-atoms .details {
+          float: left;
+          padding-right: 10px; } }
+    @media (min-width: 1280px) {
+      #introduct .section-content > div.education {
+        margin-bottom: 60px; }
+        #introduct .section-content > div.education .figure {
+          padding-right: 30px; }
+        #introduct .section-content > div.education .details {
+          padding-left: 30px; }
+      #introduct .section-content > div.chemical-atoms .figure {
+        padding-left: 30px; }
+      #introduct .section-content > div.chemical-atoms .details {
+        padding-top: 50px;
+        padding-right: 30px; } }
+
+#mentality {
+  background-image: url(/assets/images/student_council/mentality_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%; }
+  #mentality .section-header {
+    margin: 80px 0 70px; }
+    #mentality .section-header .section-title {
+      color: #fff; }
+    @media (min-width: 992px) {
+      #mentality .section-header {
+        margin: 93px 0 114xp; } }
+  #mentality .section-content {
+    padding-bottom: 110px; }
+    @media (min-width: 768px) {
+      #mentality .section-content {
+        padding-bottom: 115px; } }
+    @media (min-width: 992px) {
+      #mentality .section-content {
+        padding-bottom: 160px; } }
+    #mentality .section-content ul li .figure {
+      text-align: center;
+      padding: 0 40px; }
+      #mentality .section-content ul li .figure .img-responsive {
+        display: inline-block; }
+    #mentality .section-content ul li .details {
+      text-align: center;
+      margin-top: 45px;
+      margin-bottom: 70px; }
+      #mentality .section-content ul li .details h3 {
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+        margin-bottom: 25px; }
+      #mentality .section-content ul li .details p {
+        font-size: 16px;
+        color: #fff;
+        line-height: 24px; }
+    #mentality .section-content ul li:last-child .details {
+      margin-bottom: 0; }
+    @media (min-width: 768px) {
+      #mentality .section-content ul li .figure {
+        padding: 0; }
+      #mentality .section-content ul li .details {
+        margin-top: 40px;
+        margin-bottom: 0; }
+        #mentality .section-content ul li .details h3 {
+          font-size: 22px; } }
+
+#council {
+  background-image: url(/assets/images/student_council/council_xs_bg.gif);
+  background-repeat: no-repeat;
+  background-position: 100% 0; }
+  @media (min-width: 768px) {
+    #council {
+      background-image: url(/assets/images/student_council/council_sm_bg.gif); } }
+  @media (min-width: 992px) {
+    #council {
+      background-image: url(/assets/images/student_council/council_lg_bg.gif); } }
+  #council .section-header {
+    margin: 60px 0 45px; }
+    #council .section-header figure {
+      margin-bottom: 80px; }
+      #council .section-header figure .img-responsive {
+        margin: 0 auto; }
+    @media (min-width: 768px) {
+      #council .section-header {
+        margin: 70px 0 50px; }
+        #council .section-header figure {
+          margin-bottom: 170px; } }
+    @media (min-width: 992px) {
+      #council .section-header {
+        margin: 100px 0 120px; } }
+  #council .section-content {
+    padding-bottom: 75px; }
+    @media (min-width: 768px) {
+      #council .section-content {
+        padding-bottom: 85px; } }
+    @media (min-width: 992px) {
+      #council .section-content {
+        padding-bottom: 110px; } }
+    #council .section-content ul li ~ li h3 {
+      margin-top: 80px; }
+      @media (min-width: 768px) {
+        #council .section-content ul li ~ li h3 {
+          margin-top: 115px; } }
+      @media (min-width: 768px) {
+        #council .section-content ul li ~ li h3 {
+          margin-top: 200px; } }
+    @media (min-width: 768px) {
+      #council .section-content ul li ~ li figure {
+        margin-top: 115px; } }
+    @media (min-width: 768px) {
+      #council .section-content ul li ~ li figure {
+        margin-top: 200px; } }
+    #council .section-content ul li .title {
+      text-align: center; }
+      #council .section-content ul li .title h3 {
+        font-size: 22px;
+        color: #444;
+        display: inline-block;
+        margin-bottom: 35px;
+        padding-left: 30px;
+        background-image: url(/assets/images/student_council/council_title_xs_bg.gif);
+        background-repeat: no-repeat; }
+      @media (min-width: 768px) {
+        #council .section-content ul li .title {
+          text-align: left; }
+          #council .section-content ul li .title h3 {
+            font-size: 22px;
+            margin-bottom: 0;
+            background-image: url(/assets/images/student_council/council_title_sm_bg.gif); } }
+    #council .section-content ul li figure .img-responsive {
+      margin: 0 auto; }
+    #council .section-content ul li figure figcaption {
+      margin: 0 auto;
+      width: 300px;
+      text-align: center; }
+      #council .section-content ul li figure figcaption h4 {
+        font-size: 16px;
+        color: #ff6c00;
+        line-height: 24px;
+        margin-top: 35px; }
+      #council .section-content ul li figure figcaption p {
+        font-size: 13px;
+        color: #444;
+        line-height: 26px;
+        margin-top: 30px; }
+    @media (min-width: 768px) {
+      #council .section-content ul li figure {
+        text-align: left; }
+        #council .section-content ul li figure .img-responsive {
+          margin: 0; }
+        #council .section-content ul li figure figcaption {
+          width: 100%;
+          text-align: left; }
+          #council .section-content ul li figure figcaption h4 {
+            font-size: 18px;
+            margin-top: 30px; }
+          #council .section-content ul li figure figcaption p {
+            font-size: 16px;
+            line-height: 26px;
+            margin-top: 40px; } }
+    @media (min-width: 992px) {
+      #council .section-content ul li figure figcaption h4 {
+        margin-top: 25px; }
+      #council .section-content ul li figure figcaption p {
+        margin-top: 20px; } }
+
+#consequence {
+  padding-bottom: 55px;
+  background-color: #f1f2ed; }
+  @media (min-width: 768px) {
+    #consequence {
+      padding-bottom: 70px; } }
+  @media (min-width: 768px) {
+    #consequence {
+      padding-bottom: 135px; } }
+  #consequence .section-header {
+    margin: 60px 0; }
+    @media (min-width: 768px) {
+      #consequence .section-header {
+        margin: 80px 0 10px; } }
+    @media (min-width: 992px) {
+      #consequence .section-header {
+        margin: 110px 0 40px; } }
+  #consequence .section-content .meaning h3 {
+    font-size: 18px;
+    color: #02b1a0;
+    margin-bottom: 34px; }
+    #consequence .section-content .meaning h3 ~ h3 {
+      margin-top: 60px; }
+  #consequence .section-content .meaning p {
+    font-size: 12px;
+    color: #444;
+    line-height: 24px; }
+  #consequence .section-content .meaning ul {
+    font-size: 0;
+    margin-top: 50px; }
+    #consequence .section-content .meaning ul li {
+      display: inline-block;
+      width: 50%;
+      text-align: center;
+      vertical-align: top;
+      margin-bottom: 55px; }
+      #consequence .section-content .meaning ul li:last-child {
+        margin-bottom: 0;
+        width: 100%; }
+      #consequence .section-content .meaning ul li figure figcaption {
+        font-size: 14px;
+        color: #333;
+        margin-top: 20px;
+        margin-top: 20px;
+        line-height: 22px; }
+  @media (min-width: 768px) {
+    #consequence .section-content .meaning {
+      padding-top: 30px;
+      background-image: url(/assets/images/student_council/meaning_sm_bg.jpg);
+      background-repeat: no-repeat;
+      background-position: 100% 0; }
+      #consequence .section-content .meaning h3 {
+        font-size: 21px;
+        margin-bottom: 30px; }
+        #consequence .section-content .meaning h3 ~ h3 {
+          margin-top: 35px; }
+      #consequence .section-content .meaning p {
+        font-size: 16px;
+        line-height: 24px; }
+      #consequence .section-content .meaning ul {
+        margin-top: 90px; }
+        #consequence .section-content .meaning ul li {
+          width: 20% !important;
+          margin-bottom: 0; } }
+  @media (min-width: 992px) {
+    #consequence .section-content .meaning {
+      padding-right: 300px; } }
+  @media (min-width: 1280px) {
+    #consequence .section-content .meaning {
+      padding-top: 40px;
+      padding-right: 440px;
+      background-image: url(/assets/images/student_council/meaning_lg_bg.jpg); } }
+
+#carp-team {
+  padding-bottom: 60px; }
+  @media (min-width: 768px) {
+    #carp-team {
+      padding-bottom: 105px; } }
+  @media (min-width: 992px) {
+    #carp-team {
+      padding-bottom: 130px; } }
+  #carp-team .section-header {
+    margin: 95px 0 45px; }
+    @media (min-width: 768px) {
+      #carp-team .section-header {
+        margin: 90px 0 65px; } }
+    @media (min-width: 992px) {
+      #carp-team .section-header {
+        margin: 135px 0 50px; } }
+  #carp-team .section-content .team-list > li {
+    text-align: center;
+    margin-bottom: 70px; }
+    #carp-team .section-content .team-list > li figure figcaption {
+      font-size: 13px;
+      color: #333;
+      line-height: 24px;
+      margin-top: 25px; }
+  #carp-team .section-content .carp-event h3 {
+    text-align: center;
+    font-size: 18px;
+    color: #5f5f5f;
+    margin-bottom: 25px; }
+    #carp-team .section-content .carp-event h3 img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 10px; }
+  #carp-team .section-content .carp-event > ul > li:nth-of-type(2n + 1) {
+    clear: both; }
+  #carp-team .section-content .carp-event > ul > li figure {
+    margin-bottom: 40px; }
+    #carp-team .section-content .carp-event > ul > li figure figcaption {
+      text-align: center; }
+      #carp-team .section-content .carp-event > ul > li figure figcaption h4 {
+        font-size: 12px;
+        color: #444;
+        font-weight: bold;
+        margin-top: 15px; }
+      #carp-team .section-content .carp-event > ul > li figure figcaption p {
+        font-size: 12px;
+        color: #444;
+        line-height: 20px;
+        margin-top: 10px; }
+  #carp-team .section-content .location h3 {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 20px; }
+  #carp-team .section-content .location h4 {
+    font-size: 15px;
+    color: #444;
+    margin: 20px 0;
+    padding-left: 28px;
+    background-image: url(/assets/images/student_council/icon_location01.gif);
+    background-repeat: no-repeat;
+    background-position: 0 50%; }
+  #carp-team .section-content .location > ul > li {
+    font-size: 13px;
+    color: #333;
+    line-height: 18px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: 0 1px; }
+    #carp-team .section-content .location > ul > li:last-child {
+      margin-bottom: 0; }
+    #carp-team .section-content .location > ul > li.addr {
+      background-image: url(/assets/images/student_council/icon_location02.gif); }
+    #carp-team .section-content .location > ul > li.tel {
+      background-image: url(/assets/images/student_council/icon_location03.gif); }
+    #carp-team .section-content .location > ul > li.fax {
+      background-image: url(/assets/images/student_council/icon_location04.gif); }
+  @media (min-width: 768px) {
+    #carp-team .section-content .team-list {
+      overflow: hidden; }
+      #carp-team .section-content .team-list > li {
+        float: left;
+        width: 33.3%;
+        margin-bottom: 60px; }
+        #carp-team .section-content .team-list > li:nth-of-type(4) {
+          width: 50%; }
+        #carp-team .section-content .team-list > li:nth-of-type(5) {
+          width: 50%; }
+        #carp-team .section-content .team-list > li figure figcaption {
+          margin-top: 35px;
+          font-size: 15px; }
+    #carp-team .section-content .carp-event {
+      margin-top: 30px; }
+      #carp-team .section-content .carp-event h3 {
+        font-size: 22px;
+        margin-bottom: 50px; }
+      #carp-team .section-content .carp-event > ul > li:nth-of-type(2n + 1) {
+        clear: none; }
+      #carp-team .section-content .carp-event > ul > li:nth-of-type(3n + 1) {
+        clear: both; }
+      #carp-team .section-content .carp-event > ul > li figure {
+        margin-bottom: 60px; }
+        #carp-team .section-content .carp-event > ul > li figure figcaption {
+          text-align: center; }
+          #carp-team .section-content .carp-event > ul > li figure figcaption h4 {
+            font-size: 16px;
+            margin-top: 20px; }
+          #carp-team .section-content .carp-event > ul > li figure figcaption p {
+            font-size: 13px;
+            line-height: 24px;
+            margin-top: 20px; }
+    #carp-team .section-content .location {
+      margin-top: 30px; }
+      #carp-team .section-content .location h3 {
+        font-size: 22px;
+        margin-bottom: 35px; }
+      #carp-team .section-content .location h4 {
+        font-size: 19px;
+        margin: 30px 0;
+        padding-left: 35px; }
+      #carp-team .section-content .location > ul > li {
+        font-size: 16px;
+        line-height: 27px;
+        padding-left: 30px;
+        margin-bottom: 0;
+        background-position: 0 50%; } }
+  @media (min-width: 1280px) {
+    #carp-team .section-content .team-list > li {
+      width: 20% !important;
+      margin-bottom: 0; }
+    #carp-team .section-content .carp-event {
+      margin-top: 80px; }
+      #carp-team .section-content .carp-event > ul > li figure {
+        margin-bottom: 70px; }
+        #carp-team .section-content .carp-event > ul > li figure figcaption {
+          text-align: center; }
+          #carp-team .section-content .carp-event > ul > li figure figcaption h4 {
+            font-size: 18px;
+            margin-top: 25px; }
+          #carp-team .section-content .carp-event > ul > li figure figcaption p {
+            font-size: 15px;
+            margin-top: 15px; }
+    #carp-team .section-content .location {
+      margin-top: 40px; }
+      #carp-team .section-content .location h3 {
+        margin-bottom: 35px; }
+      #carp-team .section-content .location h4 {
+        margin: 60px 0 25px; } }
+
+#circular-group {
+  padding-bottom: 80px;
+  background-color: #f1f2ed; }
+  @media (min-width: 768px) {
+    #circular-group {
+      padding-bottom: 100px; } }
+  @media (min-width: 992px) {
+    #circular-group {
+      padding-bottom: 140px; } }
+  #circular-group .section-header {
+    margin: 65px 0 40px; }
+    @media (min-width: 768px) {
+      #circular-group .section-header {
+        margin: 60px 0 45px; } }
+    @media (min-width: 992px) {
+      #circular-group .section-header {
+        margin: 105px 0 70px; } }
+  #circular-group .section-content > ul > li .figure {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    padding-bottom: 165px; }
+    #circular-group .section-content > ul > li .figure .details {
+      position: absolute;
+      bottom: 0;
+      left: 10px;
+      width: 280px;
+      height: 205px;
+      text-align: center;
+      padding: 30px 20px 0;
+      background-color: #fff;
+      box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1); }
+      #circular-group .section-content > ul > li .figure .details h3 {
+        font-size: 18px;
+        color: #02b1a0;
+        margin-bottom: 20px; }
+      #circular-group .section-content > ul > li .figure .details p {
+        font-size: 13px;
+        color: #333;
+        line-height: 24px; }
+  #circular-group .section-content > ul > li:last-child .figure {
+    margin-bottom: 0; }
+  @media (min-width: 768px) {
+    #circular-group .section-content > ul > li .figure {
+      width: 100%;
+      margin-bottom: 0 !important;
+      padding-bottom: 210px; }
+      #circular-group .section-content > ul > li .figure .details {
+        width: 203px;
+        height: 240px;
+        padding: 35px 10px 0; }
+        #circular-group .section-content > ul > li .figure .details h3 {
+          margin-bottom: 30px; }
+        #circular-group .section-content > ul > li .figure .details p {
+          font-size: 15px; } }
+  @media (min-width: 992px) {
+    #circular-group .section-content > ul > li .figure {
+      padding-bottom: 180px; }
+      #circular-group .section-content > ul > li .figure .details {
+        width: 273px;
+        height: 215px; } }
+  @media (min-width: 1280px) {
+    #circular-group .section-content > ul > li .figure {
+      padding-bottom: 195px; }
+      #circular-group .section-content > ul > li .figure .details {
+        left: 20px;
+        width: 330px;
+        height: 240px;
+        padding: 40px 20px 50px; }
+        #circular-group .section-content > ul > li .figure .details h3 {
+          margin-bottom: 35px; }
+        #circular-group .section-content > ul > li .figure .details p {
+          font-size: 16px;
+          text-align: left; } }
+
+#school-district {
+  padding-bottom: 125px; }
+  @media (min-width: 992px) {
+    #school-district {
+      padding-bottom: 200px; } }
+  #school-district .section-header {
+    margin: 60px 0 55px; }
+    @media (min-width: 768px) {
+      #school-district .section-header {
+        margin: 90px 0 60px; } }
+    @media (min-width: 992px) {
+      #school-district .section-header {
+        margin: 100px 0; } }
+  #school-district .section-content nav {
+    padding: 40px 0 35px;
+    background-color: #f3f3f3; }
+    #school-district .section-content nav .nav-tabs {
+      position: relative;
+      width: 179px;
+      height: 295px;
+      margin: 0 auto;
+      border: 0;
+      background-image: url(/assets/images/student_council/map_xs_select.bg.jpg);
+      background-repeat: no-repeat;
+      background-position: 0 0; }
+      #school-district .section-content nav .nav-tabs li {
+        position: absolute;
+        width: 42px;
+        height: 27px;
+        background-image: url(/assets/images/student_council/map_xs_arrow_off.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 100%;
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; }
+        #school-district .section-content nav .nav-tabs li:nth-of-type(1) {
+          top: 17px;
+          left: 47px; }
+        #school-district .section-content nav .nav-tabs li:nth-of-type(2) {
+          top: 46px;
+          left: 66px; }
+        #school-district .section-content nav .nav-tabs li:nth-of-type(3) {
+          top: 42px;
+          right: 14px; }
+        #school-district .section-content nav .nav-tabs li:nth-of-type(4) {
+          top: 72px;
+          right: 45px; }
+        #school-district .section-content nav .nav-tabs li:nth-of-type(5) {
+          top: 102px;
+          left: 72px; }
+        #school-district .section-content nav .nav-tabs li:nth-of-type(6) {
+          top: 116px;
+          right: 3px; }
+        #school-district .section-content nav .nav-tabs li:nth-of-type(7) {
+          top: 158px;
+          left: 42px; }
+        #school-district .section-content nav .nav-tabs li:hover {
+          background-image: url(/assets/images/student_council/map_xs_arrow_on.jpg); }
+          #school-district .section-content nav .nav-tabs li:hover a {
+            background-color: #ef4308; }
+        #school-district .section-content nav .nav-tabs li.active {
+          background-image: url(/assets/images/student_council/map_xs_arrow_on.jpg); }
+          #school-district .section-content nav .nav-tabs li.active a {
+            background-color: #ef4308; }
+        #school-district .section-content nav .nav-tabs li a {
+          display: block;
+          width: 100%;
+          height: 22px;
+          line-height: 22px;
+          text-align: center;
+          font-size: 10px;
+          color: #fff;
+          border: 0;
+          margin: 0;
+          padding: 0;
+          border-radius: 0;
+          background-color: #8e8b8b;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; }
+    @media (min-width: 768px) {
+      #school-district .section-content nav {
+        padding: 52px 0; }
+        #school-district .section-content nav .nav-tabs {
+          width: 248px;
+          height: 366px;
+          background-image: url(/assets/images/student_council/map_lg_select.bg.jpg); }
+          #school-district .section-content nav .nav-tabs li {
+            width: 58px;
+            height: 35px;
+            padding-bottom: 7px;
+            background-image: url(/assets/images/student_council/map_lg_arrow_off.jpg); }
+            #school-district .section-content nav .nav-tabs li a {
+              width: 58px;
+              height: 28px;
+              font-size: 15px;
+              line-height: 28px; }
+            #school-district .section-content nav .nav-tabs li:nth-of-type(1) {
+              top: 24px;
+              left: 64px; }
+            #school-district .section-content nav .nav-tabs li:nth-of-type(2) {
+              top: 64px;
+              left: 91px; }
+            #school-district .section-content nav .nav-tabs li:nth-of-type(3) {
+              top: 58px;
+              right: 21px; }
+            #school-district .section-content nav .nav-tabs li:nth-of-type(4) {
+              top: 99px;
+              right: 63px; }
+            #school-district .section-content nav .nav-tabs li:nth-of-type(5) {
+              top: 141px;
+              left: 99px; }
+            #school-district .section-content nav .nav-tabs li:nth-of-type(6) {
+              top: 160px;
+              right: 5px; }
+            #school-district .section-content nav .nav-tabs li:nth-of-type(7) {
+              top: 219px;
+              left: 58px; }
+            #school-district .section-content nav .nav-tabs li:hover {
+              background-image: url(/assets/images/student_council/map_lg_arrow_on.jpg); }
+            #school-district .section-content nav .nav-tabs li.active {
+              background-image: url(/assets/images/student_council/map_lg_arrow_on.jpg); } }
+
 /*# sourceMappingURL=student_council.css.map */
