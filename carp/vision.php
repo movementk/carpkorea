@@ -29,7 +29,7 @@
                 </div>
                 <div class="section-content">
                     <h5 class="page-summary">
-                        우리의 바른 자세와 <i>봉사·희생의 실천</i>으로 전 인류에게 희망을 주고,<br class="hidden-xs"> 서기 2000년대를 향한 새 시대의 새벽을 여는 <i>새 문화 창건의 기수</i>i>가 됩니다
+                        우리의 바른 자세와 <i>봉사·희생의 실천</i>으로 전 인류에게 희망을 주고,<br class="hidden-xs"> 서기 2000년대를 향한 새 시대의 새벽을 여는 <i>새 문화 창건의 기수</i>가 됩니다
                     </h5>
                     <figure>
                         <img src="/assets/images/carp/vision_xs_img.jpg" class="img-responsive visible-xs" alt="">

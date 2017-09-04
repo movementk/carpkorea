@@ -11,7 +11,7 @@
         <div class="page-header">
             <h2 class="header-title">CARP</h2>
             <div class="container">
-                <h3 class="page-title">조직도</h3>
+                <h3 class="page-title">오시는</h3>
                 <nav class="sub-snb">
                     <ul>
                         <li class="active"><a href="#">서울</a></li>

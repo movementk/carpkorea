@@ -1,1 +1,1199 @@
 @import "common";
+
+.student-council {
+    .student-nav {
+        height: 374px;
+        text-align: center;
+        padding-top: 95px;
+        background-image: url(/assets/images/student_council/student_council_bg.jpg);
+        background-size: cover;
+        background-position: 50% 50%;
+        @media(min-width: $sm) {
+            height: 328px;
+            padding-top: 100px;
+        }
+        @media(min-width: $md) {
+            height: 541px;
+            padding-top: 190px;
+        }
+        .nav-title {
+            font-size: 24px;
+            color: #fff;
+            line-height: 30px;
+            font-weight: bold;
+            margin-bottom: 45px;
+            small {
+                display: inline-block;
+                font-size: 28px;
+                color: #fff;
+                font-weight: bold;
+                margin-top: 30px;
+            }
+            @media(min-width: $sm) {
+                font-size: 32px;
+                line-height: 32px;
+                margin-bottom: 55px;
+                small {
+                    font-size: 30px;
+                    margin-top: 25px;
+                }
+            }
+            @media(min-width: $md) {
+                font-size: 48px;
+                line-height: 48px;
+                margin-bottom: 100px;
+                small {
+                    font-size: 44px;
+                    margin-top: 20px;
+                }
+            }
+        }
+        .dropdown {
+            width: 300px;
+            margin: 0 auto;
+            .btn-default {
+                position: relative;
+                width: 300px;
+                height: 48px;
+                font-size: 16px;
+                color: $kcolor;
+                text-align: left;
+                line-height: 48px;
+                padding: 0 20px;
+                border: 2px solid $kcolor;
+                z-index: 2;
+                .caret {
+                    position: absolute;
+                    top: 50%;
+                    right: 20px;
+                    margin-top: -2px;
+                }
+                &:hover, &:focus {
+                    opacity: 1;
+                    background-color: #fff;
+                }
+            }
+            .dropdown-menu {
+                z-index: 1;
+                width: 100%;
+                margin: 0;
+                margin-top: -1px;
+                padding-top: 0;
+                padding-bottom: 0;
+                border-radius: 0;
+                border: 1px solid #ccc;
+                li {
+                    border-bottom: 1px solid #ccc;
+                    &:last-child {
+                        border-bottom: 0;
+                    }
+                    a {
+                        font-size: 13px;
+                        color: #666;
+                        padding: 0;
+                        padding-left: 20px;
+                        line-height: 32px;
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                width: 100%;
+                .btn-default {
+                    display: none;
+                }
+                .dropdown-menu {
+                    display: table;
+                    border: 0;
+                    
+                    -ms-transform: skewX(-30deg); /* IE 9 */
+                    -webkit-transform: skewX(-30deg); /* Safari */
+                    transform: skewX(-30deg);
+                    
+                    li {
+                        display: table-cell;
+                        width: 14.28%;
+                        text-align: center;
+                        vertical-align: middle;
+                        border: 0;
+                        &:nth-of-type(odd) {
+                            a {
+                                background-color: #ebebeb;
+                            }
+                        }
+                        a {
+                            display: block;
+                            font-size: 14px;
+                            line-height: 16px;
+                            padding: 15px 0;
+                            font-weight: bold;
+                            background-color: #e2e2e2;
+                            
+//                            -ms-transform: skewX(30deg); /* IE 9 */
+//                            -webkit-transform: skewX(30deg); /* Safari */
+//                            transform: skewX(30deg);
+                            
+                            @include transition();
+                            &.space {
+                                padding: 7px 0;
+                            }
+                            &:hover, &:focus {
+                                color: #fff;
+                                background-color: $kcolor;
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                .dropdown-menu {
+                    li {
+                        a {
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+section {
+    padding-bottom: 0;
+}
+.section-header {
+    text-align: center;
+    .section-title {
+        font-size: 20px;
+        color: #333;
+        margin-bottom: 30px;
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 18px;
+        }
+    }
+    hr {
+        display: block;
+        width: 50px;
+        margin: 0 auto;
+        border-top: 1px solid $kcolor;
+    }
+    @media(min-width: $sm) {
+        .section-title {
+            font-size: 26px;
+            margin-bottom: 40px;
+            img {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+//전국학생회 소개
+#introduct {
+    padding-bottom: 70px;
+    background-image: url(/assets/images/student_council/introduct_xs_bg.gif);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    @media(min-width: $sm) {
+        background-image: url(/assets/images/student_council/introduct_sm_bg.gif);
+    }
+    @media(min-width: $lg) {
+        background-image: url(/assets/images/student_council/introduct_lg_bg.gif);
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .section-header {
+        margin: 45px 0 30px;
+        @media(min-width: $sm) {
+            margin: 80px 0 65px;
+        }
+        @media(min-width: $md) {
+            margin: 145px 0 60px;
+        }
+    }
+    .section-content {
+        blockquote {
+            border: 0;
+            margin: 0;
+            margin-bottom: 45px;
+            padding: 0;
+            text-align: center;
+            p {
+                font-size: 20px;
+                color: #333;
+                line-height: 30px;
+                font-weight: 400;
+                margin-bottom: 25px;
+                @include jjmj();
+                i {
+                    font-style: normal;
+                    color: $kcolor;
+                }
+            }
+            cite {
+                font-size: 12px;
+                color: #666;
+                opacity: .5;
+            }
+            @media(min-width: $sm) {
+                margin-bottom: 60px;
+                p {
+                    font-size: 28px;
+                    line-height: 44px;
+                    margin-bottom: 30px;
+                }
+                cite {
+                    font-size: 14px;
+                }
+            }
+            @media(min-width: $sm) {
+                margin-bottom: 90px;
+            }
+        }
+        > div {
+            width: 300px;
+            margin: 0 auto;
+            .figure {
+                margin-bottom: 20px;
+                .img-responsive {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+            .details {
+                h3 {
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
+                p {
+                    font-size: 12px;
+                    color: #666;
+                    line-height: 24px;
+                }
+            }
+            &.education {
+                margin-bottom: 60px;
+                text-align: left;
+                .details {
+                    h3 {
+                        color: $kcolor;
+                    }
+                }
+            }
+            &.chemical-atoms {
+                text-align: right;
+                .details {
+                    h3 {
+                        color: #ff6c00;
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                width: 100%;
+                overflow: hidden;
+                .figure {
+                    width: 50%;
+                    float: left;
+                    display: inline-block;
+                    margin: 0;
+                    .img-responsive {
+                        display: inline-block;
+                    }
+                }
+                .details {
+                    float: left;
+                    width: 50%;
+                    h3 {
+                        font-size: 24px;
+                        margin-bottom: 30px;
+                    }
+                    p {
+                        font-size: 15px;
+                        line-height: 28px;
+                    }
+                }
+                &.education {
+                    margin-bottom: 96px;
+                    .figure {
+                        padding-right: 10px;
+                    }
+                    .details {
+                        padding-top: 171px;
+                        padding-left: 10px;
+                    }
+                }
+                &.chemical-atoms {
+                    .figure {
+                        float: right;
+                        padding-left: 10px;
+                    }
+                    .details {
+                        float: left;
+                        padding-right: 10px;
+                    }
+                }
+            }
+            @media(min-width: $lg) {
+                &.education {
+                    margin-bottom: 60px;
+                    .figure {
+                        padding-right: 30px;
+                    }
+                    .details {
+                        padding-left: 30px;
+                    }
+                }
+                &.chemical-atoms {
+                    .figure {
+                        padding-left: 30px;
+                    }
+                    .details {
+                        padding-top: 50px;
+                        padding-right: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//한국대학원리연구회 3대 정신
+#mentality {
+    background-image: url(/assets/images/student_council/mentality_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    .section-header {
+        margin: 80px 0 70px;
+        .section-title {
+            color: #fff;
+        }
+        @media(min-width: $md) {
+            margin: 93px 0 114xp;
+        }
+    }
+    .section-content {
+        padding-bottom: 110px;
+        @media(min-width: $sm) {
+            padding-bottom: 115px;
+        }
+        @media(min-width: $md) {
+            padding-bottom: 160px;
+        }
+        ul {
+            li {
+                .figure {
+                    text-align: center;
+                    padding: 0 40px;
+                    .img-responsive {
+                        display: inline-block;
+                    }
+                }
+                .details {
+                    text-align: center;
+                    margin-top: 45px;
+                    margin-bottom: 70px;
+                    h3 {
+                        font-size: 20px;
+                        color: #fff;
+                        font-weight: bold;
+                        margin-bottom: 25px;
+                    }
+                    p {
+                        font-size: 16px;
+                        color: #fff;
+                        line-height: 24px;
+                    }
+                }
+                &:last-child {
+                    .details {
+                        margin-bottom: 0;
+                    }
+                }
+                @media(min-width: $sm) {
+                    .figure {
+                        padding: 0;
+                    }
+                    .details {
+                        margin-top: 40px;
+                        margin-bottom: 0;
+                        h3 {
+                            font-size: 22px;
+                        }
+                        p {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//중앙학생회
+#council {
+    background-image: url(/assets/images/student_council/council_xs_bg.gif);
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    @media(min-width: $sm) {
+        background-image: url(/assets/images/student_council/council_sm_bg.gif);
+    }
+    @media(min-width: $md) {
+        background-image: url(/assets/images/student_council/council_lg_bg.gif);
+    }
+    .section-header {
+        margin: 60px 0 45px;
+        figure {
+            margin-bottom: 80px;
+            .img-responsive {
+                margin: 0 auto;
+            }
+        }
+        @media(min-width: $sm) {
+            margin: 70px 0 50px;
+            figure {
+                margin-bottom: 170px;
+            }
+        }
+        @media(min-width: $md) {
+            margin: 100px 0 120px;
+        }
+    }
+    .section-content {
+        padding-bottom: 75px;
+        @media(min-width: $sm) {
+            padding-bottom: 85px;
+        }
+        @media(min-width: $md) {
+            padding-bottom: 110px;
+        }
+        ul {
+            li {
+                ~ li {
+                    h3 {
+                        margin-top: 80px;
+                        @media(min-width: $sm) {
+                            margin-top: 115px;
+                        }
+                        @media(min-width: $sm) {
+                            margin-top: 200px;
+                        }
+                    }
+                    figure {
+                        @media(min-width: $sm) {
+                            margin-top: 115px;
+                        }
+                        @media(min-width: $sm) {
+                            margin-top: 200px;
+                        }
+                    }
+                }
+                .title {
+                    text-align: center;
+                    h3 {
+                        font-size: 22px;
+                        color: #444;
+                        display: inline-block;
+                        margin-bottom: 35px;
+                        padding-left: 30px;
+                        background-image: url(/assets/images/student_council/council_title_xs_bg.gif);
+                        background-repeat: no-repeat;
+                    }
+                    @media(min-width: $sm) {
+                        text-align: left;
+                        h3 {
+                            font-size: 22px;
+                            margin-bottom: 0;
+                            background-image: url(/assets/images/student_council/council_title_sm_bg.gif);
+                        }
+                    }
+                }
+                figure {
+                    .img-responsive {
+                        margin: 0 auto;
+                    }
+                    figcaption {
+                        margin: 0 auto;
+                        width: 300px;
+                        text-align: center;
+                        h4 {
+                            font-size: 16px;
+                            color: #ff6c00;
+                            line-height: 24px;
+                            margin-top: 35px;
+                        }
+                        p {
+                            font-size: 13px;
+                            color: #444;
+                            line-height: 26px;
+                            margin-top: 30px;
+                        }
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                li {
+                    figure {
+                        text-align: left;
+                        .img-responsive {
+                            margin: 0;
+                        }
+                        figcaption {
+                            width: 100%;
+                            text-align: left;
+                            h4 {
+                                font-size: 18px;
+                                margin-top: 30px;
+                            }
+                            p {
+                                font-size: 16px;
+                                line-height: 26px;
+                                margin-top: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                li {
+                    figure {
+                        figcaption {
+                            h4 {
+                                margin-top: 25px;
+                            }
+                            p {
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }    
+            }
+        }
+    }
+}
+
+//CARP 창립 51주년
+#consequence {
+    padding-bottom: 55px;
+    background-color: #f1f2ed;
+    @media(min-width: $sm) {
+        padding-bottom: 70px;
+    }
+    @media(min-width: $sm) {
+        padding-bottom: 135px;
+    }
+    .section-header {
+        margin: 60px 0;
+        @media(min-width: $sm) {
+            margin: 80px 0 10px;
+        }
+        @media(min-width: $md) {
+            margin: 110px 0 40px;
+        }
+    }
+    .section-content {
+        .meaning {
+            h3 {
+                font-size: 18px;
+                color: $kcolor;
+                margin-bottom: 34px;
+                ~ h3 {
+                    margin-top: 60px;
+                }
+            }
+            p {
+                font-size: 12px;
+                color: #444;
+                line-height: 24px;
+            }
+            ul {
+                font-size: 0;
+                margin-top: 50px;
+                li {
+                    display: inline-block;
+                    width: 50%;
+                    text-align: center;
+                    vertical-align: top;
+                    margin-bottom: 55px;
+                    &:last-child {
+                        margin-bottom: 0;
+                        width: 100%;
+                    }
+                    figure {
+                        figcaption {
+                            font-size: 14px;
+                            color: #333;
+                            margin-top: 20px;
+                            margin-top: 20px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                padding-top: 30px;
+                background-image: url(/assets/images/student_council/meaning_sm_bg.jpg);
+                background-repeat: no-repeat;
+                background-position: 100% 0;
+                h3 {
+                    font-size: 21px;
+                    margin-bottom: 30px;
+                    ~ h3 {
+                        margin-top: 35px;
+                    }
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+                ul {
+                    margin-top: 90px;
+                    li {
+                        width: 20% !important;
+                        margin-bottom: 0;
+                    }
+                }
+            }
+            @media(min-width: $md) {
+                padding-right: 300px;
+            }
+            @media(min-width: $lg) {
+                padding-top: 40px;
+                padding-right: 440px;
+                background-image: url(/assets/images/student_council/meaning_lg_bg.jpg);
+            }
+        }
+    }
+}
+
+//팀별 소개
+#carp-team {
+    padding-bottom: 60px;
+    @media(min-width: $sm) {
+        padding-bottom: 105px;
+    }
+    @media(min-width: $md) {
+        padding-bottom: 130px;
+    }
+    .section-header {
+        margin: 95px 0 45px;
+        @media(min-width: $sm) {
+            margin: 90px 0 65px;
+        }
+        @media(min-width: $md) {
+            margin: 135px 0 50px;
+        }
+    }
+    .section-content {
+        .team-list {
+            > li {
+                text-align: center;
+                margin-bottom: 70px;
+                figure {
+                    figcaption {
+                        font-size: 13px;
+                        color: #333;
+                        line-height: 24px;
+                        margin-top: 25px;
+                    }
+                }
+            }
+        }
+        .carp-event {
+            h3 {
+                text-align: center;
+                font-size: 18px;
+                color: #5f5f5f;
+                margin-bottom: 25px;
+                img {
+                    display: block;
+                    margin: 0 auto;
+                    margin-bottom: 10px;
+                }
+            }
+            > ul {
+                > li {
+                    &:nth-of-type(2n + 1) {
+                        clear: both;
+                    }
+                    figure {
+                        margin-bottom: 40px;
+                        figcaption {
+                            text-align: center;
+                            h4 {
+                                font-size: 12px;
+                                color: #444;
+                                font-weight: bold;
+                                margin-top: 15px;
+                            }
+                            p {
+                                font-size: 12px;
+                                color: #444;
+                                line-height: 20px;
+                                margin-top: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .location {
+            h3 {
+                font-size: 16px;
+                color: #444;
+                margin-bottom: 20px;
+            }
+            h4 {
+                font-size: 15px;
+                color: #444;
+                margin: 20px 0;
+                padding-left: 28px;
+                background-image: url(/assets/images/student_council/icon_location01.gif);
+                background-repeat: no-repeat;
+                background-position: 0 50%;
+            }
+            > ul {
+                > li {
+                    font-size: 13px;
+                    color: #333;
+                    line-height: 18px;
+                    padding-left: 25px;
+                    margin-bottom: 10px;
+                    background-repeat: no-repeat;
+                    background-position: 0 1px;
+                    &:last-child {
+                        margin-bottom: 0;
+                    }
+                    &.addr {
+                        background-image: url(/assets/images/student_council/icon_location02.gif);
+                    }
+                    &.tel {
+                        background-image: url(/assets/images/student_council/icon_location03.gif);
+                    }
+                    &.fax {
+                        background-image: url(/assets/images/student_council/icon_location04.gif);
+                    }
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            .team-list {
+                overflow: hidden;
+                > li {
+                    float: left;
+                    width: 33.3%;
+                    margin-bottom: 60px;
+                    &:nth-of-type(4) {
+                        width: 50%;
+                    }
+                    &:nth-of-type(5) {
+                        width: 50%;
+                    }
+                    figure {
+                        figcaption {
+                            margin-top: 35px;
+                            font-size: 15px;
+                        }
+                    }
+                }
+            }
+            .carp-event {
+                margin-top: 30px;
+                h3 {
+                    font-size: 22px;
+                    margin-bottom: 50px;
+                }
+                > ul {
+                    > li {
+                        &:nth-of-type(2n + 1) {
+                            clear: none;
+                        }
+                        &:nth-of-type(3n + 1) {
+                            clear: both;
+                        }
+                        figure {
+                            margin-bottom: 60px;
+                            figcaption {
+                                text-align: center;
+                                h4 {
+                                    font-size: 16px;
+                                    margin-top: 20px;
+                                }
+                                p {
+                                    font-size: 13px;
+                                    line-height: 24px;
+                                    margin-top: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .location {
+                margin-top: 30px;
+                h3 {
+                    font-size: 22px;
+                    margin-bottom: 35px;
+                }
+                h4 {
+                    font-size: 19px;
+                    margin: 30px 0;
+                    padding-left: 35px;
+                }
+                > ul {
+                    > li {
+                        font-size: 16px;
+                        line-height: 27px;
+                        padding-left: 30px;
+                        margin-bottom: 0;
+                        background-position: 0 50%;
+                    }
+                }
+            }
+        }
+        @media(min-width: $lg) {
+            .team-list {
+                > li {
+                    width: 20% !important;
+                    margin-bottom: 0;
+                }
+            }
+            .carp-event {
+                margin-top: 80px;
+                > ul {
+                    > li {
+                        figure {
+                            margin-bottom: 70px;
+                            figcaption {
+                                text-align: center;
+                                h4 {
+                                    font-size: 18px;
+                                    margin-top: 25px;
+                                }
+                                p {
+                                    font-size: 15px;
+                                    margin-top: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .location {
+                margin-top: 40px;
+                h3 {
+                    margin-bottom: 35px;
+                }
+                h4 {
+                    margin: 60px 0 25px;
+                }
+            }
+        }
+    }
+}
+
+//전국회장단
+#circular-group {
+    padding-bottom: 80px;
+    background-color: #f1f2ed;
+    @media(min-width: $sm) {
+        padding-bottom: 100px;
+    }
+    @media(min-width: $md) {
+        padding-bottom: 140px;
+    }
+    .section-header {
+        margin: 65px 0 40px;
+        @media(min-width: $sm) {
+            margin: 60px 0 45px;
+        }
+        @media(min-width: $md) {
+            margin: 105px 0 70px;
+        }
+    }
+    .section-content {
+        > ul {
+            > li {
+                .figure {
+                    position: relative;
+                    width: 300px;
+                    margin: 0 auto;
+                    margin-bottom: 60px;
+                    padding-bottom: 165px;
+                    .details {
+                        position: absolute;
+                        bottom: 0;
+                        left: 10px;
+                        width: 280px;
+                        height: 205px;
+                        text-align: center;
+                        padding: 30px 20px 0;
+                        background-color: #fff;
+                        box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1);
+                        h3 {
+                            font-size: 18px;
+                            color: $kcolor;
+                            margin-bottom: 20px;
+                        }
+                        p {
+                            font-size: 13px;
+                            color: #333;
+                            line-height: 24px;
+                        }
+                    }
+                }
+                &:last-child {
+                    .figure {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            > ul {
+                > li {
+                    .figure {
+                        width: 100%;
+                        margin-bottom: 0 !important;
+                        padding-bottom: 210px;
+                        .details {
+                            width: 203px;
+                            height: 240px;
+                            padding: 35px 10px 0;
+                            h3 {
+                                margin-bottom: 30px;
+                            }
+                            p {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $md) {
+            > ul {
+                > li {
+                    .figure {
+                        padding-bottom: 180px;
+                        .details {
+                            width: 273px;
+                            height: 215px;
+                        }
+                    }
+                }
+            }
+        }
+        @media(min-width: $lg) {
+            > ul {
+                > li {
+                    .figure {
+                        padding-bottom: 195px;
+                        .details {
+                            left: 20px;
+                            width: 330px;
+                            height: 240px;
+                            padding: 40px 20px 50px;
+                            h3 {
+                                margin-bottom: 35px;
+                            }
+                            p {
+                                font-size: 16px;
+                                text-align: left;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//학군 학사 지회
+#school-district {
+    padding-bottom: 125px;
+    @media(min-width: $md) {
+        padding-bottom: 200px;
+    }
+    .section-header {
+        margin: 60px 0 55px;
+        @media(min-width: $sm) {
+            margin: 90px 0 60px;
+        }
+        @media(min-width: $md) {
+            margin: 100px 0;
+        }
+    }
+    .section-content {
+        nav {
+            padding: 40px 0 35px;
+            background-color: #f3f3f3;
+            .nav-tabs {
+                position: relative;
+                width: 179px;
+                height: 295px;
+                margin: 0 auto;
+                border: 0;
+                background-image: url(/assets/images/student_council/map_xs_select.bg.jpg);
+                background-repeat: no-repeat;
+                background-position: 0 0;
+                li {
+                    position: absolute;
+                    width: 42px;
+                    height: 27px;
+                    background-image: url(/assets/images/student_council/map_xs_arrow_off.jpg);
+                    background-repeat: no-repeat;
+                    background-position: 50% 100%;
+                    @include transition();
+                    &:nth-of-type(1) {
+                        top: 17px;
+                        left: 47px;
+                    }
+                    &:nth-of-type(2) {
+                        top: 46px;
+                        left: 66px;
+                    }
+                    &:nth-of-type(3) {
+                        top: 42px;
+                        right: 14px;
+                    }
+                    &:nth-of-type(4) {
+                        top: 72px;
+                        right: 45px;
+                    }
+                    &:nth-of-type(5) {
+                        top: 102px;
+                        left: 72px;
+                    }
+                    &:nth-of-type(6) {
+                        top: 116px;
+                        right: 3px;
+                    }
+                    &:nth-of-type(7) {
+                        top: 158px;
+                        left: 42px;
+                    }
+                    &:hover {
+                        background-image: url(/assets/images/student_council/map_xs_arrow_on.jpg);
+                        a {
+                            background-color: #ef4308;
+                        }
+                    }
+                    &.active {
+                        background-image: url(/assets/images/student_council/map_xs_arrow_on.jpg);
+                        a {
+                            background-color: #ef4308;
+                        }
+                    }
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 22px;
+                        line-height: 22px;
+                        text-align: center;
+                        font-size: 10px;
+                        color: #fff;
+                        border: 0;
+                        margin: 0;
+                        padding: 0;
+                        border-radius: 0;
+                        background-color: #8e8b8b;
+                        @include transition();
+                    }
+                }
+            }
+            @media(min-width: $sm) {
+                padding: 52px 0;
+                .nav-tabs {
+                    width: 248px;
+                    height: 366px;
+                    background-image: url(/assets/images/student_council/map_lg_select.bg.jpg);
+                    li {
+                        width: 58px;
+                        height: 35px;
+                        padding-bottom: 7px;
+                        background-image: url(/assets/images/student_council/map_lg_arrow_off.jpg);
+                        a {
+                            width: 58px;
+                            height: 28px;
+                            font-size: 15px;
+                            line-height: 28px;
+                        }
+                        &:nth-of-type(1) {
+                            top: 24px;
+                            left: 64px;
+                        }
+                        &:nth-of-type(2) {
+                            top: 64px;
+                            left: 91px;
+                        }
+                        &:nth-of-type(3) {
+                            top: 58px;
+                            right: 21px;
+                        }
+                        &:nth-of-type(4) {
+                            top: 99px;
+                            right: 63px;
+                        }
+                        &:nth-of-type(5) {
+                            top: 141px;
+                            left: 99px;
+                        }
+                        &:nth-of-type(6) {
+                            top: 160px;
+                            right: 5px;
+                        }
+                        &:nth-of-type(7) {
+                            top: 219px;
+                            left: 58px;
+                        }
+                        &:hover {
+                            background-image: url(/assets/images/student_council/map_lg_arrow_on.jpg);
+                        }
+                        &.active {
+                            background-image: url(/assets/images/student_council/map_lg_arrow_on.jpg);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
