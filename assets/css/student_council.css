@@ -506,11 +506,7 @@ a {
         .student-council .student-nav .dropdown .dropdown-menu {
           display: table;
           border: 0;
-          -ms-transform: skewX(-30deg);
-          /* IE 9 */
-          -webkit-transform: skewX(-30deg);
-          /* Safari */
-          transform: skewX(-30deg); }
+          background-color: transparent; }
           .student-council .student-nav .dropdown .dropdown-menu li {
             display: table-cell;
             width: 14.28%;
@@ -524,8 +520,14 @@ a {
               font-size: 14px;
               line-height: 16px;
               padding: 15px 0;
-              font-weight: bold;
+              margin-left: -1px;
+              font-weight: 400;
               background-color: #e2e2e2;
+              -ms-transform: skewX(-30deg);
+              /* IE 9 */
+              -webkit-transform: skewX(-30deg);
+              /* Safari */
+              transform: skewX(-30deg);
               -webkit-transition-property: all;
               transition-property: all;
               -webkit-transition-duration: 0.15s;
@@ -534,6 +536,13 @@ a {
               transition-timing-function: linear;
               -webkit-transition-delay: 0s;
               transition-delay: 0s; }
+              .student-council .student-nav .dropdown .dropdown-menu li a span {
+                display: block;
+                -ms-transform: skewX(30deg);
+                /* IE 9 */
+                -webkit-transform: skewX(30deg);
+                /* Safari */
+                transform: skewX(30deg); }
               .student-council .student-nav .dropdown .dropdown-menu li a.space {
                 padding: 7px 0; }
               .student-council .student-nav .dropdown .dropdown-menu li a:hover, .student-council .student-nav .dropdown .dropdown-menu li a:focus {
@@ -1270,5 +1279,119 @@ section {
               background-image: url(/assets/images/student_council/map_lg_arrow_on.jpg); }
             #school-district .section-content nav .nav-tabs li.active {
               background-image: url(/assets/images/student_council/map_lg_arrow_on.jpg); } }
+  #school-district .section-content .tab-content {
+    margin-top: 40px; }
+    #school-district .section-content .tab-content .tab-pane .content-title {
+      font-size: 18px;
+      color: #02b1a0;
+      padding-bottom: 40px;
+      border-bottom: 1px solid #dbdbdb; }
+      #school-district .section-content .tab-content .tab-pane .content-title small {
+        display: block;
+        font-size: 12px;
+        color: #444;
+        margin-top: 15px; }
+    #school-district .section-content .tab-content .tab-pane .content-body {
+      padding: 30px 0;
+      margin-bottom: 45px;
+      border-bottom: 1px solid #dbdbdb; }
+      #school-district .section-content .tab-content .tab-pane .content-body ul li {
+        padding-bottom: 30px; }
+        #school-district .section-content .tab-content .tab-pane .content-body ul li:last-child {
+          padding-bottom: 0; }
+        #school-district .section-content .tab-content .tab-pane .content-body ul li h4 {
+          font-size: 16px;
+          color: #444; }
+          #school-district .section-content .tab-content .tab-pane .content-body ul li h4:before {
+            content: "\E811";
+            color: #f36c21;
+            font-family: "fontello";
+            margin-right: 10px; }
+        #school-district .section-content .tab-content .tab-pane .content-body ul li dl {
+          margin-top: 20px; }
+          #school-district .section-content .tab-content .tab-pane .content-body ul li dl dt {
+            font-size: 12px;
+            color: #444;
+            font-weight: 400;
+            line-height: 20px; }
+          #school-district .section-content .tab-content .tab-pane .content-body ul li dl dd {
+            font-size: 12px;
+            color: #444;
+            font-weight: 400;
+            line-height: 20px; }
+    @media (min-width: 768px) {
+      #school-district .section-content .tab-content {
+        margin-top: 60px; }
+        #school-district .section-content .tab-content .tab-pane .content-title {
+          font-size: 21px;
+          padding-bottom: 30px; }
+          #school-district .section-content .tab-content .tab-pane .content-title small {
+            display: inline-block;
+            font-size: 14px;
+            margin-left: 20px; }
+        #school-district .section-content .tab-content .tab-pane .content-body {
+          padding-bottom: 40px;
+          margin-bottom: 75px; }
+          #school-district .section-content .tab-content .tab-pane .content-body ul li {
+            padding-bottom: 45px; }
+            #school-district .section-content .tab-content .tab-pane .content-body ul li h4 {
+              font-size: 18px; }
+            #school-district .section-content .tab-content .tab-pane .content-body ul li dl {
+              margin-top: 25px; }
+              #school-district .section-content .tab-content .tab-pane .content-body ul li dl dt {
+                font-size: 15px;
+                line-height: 24px; }
+              #school-district .section-content .tab-content .tab-pane .content-body ul li dl dd {
+                font-size: 15px;
+                line-height: 24px; } }
+    @media (min-width: 992px) {
+      #school-district .section-content .tab-content .content-body {
+        margin-bottom: 105px; }
+        #school-district .section-content .tab-content .content-body ul li h4 {
+          font-size: 18px; }
+        #school-district .section-content .tab-content .content-body ul li dl dt {
+          font-size: 16px; }
+        #school-district .section-content .tab-content .content-body ul li dl dd {
+          font-size: 16px; } }
+  #school-district .section-content .btn-area p ~ p {
+    margin-top: 10px; }
+  #school-district .section-content .btn-area p .btn {
+    width: 300px;
+    height: 45px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 45px;
+    border-radius: 25px; }
+    #school-district .section-content .btn-area p .btn i {
+      display: inline-block;
+      background-repeat: no-repeat; }
+    #school-district .section-content .btn-area p .btn.btn-facebook {
+      background-color: #3a589e; }
+      #school-district .section-content .btn-area p .btn.btn-facebook .facebook {
+        position: relative;
+        top: 5px;
+        width: 11px;
+        height: 21px;
+        margin-right: 10px;
+        background-image: url(/assets/images/student_council/btn_facebook_bg.gif);
+        background-position: 0 0; }
+    #school-district .section-content .btn-area p .btn.btn-cafe {
+      background-color: #f25f55; }
+      #school-district .section-content .btn-area p .btn.btn-cafe .cafe {
+        position: relative;
+        top: 5px;
+        width: 27px;
+        height: 23px;
+        margin-right: 5px;
+        background-image: url(/assets/images/student_council/btn_cafe_bg.gif);
+        background-position: 0 0; }
+  @media (min-width: 768px) {
+    #school-district .section-content .btn-area p {
+      display: inline-block;
+      margin: 0 10px; }
+      #school-district .section-content .btn-area p ~ p {
+        margin-top: 0; }
+      #school-district .section-content .btn-area p .btn {
+        width: 208px; } }
 
 /*# sourceMappingURL=student_council.css.map */

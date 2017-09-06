@@ -579,6 +579,8 @@ a {
   @media (min-width: 768px) {
     .pw-confirm .section-content ul {
       margin-top: 60px; } }
+  .pw-confirm .section-content ul li:first-child {
+    margin-top: 0 !important; }
   .pw-confirm .section-content ul li.u-pw {
     margin-top: 30px; }
     @media (min-width: 768px) {

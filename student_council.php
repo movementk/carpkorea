@@ -19,13 +19,13 @@
                         <span class="caret"></span>
                     </button>
                     <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                        <li><a href="#introduct">전국학생회소개</a></li>
-                        <li><a href="#">비전목표</a></li>
-                        <li><a href="#">중앙학생회</a></li>
-                        <li><a href="#" class="space">CARP창립 51<br class="hidden-xs"> 주년 ‘종횡일치’</a></li>
-                        <li><a href="#">팀별소개</a></li>
-                        <li><a href="#">현장회장단</a></li>
-                        <li><a href="#">학군학사지회</a></li>
+                        <li><a href="#introduct"><span>전국학생회소개</span></a></li>
+                        <li><a href="#mentality"><span>비전목표</span></a></li>
+                        <li><a href="#council"><span>중앙학생회</span></a></li>
+                        <li><a href="#consequence" class="space"><span>CARP창립 51<br class="hidden-xs"> 주년 ‘종횡일치’</span></a></li>
+                        <li><a href="#carp-team"><span>팀별소개</span></a></li>
+                        <li><a href="#circular-group"><span>현장회장단</span></a></li>
+                        <li><a href="#school-district"><span>학군학사지회</span></a></li>
                     </ul>
                 </div>
 	        </div>
@@ -505,13 +505,272 @@
 
                     <!-- Tab panes -->
                     <div class="tab-content">
-                        <div role="tabpanel" class="tab-pane active" id="seoul">1</div>
-                        <div role="tabpanel" class="tab-pane" id="gyeongin">2</div>
-                        <div role="tabpanel" class="tab-pane" id="gangwon">3</div>
-                        <div role="tabpanel" class="tab-pane" id="sunmoon">4</div>
-                        <div role="tabpanel" class="tab-pane" id="chungcheong">5</div>
-                        <div role="tabpanel" class="tab-pane" id="yeongnam">6</div>
-                        <div role="tabpanel" class="tab-pane" id="honam">7</div>
+                        <!-- 서울 -->
+                        <div role="tabpanel" class="tab-pane active" id="seoul">
+                            <h3 class="content-title">서울학군<small>대표 OOO원자</small></h3>
+                            <div class="content-body">
+                                <ul>
+                                    <li>
+                                        <h4>신촌학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>안암학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>장안학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>한양학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- 경인 -->
+                        <div role="tabpanel" class="tab-pane" id="gyeongin">
+                            <h3 class="content-title">경인학군<small>대표 OOO원자</small></h3>
+                            <div class="content-body">
+                                <ul>
+                                    <li>
+                                        <h4>경인학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>안암학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>장안학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>한양학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- 강원 -->
+                        <div role="tabpanel" class="tab-pane" id="gangwon">
+                            <h3 class="content-title">강원학군<small>대표 OOO원자</small></h3>
+                            <div class="content-body">
+                                <ul>
+                                    <li>
+                                        <h4>강원학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>안암학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>장안학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>한양학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- 선문 -->
+                        <div role="tabpanel" class="tab-pane" id="sunmoon">
+                            <h3 class="content-title">선문학군<small>대표 OOO원자</small></h3>
+                            <div class="content-body">
+                                <ul>
+                                    <li>
+                                        <h4>선문학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>안암학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>장안학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>한양학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- 충청 -->
+                        <div role="tabpanel" class="tab-pane" id="chungcheong">
+                            <h3 class="content-title">충청학군<small>대표 OOO원자</small></h3>
+                            <div class="content-body">
+                                <ul>
+                                    <li>
+                                        <h4>충청학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>안암학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>장안학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>한양학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- 영남 -->
+                        <div role="tabpanel" class="tab-pane" id="yeongnam">
+                            <h3 class="content-title">영남학군<small>대표 OOO원자</small></h3>
+                            <div class="content-body">
+                                <ul>
+                                    <li>
+                                        <h4>영남학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>안암학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>장안학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>한양학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- 호남 -->
+                        <div role="tabpanel" class="tab-pane" id="honam">
+                            <h3 class="content-title">호남학군<small>대표 OOO원자</small></h3>
+                            <div class="content-body">
+                                <ul>
+                                    <li>
+                                        <h4>호남학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>안암학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>장안학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                    <li>
+                                        <h4>한양학사</h4>
+                                        <dl>
+                                            <dt>대표 OOO원자</dt>
+                                            <dd>연세대(OOO).  서강대(OOO). 이화여대(OOO). 명지대(OOO). 상명대OOO)</dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-facebook" role="button"><i class="facebook"></i>페이스북 바로가기</a>
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-cafe" role="button"><i class="cafe"></i>다음카페 바로가기</a>
+                        </p>
                     </div>
                 </div>
 			</div>

@@ -813,7 +813,7 @@
         .history-list {
             > li {
                 position: relative;
-                padding-left: 50px;
+                padding-left: 30px;
                 padding-bottom: 35px;
                 border-left: 1px solid $kcolor;
                 &:last-child {
@@ -833,22 +833,23 @@
                 .figure {
                     vertical-align: top;
                     text-align: center;
+                    margin-bottom: 25px;
                     .img-responsive {
                         display: inline-block;
                     }
                 }
                 .details {
-                    margin-top: 25px;
                     ul {
                         li {
                             dl {
                                 position: relative;
                                 dt {
                                     position: absolute;
-                                    top: 3px;
+                                    top: 2px;
                                     left: 0;
                                     font-size: 15px;
                                     color: #333;
+                                    letter-spacing: -1px;
                                     margin-bottom: 10px;
                                 }
                                 dd {
@@ -856,8 +857,16 @@
                                     font-size: 13px;
                                     color: #666;
                                     line-height: 24px;
-                                    padding-left: 85px;
+                                    padding-left: 100px;
                                     margin-bottom: 10px;
+                                    &.dl-space {
+                                        padding-left: 0;
+                                        padding-top: 21px;
+                                        @media(min-width: $sm) {
+                                            padding-top: 0;
+                                            padding-left: 150px;
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -867,21 +876,21 @@
                     padding-left: 60px;
                     padding-bottom: 110px;
                     .figure {
+                        margin-bottom: 0;
                         text-align: left;
                         padding-right: 20px;
                     }
                     .details {
-                        margin-top: 0;
                         ul {
                             li {
                                 dl {
                                     dt {
-                                        font-size: 18px;
+                                        font-size: 16px;
                                     }
                                     dd {
                                         font-size: 15px;
                                         line-height: 24px;
-                                        padding-left: 140px;
+                                        padding-left: 150px;
                                     }
                                 }
                             }
@@ -892,6 +901,17 @@
                     padding-left: 70px;
                     .figure {
                         padding-right: 60px;
+                    }
+                    .details {
+                        ul {
+                            li {
+                                dl {
+                                    dt {
+                                        font-size: 18px;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }

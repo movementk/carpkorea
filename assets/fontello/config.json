@@ -119,6 +119,12 @@
       "css": "mail",
       "code": 59405,
       "src": "iconic"
+    },
+    {
+      "uid": "22cfc7af2c4f158b37317c65c92b48c2",
+      "css": "location",
+      "code": 59409,
+      "src": "elusive"
     }
   ]
 }
