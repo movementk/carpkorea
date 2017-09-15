@@ -34,14 +34,14 @@
                 background-image: url(/assets/images/carp/founding_sm_bg.png);
             }
             @media(min-width: $lg) {
-                font-size: 16px;
+                font-size: 17px;
                 line-height: 34px;
                 padding: 0;
                 background: none;
             }
         }
         strong {
-            font-size: 17px;
+            font-size: 19px;
             color: #333;
             margin-top: 85px;
         }
@@ -136,7 +136,7 @@
                     @media(min-width: $lg) {
                         margin-bottom: 45px;
                         p {
-                            font-size: 16px;
+                            font-size: 17px;
                         }
                     }
                 }
@@ -160,7 +160,7 @@
                 margin-bottom: 25px;
             }
             @media(min-width: $md) {
-                font-size: 16px;
+                font-size: 17px;
                 line-height: 34px;
                 margin-bottom: 65px;
             }
@@ -170,8 +170,13 @@
             color: #02b1a0;
             margin-bottom: 20px;
             @media(min-width: $sm) {
-               font-size: 20px; 
+               font-size: 21px; 
                 margin-bottom: 25px;
+            }
+            &.logo-title {
+                @media(min-width: $md) {
+                    margin-top: 60px;
+                }
             }
         }
         .ci-logo {
@@ -238,7 +243,7 @@
                 margin-bottom: 25px;
             }
             @media(min-width: $md) {
-                font-size: 16px;
+                font-size: 17px;
                 line-height: 34px;
                 margin-bottom: 65px;
             }
@@ -407,7 +412,7 @@
                             padding: 0;
                             padding-left: 140px;
                             li {
-                                font-size: 16px;
+                                font-size: 17px;
                                 ~ li {
                                     margin-top: 30px;
                                 }
@@ -502,7 +507,7 @@
                     font-size: 36px;
                 }
                 p {
-                    font-size: 16px;
+                    font-size: 17px;
                     line-height: 34px;
                 }
             }
@@ -522,7 +527,7 @@
                 margin-bottom: 80px;
             }
             @media(min-width: $lg) {
-                font-size: 16px;
+                font-size: 17px;
                 margin-bottom: 105px;
             }
         }
@@ -531,7 +536,7 @@
             color: #444;
             @include jjmj();
             @media(min-width: $sm) {
-                font-size: 15px;
+                font-size: 16px;
             }
         }
         h5 {
@@ -541,7 +546,7 @@
             letter-spacing: 3px;
             margin-top: 10px;
             @media(min-width: $sm) {
-                font-size: 36px;
+                font-size: 38px;
                 margin-top: 20px;
             }
         }
@@ -595,7 +600,7 @@
                 }
             }
             @media(min-width: $lg) {
-                padding-top: 30px;
+                padding-top: 48px;
                 background-image: url(/assets/images/carp/introduce_bg.jpg);
                 background-repeat: no-repeat;
                 background-position: 50% 100%;
@@ -611,7 +616,7 @@
                 line-height: 34px;
             }
             @media(min-width: $lg) {
-                font-size: 16px;
+                font-size: 17px;
             }
         }
     }
@@ -718,6 +723,7 @@
                         }
                     }
                 }
+                
             }
             @media(min-width: $sm) {
                 margin-top: 40px;
@@ -741,12 +747,12 @@
                         vertical-align: bottom;
                         padding-left: 65px;
                         .name {
-                            font-size: 24px;
+                            font-size: 26px;
                             margin-bottom: 25px;
                         }
                         ul {
                             li {
-                                font-size: 13px;
+                                font-size: 14px;
                                 line-height: 26px;
                             }
                         }
@@ -756,6 +762,74 @@
             @media(min-width: $md) {
                 margin-top: 65px;
             }
+        }
+        .btn-area {
+            margin-bottom: 30px;
+            @media(min-width: $sm) {
+                margin-bottom: 40px;
+                text-align: right;
+            }
+        }
+    }
+}
+
+// 프로필 뷰
+.profile-view {
+    padding-bottom: 110px;
+    @media(min-width: $sm) {
+        padding-bottom: 120px;
+    }
+    @media(min-width: $md) {
+        padding-bottom: 140px;
+    }
+    .btn-area {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        p {
+            ~ p {
+                margin-top: 10px;
+                @media(min-width: $sm) {
+                    margin-top: 0;
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            overflow: hidden;
+            margin-top: 25px;
+            margin-bottom: 75px;
+            p {
+                &:nth-of-type(1) {
+                    float: left;
+                }
+                &:nth-of-type(2) {
+                    float: right;
+                }
+            }
+        }
+        @media(min-width: $md) {
+            margin-top: 30px;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+//프로필 쓰기
+.profile-write {
+    padding-bottom: 110px;
+    @media(min-width: $sm) {
+        padding-bottom: 120px;
+    }
+    @media(min-width: $md) {
+        padding-bottom: 140px;
+    }
+    .btn-area {
+        margin-top: 30px;
+        @media(min-width: $sm) {
+            text-align: right;
+            margin-top: 20px;
+        }
+        @media(min-width: $md) {
+            margin-top: 35px;
         }
     }
 }
@@ -888,7 +962,7 @@
                                         font-size: 16px;
                                     }
                                     dd {
-                                        font-size: 15px;
+                                        font-size: 16px;
                                         line-height: 24px;
                                         padding-left: 150px;
                                     }
@@ -998,12 +1072,12 @@
                     margin-top: 0;
                     address {
                         display: inline;
-                        font-size: 14px;
+                        font-size: 15px;
                     }
                     ul {
                         display: inline-block;
                         li {
-                            font-size: 14px;
+                            font-size: 15px;
                             &:first-child {
                                 margin-right: 10px;
                             }

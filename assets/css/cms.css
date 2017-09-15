@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -547,7 +548,7 @@ a {
       margin-bottom: 55px; } }
   @media (min-width: 992px) {
     .cms-sponsor .private-support .section-content .summary {
-      font-size: 16px;
+      font-size: 17px;
       margin-top: 70px;
       margin-bottom: 60px; } }
 .cms-sponsor .private-support .section-content figure .img-responsive {
@@ -575,7 +576,7 @@ a {
     .cms-sponsor .method-supporting .section-content ul li figure img {
       display: inline-block; }
     .cms-sponsor .method-supporting .section-content ul li figure figcaption {
-      font-size: 16px;
+      font-size: 17px;
       color: #666;
       line-height: 24px;
       margin-top: 30px; }
@@ -624,7 +625,7 @@ a {
     .cms-sponsor .support-service .section-content ul li figure img {
       display: inline-block; }
     .cms-sponsor .support-service .section-content ul li figure figcaption {
-      font-size: 16px;
+      font-size: 17px;
       color: #666;
       line-height: 24px;
       margin-top: 30px; }
@@ -641,6 +642,90 @@ a {
         margin: 0;
         margin-left: -20px;
         content: url(/assets/images/cms/service_arrow_right.png); } }
+.cms-sponsor .temporary-support .section-content {
+  width: 300px;
+  height: 640px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 71px 6px 0;
+  background-repeat: no-repeat;
+  background-image: url(/assets/images/cms/temporary_xs_bg.jpg);
+  background-size: 300px auto;
+  background-position: 0 0; }
+  .cms-sponsor .temporary-support .section-content h5 {
+    font-size: 36px;
+    line-height: 40px;
+    color: #333;
+    font-family: 'Nanum Pen Script', serif;
+    margin-bottom: 30px; }
+  .cms-sponsor .temporary-support .section-content p {
+    font-size: 13px;
+    color: #333;
+    line-height: 24px;
+    margin-bottom: 40px; }
+  .cms-sponsor .temporary-support .section-content .account {
+    width: 100%;
+    height: 76px;
+    padding: 14px 0;
+    background-color: #02b1a0;
+    border-radius: 30px; }
+    .cms-sponsor .temporary-support .section-content .account dt {
+      font-size: 13px;
+      color: #fff;
+      font-weight: 400;
+      line-height: 24px; }
+      .cms-sponsor .temporary-support .section-content .account dt:after {
+        content: ":";
+        padding: 0 3px; }
+    .cms-sponsor .temporary-support .section-content .account dd {
+      font-size: 13px;
+      color: #fff;
+      font-weight: 400;
+      line-height: 24px; }
+  @media (min-width: 768px) {
+    .cms-sponsor .temporary-support .section-content {
+      text-align: right;
+      padding: 50px 26px 0 0;
+      width: 724px;
+      height: 332px;
+      background-image: url(/assets/images/cms/temporary_sm_bg.jpg);
+      background-size: 724px auto; }
+      .cms-sponsor .temporary-support .section-content h5 {
+        font-size: 40px;
+        line-height: 36px; }
+      .cms-sponsor .temporary-support .section-content p {
+        font-size: 15px;
+        margin-bottom: 40px; }
+      .cms-sponsor .temporary-support .section-content .account {
+        width: 456px;
+        float: right;
+        text-align: center;
+        height: 43px;
+        padding: 0;
+        font-size: 0; }
+        .cms-sponsor .temporary-support .section-content .account dt {
+          display: inline-block;
+          font-size: 14px;
+          line-height: 43px; }
+        .cms-sponsor .temporary-support .section-content .account dd {
+          display: inline-block;
+          font-size: 14px;
+          line-height: 43px; } }
+  @media (min-width: 1280px) {
+    .cms-sponsor .temporary-support .section-content {
+      padding: 57px 55px 0 0;
+      width: 1169px;
+      height: 322px;
+      background-image: url(/assets/images/cms/temporary_lg_bg.jpg);
+      background-size: 1169px auto; }
+      .cms-sponsor .temporary-support .section-content p {
+        font-size: 17px; }
+      .cms-sponsor .temporary-support .section-content .account {
+        width: 537px; }
+        .cms-sponsor .temporary-support .section-content .account dt {
+          font-size: 17px; }
+        .cms-sponsor .temporary-support .section-content .account dd {
+          font-size: 17px; } }
 
 .application-list .search-form {
   margin-bottom: 45px; }
@@ -733,7 +818,7 @@ a {
         .application section .table-wrap .table tbody tr th {
           width: 140px;
           padding-left: 18px;
-          font-size: 14px; } }
+          font-size: 15px; } }
       @media (min-width: 1280px) {
         .application section .table-wrap .table tbody tr th {
           width: 156px; } }
@@ -763,7 +848,7 @@ a {
           padding-right: 30px; } }
   @media (min-width: 768px) {
     .application section.receiving-company .section-content .table tbody tr td {
-      font-size: 14px; } }
+      font-size: 15px; } }
   .application section.automatic-withdrawal .section-content .table tbody tr th small {
     display: block;
     font-size: 11px;
@@ -1044,14 +1129,14 @@ a {
       margin-top: 70px;
       padding: 55px 25px 55px 42px; }
       .application .decimal-list > li {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 30px;
         list-style-position: outside; }
         .application .decimal-list > li ~ li {
           margin-top: 0; } }
   @media (min-width: 1280px) {
     .application .decimal-list {
-      padding: 45px 140px; }
+      padding: 45px 100px; }
       .application .decimal-list > li {
         list-style-position: inside; } }
 

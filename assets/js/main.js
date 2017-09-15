@@ -1,5 +1,5 @@
 (function($) {            
-    //일정표 달력
+    /*일정표 달력
     $( "#schedule" ).datepicker({
         dateFormat: 'yy-mm-dd',
         prevText: '<span class="ui-icon ui-icon-circle-triangle-w"><i class="icon-left-open"><span class="sr-only">이전달</span></i></span>',
@@ -7,7 +7,7 @@
         monthNames: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
         monthNamesShort: ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'],
         showMonthAfterYear: true,
-    });
+    });*/
 
     // 메인 슬라이더
     $(document).ready(function(){

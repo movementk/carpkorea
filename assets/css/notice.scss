@@ -291,16 +291,24 @@
                             color: #333;
                             padding: 10px 0;
                             text-decoration: none;
-                            @include transition();
+                            a {
+                                color: #333;
+                            }
                             &:hover {
                                 cursor: pointer;
                                 background-color: $kcolor !important;
-                                color: #fff;
                                 opacity: .7;
+                                a {
+                                    color: #fff;
+                                    text-decoration: none;
+                                }
                             }
                             &:focus {
                                 background-color: $kcolor !important;
-                                color: #fff;
+                                a {
+                                    color: #fff;
+                                    text-decoration: none;
+                                }
                             }
                             &.scheduled {
                                 background-color: #eee;
@@ -351,7 +359,7 @@
                 color: #333;
                 padding-top: 10px;
                 @media(min-width: $sm) {
-                    font-size: 15px;
+                    font-size: 16px;
                     padding-top: 6px;
                 }
             }
@@ -362,7 +370,7 @@
                 line-height: 20px;
                 padding-top: 10px;
                 @media(min-width: $sm) {
-                    font-size: 13px;
+                    font-size: 15px;
                 }
             }
         }
@@ -389,50 +397,3 @@
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

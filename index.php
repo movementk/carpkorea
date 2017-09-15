@@ -100,12 +100,6 @@
                     <img src="/assets/images/main/ico_run.png" alt="">
                 </p>
             </div>
-            <!-- div class="progress achievement">
-                <span class="target">100%</span>
-                <div class="progress-bar" role="progressbar" style="width: 50%;">
-                    50%
-                </div>
-            </div -->
         </section>
         <section class="information">
             <div class="container">
@@ -177,7 +171,71 @@
                             <div class="hidden-xs hidden-sm">
                                 <!-- 달력 -->
                                 <div class="calendar">
-                                    <div id="schedule"></div>
+                                    <div class="calendar-header">
+                                        <p class="calendar-title">
+                                            <span class="year">2017</span>
+                                            <span class="month">09</span>
+                                        </p>
+                                        <div class="btn-control">
+                                            <a href="#" class="btn-prev">
+                                                <i class="icon-left-open"><span class="sr-only">이전달</span></i>
+                                            </a>
+                                            <a href="#" class="btn-next">
+                                                <i class="icon-right-open"><span class="sr-only">다음달</span></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="table-wrap calendar-day">
+                                        <table class="table table-bordered">
+                                            <tbody>
+                                                <tr>
+                                                    <td class="sunday"><span></span></td>
+                                                    <td><span></span></td>
+                                                    <td><span></span></td>
+                                                    <td><span></span></td>
+                                                    <td><span></span></td>
+                                                    <td class="active"><span>1</span></td>
+                                                    <td class="saturday"><span>2</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sunday"><span>3</span></td>
+                                                    <td><span>4</span></td>
+                                                    <td><span>5</span></td>
+                                                    <td><span>6</span></td>
+                                                    <td><span>7</span></td>
+                                                    <td><span>8</span></td>
+                                                    <td class="saturday"><span>9</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sunday"><span>10</span></td>
+                                                    <td><span>11</span></td>
+                                                    <td><span>12</span></td>
+                                                    <td><span>13</span></td>
+                                                    <td><span>14</span></td>
+                                                    <td><span>15</span></td>
+                                                    <td class="saturday"><span>16</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sunday"><span>17</span></td>
+                                                    <td><span>18</span></td>
+                                                    <td><span>19</span></td>
+                                                    <td><span>20</span></td>
+                                                    <td><span>21</span></td>
+                                                    <td><span>22</span></td>
+                                                    <td class="saturday"><span>23</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="sunday"><span>24</span></td>
+                                                    <td><span>25</span></td>
+                                                    <td><span>26</span></td>
+                                                    <td><span>27</span></td>
+                                                    <td><span>28</span></td>
+                                                    <td><span>29</span></td>
+                                                    <td class="saturday"><span>30</span></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -195,27 +253,23 @@
                             <div class="hidden-xs hidden-sm">
                                 <div class="cms-sponsor">
                                     <h3 class="title">CMS 후원</h3>
-                                    <p>
-                                        기부금 전액은 원리연구회의 발전기금으로 사용되며 사회에 공헌하는 다양한 행사에 가치있게 사용됩니다.
-                                    </p>
-                                    <ul class="row">
-                                        <li class="col-xs-6">
-                                            <a href="#">
-                                                <figure>
-                                                    <img src="/assets/images/main/ico_individual.png" alt="개인 후원신청">
-                                                    <figcaption>개인 후원신청<br>바로가기</figcaption>
-                                                </figure>
-                                            </a>
-                                        </li>
-                                        <li class="col-xs-6">
-                                            <a href="#">
-                                                <figure>
-                                                    <img src="/assets/images/main/ico_company.png" alt="기업 후원신청">
-                                                    <figcaption>기업 후원신청<br>바로가기</figcaption>
-                                                </figure>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    <div class="sponsor-more">
+                                        <div class="row">
+                                            <div class="col-md-3 col-lg-4">
+                                                <p class="figure">
+                                                    <img src="/assets/images/main/ico_individual.png" class="img-responsive" alt="개인 후원신청">
+                                                </p>
+                                            </div>
+                                            <div class="col-md-9 col-lg-8">
+                                                <div class="details">
+                                                    <p>
+                                                        기부금 전액은 원리연구회의 발전기금으로 사용되며 사회에 공헌하는 다양한 행사에 가치있게 사용됩니다.
+                                                    </p>
+                                                    <a href="#">개인 후원신청 바로가기</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -513,7 +567,6 @@
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/footer.php"); ?>
 	<?php require_once($_SERVER["DOCUMENT_ROOT"]."/inc/docfoot.php"); ?>
     <script src="/assets/jquery.bxslider/jquery.bxslider.min.js"></script>
-    <script src="/assets/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 </html>

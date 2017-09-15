@@ -71,7 +71,7 @@
                         </ul>
                         <div class="btn-area">
                             <p>
-                                <a href="/cms/application.php" class="btn btn-lg btn-aqua" role="button">개인 CMS 후원 신청서 작성하기</a>
+                                <a href="<?php echo G5_BBS_URL; ?>/write.php?bo_table=cms" class="btn btn-lg btn-aqua" role="button">개인 CMS 후원 신청서 작성하기</a>
                             </p>
                         </div>
                     </div>
@@ -95,6 +95,26 @@
                                 </figure>
                             </li>
                         </ul>
+                    </div>
+                </section>
+                <section class="temporary-support">
+                    <div class="section-header">
+                        <h4 class="title">CMS 일시후원</h4>
+                    </div>
+                    <div class="section-content">
+                        <h5>
+                            “한국대학원리연구회의 든든한<br class="hidden-lg">
+                            후원자가 되어주세요”
+                        </h5>
+                        <p>
+                            여러분이 주시는 후원금은 한국대학원리연구회에<br class="hidden-lg">
+                            큰힘이 됩니다<br class="visible-lg"> 아름다운 동행을 위해 여러분이<br class="hidden-lg">
+                            함께하길 희망합니다<br class="visible-lg"> 감사합니다
+                        </p>
+                        <dl class="account">
+                            <dt>CMS 일시후원 계좌</dt>
+                            <dd>우리 512-511551-13-016 한국대학원리연구회</dd>
+                        </dl>
                     </div>
                 </section>
             </div>

@@ -831,6 +831,7 @@ a {
           display: block;
           font-size: 14px;
           color: #666;
+          text-align: left;
           font-weight: 400;
           overflow: hidden;
           text-overflow: ellipsis;
@@ -852,100 +853,98 @@ a {
             color: #666; }
     .information .row .col-xs-4 > div .calendar {
       padding: 0 20px; }
-      .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker {
+      .information .row .col-xs-4 > div .calendar .calendar-header {
+        position: relative;
         width: 100%;
-        margin: 0 auto; }
-        .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-widget-header {
-          position: relative;
-          width: 100%;
-          height: 55px;
-          text-align: center;
-          background-color: #7b7b7b; }
-          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-widget-header a {
-            position: absolute;
-            top: 50%;
-            font-size: 18px;
-            color: #fff;
-            cursor: pointer;
-            margin-top: -9px; }
-          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-widget-header .ui-datepicker-prev {
-            left: 15px; }
-          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-widget-header .ui-datepicker-next {
-            right: 15px; }
-          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-widget-header .ui-datepicker-title span {
+        text-align: center;
+        background-color: #7b7b7b; }
+        .information .row .col-xs-4 > div .calendar .calendar-header .calendar-title {
+          line-height: 52px;
+          display: inline-block; }
+          .information .row .col-xs-4 > div .calendar .calendar-header .calendar-title span {
             font-size: 18px;
             font-weight: bold;
             color: #fff;
-            line-height: 55px;
             font-family: 'Lato', sans-serif; }
-            .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-widget-header .ui-datepicker-title span.ui-datepicker-month:before {
+            .information .row .col-xs-4 > div .calendar .calendar-header .calendar-title span.month:before {
               content: "."; }
-        .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar {
+        .information .row .col-xs-4 > div .calendar .calendar-header .btn-control {
+          position: absolute;
+          top: 50%;
           width: 100%;
-          min-height: 217px;
-          border: 1px solid #ebebeb;
-          background-color: #fff; }
-          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar thead {
-            display: none; }
-          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr:first-child td {
-            padding-top: 20px; }
-          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr:last-child td {
-            padding-bottom: 20px; }
-          .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td {
-            text-align: center; }
-            .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td a {
+          margin-top: -11px; }
+          .information .row .col-xs-4 > div .calendar .calendar-header .btn-control a {
+            font-size: 18px;
+            color: #fff;
+            height: 20px; }
+            .information .row .col-xs-4 > div .calendar .calendar-header .btn-control a.btn-prev {
+              float: left;
+              margin-left: 15px; }
+            .information .row .col-xs-4 > div .calendar .calendar-header .btn-control a.btn-next {
+              float: right;
+              margin-right: 15px; }
+      .information .row .col-xs-4 > div .calendar .calendar-day {
+        padding: 20px;
+        border: 1px solid #ebebeb;
+        background-color: #fff; }
+        .information .row .col-xs-4 > div .calendar .calendar-day .table {
+          table-layout: fixed;
+          border: 0;
+          margin-bottom: 0; }
+          .information .row .col-xs-4 > div .calendar .calendar-day .table tbody tr td {
+            text-align: center;
+            border: 0;
+            padding: 5px 0;
+            font-family: 'Lato', sans-serif; }
+            .information .row .col-xs-4 > div .calendar .calendar-day .table tbody tr td span {
               display: inline-block;
               width: 25px;
               height: 25px;
               font-size: 13px;
               color: #b3b3b3;
-              line-height: 25px;
-              text-decoration: none;
-              margin: 5px 0;
-              font-family: 'Lato', sans-serif; }
-              .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td a.ui-state-active {
-                color: #fff !important;
-                border-radius: 50%;
-                background-color: #02b1a0; }
-            .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td:first-child {
-              padding-left: 20px; }
-              .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td:first-child a {
-                color: #ff7f66; }
-            .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td:last-child {
-              padding-right: 20px; }
-              .information .row .col-xs-4 > div .calendar #schedule .ui-datepicker .ui-datepicker-calendar tbody tr td:last-child a {
-                color: #6dcff6; }
+              line-height: 25px; }
+              .information .row .col-xs-4 > div .calendar .calendar-day .table tbody tr td span:hover {
+                cursor: pointer; }
+            .information .row .col-xs-4 > div .calendar .calendar-day .table tbody tr td.sunday span {
+              color: #ff7f66; }
+            .information .row .col-xs-4 > div .calendar .calendar-day .table tbody tr td.saturday span {
+              color: #6dcff6; }
+            .information .row .col-xs-4 > div .calendar .calendar-day .table tbody tr td.active {
+              background: none; }
+              .information .row .col-xs-4 > div .calendar .calendar-day .table tbody tr td.active span {
+                width: 25px;
+                height: 25px;
+                color: #fff;
+                background-color: #02b1a0;
+                border-radius: 50%; }
     .information .row .col-xs-4 > div .cms-sponsor {
       text-align: left; }
-      .information .row .col-xs-4 > div .cms-sponsor P {
-        font-size: 15px;
-        color: #555;
-        line-height: 22px;
-        margin-top: 35px;
-        margin-bottom: 40px; }
-      .information .row .col-xs-4 > div .cms-sponsor ul li {
-        text-align: center; }
-        .information .row .col-xs-4 > div .cms-sponsor ul li a {
-          display: inline-block;
-          text-align: center; }
-          .information .row .col-xs-4 > div .cms-sponsor ul li a:hover figcaption, .information .row .col-xs-4 > div .cms-sponsor ul li a:focus figcaption {
-            color: #02b1a0;
-            text-decoration: underline; }
-          .information .row .col-xs-4 > div .cms-sponsor ul li a figure img {
+      .information .row .col-xs-4 > div .cms-sponsor .sponsor-more {
+        margin-top: 34px;
+        padding: 34px 20px;
+        border: 1px solid #ebebeb;
+        background-color: #fff; }
+        @media (min-width: 1280px) {
+          .information .row .col-xs-4 > div .cms-sponsor .sponsor-more {
+            padding: 42px 30px; } }
+        .information .row .col-xs-4 > div .cms-sponsor .sponsor-more .figure {
+          text-align: center;
+          line-height: 110px; }
+          .information .row .col-xs-4 > div .cms-sponsor .sponsor-more .figure img {
             display: inline-block; }
-          .information .row .col-xs-4 > div .cms-sponsor ul li a figure figcaption {
-            font-size: 14px;
-            color: #666;
-            line-height: 20px;
-            margin-top: 10px;
-            -webkit-transition-property: all;
-            transition-property: all;
-            -webkit-transition-duration: 0.15s;
-            transition-duration: 0.15s;
-            -webkit-transition-timing-function: linear;
-            transition-timing-function: linear;
-            -webkit-transition-delay: 0s;
-            transition-delay: 0s; }
+        .information .row .col-xs-4 > div .cms-sponsor .sponsor-more .details p {
+          font-size: 15px;
+          letter-spacing: -1px;
+          line-height: 22px; }
+        .information .row .col-xs-4 > div .cms-sponsor .sponsor-more .details a {
+          display: inline-block;
+          color: #02b1a0;
+          text-decoration: none;
+          margin-top: 15px;
+          border-bottom: 1px solid #02b1a0; }
+        @media (min-width: 1280px) {
+          .information .row .col-xs-4 > div .cms-sponsor .sponsor-more .details a {
+            margin-top: 20px; } }
 
 .carp-section {
   padding: 60px 0;
@@ -1301,7 +1300,17 @@ a {
       .partner .bx-wrapper .bx-viewport ul li a {
         display: inline-block; }
         .partner .bx-wrapper .bx-viewport ul li a figure .img-responsive {
-          margin: 0 auto; }
+          margin: 0 auto;
+          width: 100% !important; }
+          @media (min-width: 768px) {
+            .partner .bx-wrapper .bx-viewport ul li a figure .img-responsive {
+              max-width: 350px !important; } }
+          @media (min-width: 992px) {
+            .partner .bx-wrapper .bx-viewport ul li a figure .img-responsive {
+              max-width: 226px !important; } }
+          @media (min-width: 1280px) {
+            .partner .bx-wrapper .bx-viewport ul li a figure .img-responsive {
+              max-width: 270px !important; } }
     .partner .bx-wrapper .bx-controls {
       position: absolute;
       top: 0;

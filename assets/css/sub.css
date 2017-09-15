@@ -600,7 +600,7 @@ section {
         padding-left: 20px; } }
     @media (min-width: 768px) {
       .section-header .title {
-        font-size: 24px; } }
+        font-size: 26px; } }
   @media (min-width: 768px) {
     .section-header {
       margin-bottom: 50px; } }
@@ -683,7 +683,7 @@ section {
       border-bottom: 2px solid #555; }
       @media (min-width: 768px) {
         .board-list .table thead tr th {
-          font-size: 14px;
+          font-size: 15px;
           padding: 20px 0; } }
       .board-list .table thead tr th:nth-of-type(1) {
         display: none; }
@@ -736,7 +736,7 @@ section {
       background-color: #f8f8f8; }
       @media (min-width: 768px) {
         .board-list .table tbody tr td {
-          font-size: 14px;
+          font-size: 15px;
           padding: 25px 0; } }
       .board-list .table tbody tr td:nth-of-type(1) {
         display: none; }

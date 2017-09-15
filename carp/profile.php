@@ -146,7 +146,11 @@
                         </div>
                     </div>
                 </div>
-                
+                <div class="btn-area">
+                    <p>
+                        <a href="#" class="btn btn-xs btn-org" role="button">글쓰기</a>
+                    </p>
+                </div>
                 <!-- paging -->
                 <nav class="paging" aria-label="Page navigation">
                     <ul class="pagination">

@@ -541,17 +541,17 @@ a {
       .common-list ul li a .details {
         padding: 15px 10px; }
         .common-list ul li a .details .title {
-          font-size: 16px;
+          font-size: 17px;
           margin-bottom: 25px;
           text-overflow: ellipsis;
           overflow: hidden;
           white-space: nowrap; }
         .common-list ul li a .details p {
-          font-size: 14px; }
+          font-size: 15px; }
         .common-list ul li a .details ul {
           margin-top: 10px; }
           .common-list ul li a .details ul li {
-            font-size: 12px; } }
+            font-size: 13px; } }
     @media (min-width: 992px) {
       .common-list ul li a .details {
         padding: 20px 10px; } }

@@ -449,7 +449,7 @@ a {
         width: 250px;
         height: 200px;
         margin: 0 auto;
-        padding: 13px 15px;
+        padding: 0px;
         background-color: #fff; }
       .square article .article-content .link-list {
         padding: 25px 27px;
@@ -527,5 +527,71 @@ a {
             right: 259px; }
         .square article .article-foot {
           height: 204px; } }
+
+.notice-list .search-form {
+  margin-bottom: 45px; }
+  @media (min-width: 768px) {
+    .notice-list .search-form {
+      margin-bottom: 30px; } }
+  @media (min-width: 992px) {
+    .notice-list .search-form {
+      margin-bottom: 50px; } }
+.notice-list .btn-area {
+  margin-top: 20px; }
+  @media (min-width: 768px) {
+    .notice-list .btn-area {
+      text-align: right;
+      margin-top: 50px; } }
+  @media (min-width: 992px) {
+    .notice-list .btn-area {
+      margin-top: 50px; } }
+.notice-list .paging {
+  margin-top: 35px; }
+  @media (min-width: 768px) {
+    .notice-list .paging {
+      margin-top: 10px; } }
+  @media (min-width: 992px) {
+    .notice-list .paging {
+      margin-top: 40px; } }
+
+.notice-view .btn-area {
+  margin-top: 30px;
+  margin-bottom: 50px; }
+  .notice-view .btn-area p ~ p {
+    margin-top: 10px; }
+    @media (min-width: 768px) {
+      .notice-view .btn-area p ~ p {
+        margin-top: 0; } }
+  @media (min-width: 768px) {
+    .notice-view .btn-area {
+      overflow: hidden;
+      margin-top: 25px;
+      margin-bottom: 75px; }
+      .notice-view .btn-area p:nth-of-type(1) {
+        float: left; }
+      .notice-view .btn-area p:nth-of-type(2) {
+        float: right; } }
+  @media (min-width: 992px) {
+    .notice-view .btn-area {
+      margin-top: 30px;
+      margin-bottom: 60px; } }
+
+.notice-write {
+  margin-bottom: 60px; }
+  @media (min-width: 768px) {
+    .notice-write {
+      margin-bottom: 70px; } }
+  @media (min-width: 992px) {
+    .notice-write {
+      margin-bottom: 115px; } }
+  .notice-write .btn-area {
+    margin-top: 30px; }
+    @media (min-width: 768px) {
+      .notice-write .btn-area {
+        text-align: right;
+        margin-top: 20px; } }
+    @media (min-width: 992px) {
+      .notice-write .btn-area {
+        margin-top: 35px; } }
 
 /*# sourceMappingURL=square.css.map */

@@ -626,23 +626,21 @@ a {
     font-size: 12px;
     color: #333;
     padding: 10px 0;
-    text-decoration: none;
-    -webkit-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 0.15s;
-    transition-duration: 0.15s;
-    -webkit-transition-timing-function: linear;
-    transition-timing-function: linear;
-    -webkit-transition-delay: 0s;
-    transition-delay: 0s; }
+    text-decoration: none; }
+    .schedule .calendar .table-wrap .table tbody tr td a {
+      color: #333; }
     .schedule .calendar .table-wrap .table tbody tr td:hover {
       cursor: pointer;
       background-color: #02b1a0 !important;
-      color: #fff;
       opacity: .7; }
+      .schedule .calendar .table-wrap .table tbody tr td:hover a {
+        color: #fff;
+        text-decoration: none; }
     .schedule .calendar .table-wrap .table tbody tr td:focus {
-      background-color: #02b1a0 !important;
-      color: #fff; }
+      background-color: #02b1a0 !important; }
+      .schedule .calendar .table-wrap .table tbody tr td:focus a {
+        color: #fff;
+        text-decoration: none; }
     .schedule .calendar .table-wrap .table tbody tr td.scheduled {
       background-color: #eee; }
     @media (min-width: 768px) {
@@ -682,7 +680,7 @@ a {
       padding-top: 10px; }
       @media (min-width: 768px) {
         .schedule .schedule-list li h5 {
-          font-size: 15px;
+          font-size: 16px;
           padding-top: 6px; } }
     .schedule .schedule-list li .details {
       clear: both;
@@ -692,7 +690,7 @@ a {
       padding-top: 10px; }
       @media (min-width: 768px) {
         .schedule .schedule-list li .details {
-          font-size: 13px; } }
+          font-size: 15px; } }
   @media (min-width: 768px) {
     .schedule .schedule-list {
       margin-top: 0;

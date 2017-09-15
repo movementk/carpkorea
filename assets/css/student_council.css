@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700");
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0; }
@@ -572,7 +573,7 @@ section {
     border-top: 1px solid #02b1a0; }
   @media (min-width: 768px) {
     .section-header .section-title {
-      font-size: 26px;
+      font-size: 27px;
       margin-bottom: 40px; }
       .section-header .section-title img {
         margin-bottom: 20px; } }
@@ -584,9 +585,11 @@ section {
   background-position: 0 0; }
   @media (min-width: 768px) {
     #introduct {
+      padding-bottom: 150px;
       background-image: url(/assets/images/student_council/introduct_sm_bg.gif); } }
   @media (min-width: 1280px) {
     #introduct {
+      padding-bottom: 200px;
       background-image: url(/assets/images/student_council/introduct_lg_bg.gif);
       background-size: cover;
       background-position: 50% 50%; } }
@@ -622,83 +625,128 @@ section {
       #introduct .section-content blockquote {
         margin-bottom: 60px; }
         #introduct .section-content blockquote p {
-          font-size: 28px;
+          font-size: 30px;
           line-height: 44px;
           margin-bottom: 30px; }
         #introduct .section-content blockquote cite {
-          font-size: 14px; } }
+          font-size: 15px; } }
     @media (min-width: 768px) {
       #introduct .section-content blockquote {
         margin-bottom: 90px; } }
   #introduct .section-content > div {
-    width: 300px;
-    margin: 0 auto; }
-    #introduct .section-content > div .figure {
-      margin-bottom: 20px; }
-      #introduct .section-content > div .figure .img-responsive {
-        display: block;
-        margin: 0 auto; }
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0 10px; }
+    @media (min-width: 768px) {
+      #introduct .section-content > div {
+        max-width: 768px;
+        padding-left: 20px;
+        padding-right: 20px; } }
+    @media (min-width: 992px) {
+      #introduct .section-content > div {
+        max-width: 992px;
+        padding-left: 15px;
+        padding-right: 15px; } }
+    @media (min-width: 1280px) {
+      #introduct .section-content > div {
+        max-width: 1200px; } }
     #introduct .section-content > div .details h3 {
+      margin-top: 20px;
       font-size: 20px;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      font-weight: 500;
+      font-family: 'Noto Sans', sans-serif; }
+      @media (min-width: 768px) {
+        #introduct .section-content > div .details h3 {
+          margin-top: 0;
+          font-size: 25px;
+          margin-bottom: 33px; } }
     #introduct .section-content > div .details p {
       font-size: 12px;
       color: #666;
       line-height: 24px; }
-    #introduct .section-content > div.education {
-      margin-bottom: 60px;
+      @media (min-width: 768px) {
+        #introduct .section-content > div .details p {
+          font-size: 15px;
+          line-height: 28px; } }
+      @media (min-width: 1280px) {
+        #introduct .section-content > div .details p {
+          font-size: 17px; } }
+    #introduct .section-content > div.education .figure {
+      text-align: center; }
+    #introduct .section-content > div.education .details {
       text-align: left; }
       #introduct .section-content > div.education .details h3 {
         color: #02b1a0; }
-    #introduct .section-content > div.chemical-atoms {
-      text-align: right; }
-      #introduct .section-content > div.chemical-atoms .details h3 {
-        color: #ff6c00; }
     @media (min-width: 768px) {
-      #introduct .section-content > div {
-        width: 100%;
-        overflow: hidden; }
-        #introduct .section-content > div .figure {
-          width: 50%;
-          float: left;
-          display: inline-block;
-          margin: 0; }
-          #introduct .section-content > div .figure .img-responsive {
-            display: inline-block; }
-        #introduct .section-content > div .details {
-          float: left;
-          width: 50%; }
-          #introduct .section-content > div .details h3 {
-            font-size: 24px;
-            margin-bottom: 30px; }
-          #introduct .section-content > div .details p {
-            font-size: 15px;
-            line-height: 28px; }
-        #introduct .section-content > div.education {
-          margin-bottom: 96px; }
-          #introduct .section-content > div.education .figure {
-            padding-right: 10px; }
-          #introduct .section-content > div.education .details {
-            padding-top: 171px;
-            padding-left: 10px; }
-        #introduct .section-content > div.chemical-atoms .figure {
-          float: right;
-          padding-left: 10px; }
-        #introduct .section-content > div.chemical-atoms .details {
-          float: left;
-          padding-right: 10px; } }
-    @media (min-width: 1280px) {
       #introduct .section-content > div.education {
-        margin-bottom: 60px; }
+        padding-top: 25px;
+        overflow: hidden;
+        background-image: url(/assets/images/student_council/education_sm_bg.jpg);
+        background-repeat: no-repeat;
+        background-position: 0 0; }
         #introduct .section-content > div.education .figure {
-          padding-right: 30px; }
+          text-align: right;
+          float: left;
+          width: 50%;
+          padding-right: 10px; }
         #introduct .section-content > div.education .details {
-          padding-left: 30px; }
+          padding-top: 147px;
+          float: left;
+          width: 50%;
+          padding-left: 20px; } }
+    @media (min-width: 992px) {
+      #introduct .section-content > div.education {
+        padding-top: 27px;
+        background-image: url(/assets/images/student_council/education_lg_bg.jpg); }
+        #introduct .section-content > div.education .figure {
+          padding-right: 52px; }
+          #introduct .section-content > div.education .figure .img-responsive {
+            max-width: 420px; }
+        #introduct .section-content > div.education .details {
+          padding-top: 79px;
+          padding-left: 30px; } }
+    @media (min-width: 1280px) {
+      #introduct .section-content > div.education .figure .img-responsive {
+        max-width: 100%; }
+      #introduct .section-content > div.education .details {
+        padding-top: 147px; } }
+    #introduct .section-content > div.chemical-atoms {
+      padding-top: 85px; }
       #introduct .section-content > div.chemical-atoms .figure {
-        padding-left: 30px; }
+        text-align: center; }
       #introduct .section-content > div.chemical-atoms .details {
-        padding-top: 50px;
-        padding-right: 30px; } }
+        text-align: right; }
+        #introduct .section-content > div.chemical-atoms .details h3 {
+          color: #ff6c00; }
+      @media (min-width: 768px) {
+        #introduct .section-content > div.chemical-atoms {
+          padding-top: 96px;
+          overflow: hidden;
+          background-image: url(/assets/images/student_council/chemical_atoms_sm_bg.jpg);
+          background-repeat: no-repeat;
+          background-position: 100% 40px; }
+          #introduct .section-content > div.chemical-atoms .figure {
+            float: right;
+            width: 50%;
+            padding-left: 10px; }
+          #introduct .section-content > div.chemical-atoms .details {
+            float: left;
+            width: 50%;
+            padding-right: 20px; } }
+      @media (min-width: 992px) {
+        #introduct .section-content > div.chemical-atoms {
+          padding-top: 120px;
+          background-image: url(/assets/images/student_council/chemical_atoms_lg_bg.jpg); }
+          #introduct .section-content > div.chemical-atoms .figure {
+            padding-left: 30px; }
+            #introduct .section-content > div.chemical-atoms .figure .img-responsive {
+              max-width: 420px; }
+          #introduct .section-content > div.chemical-atoms .details {
+            padding-right: 52px; } }
+      @media (min-width: 1280px) {
+        #introduct .section-content > div.chemical-atoms .figure .img-responsive {
+          max-width: 100%; } }
 
 #mentality {
   background-image: url(/assets/images/student_council/mentality_bg.jpg);
@@ -747,7 +795,9 @@ section {
         margin-top: 40px;
         margin-bottom: 0; }
         #mentality .section-content ul li .details h3 {
-          font-size: 22px; } }
+          font-size: 23px; }
+        #mentality .section-content ul li .details p {
+          font-size: 17px; } }
 
 #council {
   background-image: url(/assets/images/student_council/council_xs_bg.gif);
@@ -837,10 +887,10 @@ section {
           width: 100%;
           text-align: left; }
           #council .section-content ul li figure figcaption h4 {
-            font-size: 18px;
+            font-size: 19px;
             margin-top: 30px; }
           #council .section-content ul li figure figcaption p {
-            font-size: 16px;
+            font-size: 17px;
             line-height: 26px;
             margin-top: 40px; } }
     @media (min-width: 992px) {
@@ -876,6 +926,16 @@ section {
     font-size: 12px;
     color: #444;
     line-height: 24px; }
+    #consequence .section-content .meaning p b {
+      display: block;
+      font-size: 13px;
+      color: #333;
+      margin-bottom: 25px; }
+      @media (min-width: 768px) {
+        #consequence .section-content .meaning p b {
+          font-size: 18px; } }
+    #consequence .section-content .meaning p ~ p {
+      margin-top: 30px; }
   #consequence .section-content .meaning ul {
     font-size: 0;
     margin-top: 50px; }
@@ -889,7 +949,7 @@ section {
         margin-bottom: 0;
         width: 100%; }
       #consequence .section-content .meaning ul li figure figcaption {
-        font-size: 14px;
+        font-size: 15px;
         color: #333;
         margin-top: 20px;
         margin-top: 20px;
@@ -899,17 +959,18 @@ section {
       padding-top: 30px;
       background-image: url(/assets/images/student_council/meaning_sm_bg.jpg);
       background-repeat: no-repeat;
-      background-position: 100% 0; }
+      background-position: 100% 15px; }
       #consequence .section-content .meaning h3 {
-        font-size: 21px;
+        font-size: 22px;
         margin-bottom: 30px; }
         #consequence .section-content .meaning h3 ~ h3 {
-          margin-top: 35px; }
+          margin-top: 70px; }
       #consequence .section-content .meaning p {
-        font-size: 16px;
+        width: 423px;
+        font-size: 17px;
         line-height: 24px; }
       #consequence .section-content .meaning ul {
-        margin-top: 90px; }
+        margin-top: 75px; }
         #consequence .section-content .meaning ul li {
           width: 20% !important;
           margin-bottom: 0; } }
@@ -920,7 +981,9 @@ section {
     #consequence .section-content .meaning {
       padding-top: 40px;
       padding-right: 440px;
-      background-image: url(/assets/images/student_council/meaning_lg_bg.jpg); } }
+      background-image: url(/assets/images/student_council/meaning_lg_bg.jpg); }
+      #consequence .section-content .meaning p {
+        width: 100%; } }
 
 #carp-team {
   padding-bottom: 60px; }
@@ -938,39 +1001,157 @@ section {
     @media (min-width: 992px) {
       #carp-team .section-header {
         margin: 135px 0 50px; } }
-  #carp-team .section-content .team-list > li {
+  #carp-team .section-content .team-list > ul > li .team {
     text-align: center;
-    margin-bottom: 70px; }
-    #carp-team .section-content .team-list > li figure figcaption {
-      font-size: 13px;
+    margin-bottom: 20px;
+    padding: 25px 10px 30px;
+    border: 1px solid #d2d2d2; }
+    #carp-team .section-content .team-list > ul > li .team figure img {
+      display: inline-block; }
+    #carp-team .section-content .team-list > ul > li .team figure figcaption {
+      font-size: 16px;
       color: #333;
-      line-height: 24px;
-      margin-top: 25px; }
-  #carp-team .section-content .carp-event h3 {
-    text-align: center;
-    font-size: 18px;
-    color: #5f5f5f;
-    margin-bottom: 25px; }
-    #carp-team .section-content .carp-event h3 img {
-      display: block;
-      margin: 0 auto;
-      margin-bottom: 10px; }
-  #carp-team .section-content .carp-event > ul > li:nth-of-type(2n + 1) {
-    clear: both; }
-  #carp-team .section-content .carp-event > ul > li figure {
-    margin-bottom: 40px; }
-    #carp-team .section-content .carp-event > ul > li figure figcaption {
-      text-align: center; }
-      #carp-team .section-content .carp-event > ul > li figure figcaption h4 {
+      margin-top: 10px; }
+    #carp-team .section-content .team-list > ul > li .team .details {
+      text-align: left; }
+      #carp-team .section-content .team-list > ul > li .team .details h3 {
+        text-align: center;
+        font-size: 20px;
+        color: #02b1a0;
+        margin: 20px 0 30px; }
+      #carp-team .section-content .team-list > ul > li .team .details > ul > li ~ li {
+        margin-top: 20px; }
+      #carp-team .section-content .team-list > ul > li .team .details > ul > li dl {
+        overflow: hidden; }
+        #carp-team .section-content .team-list > ul > li .team .details > ul > li dl dt {
+          float: left;
+          clear: both;
+          font-size: 12px;
+          color: #333;
+          font-weight: 300;
+          line-height: 24px; }
+          #carp-team .section-content .team-list > ul > li .team .details > ul > li dl dt:after {
+            content: ":";
+            padding: 0 3px; }
+        #carp-team .section-content .team-list > ul > li .team .details > ul > li dl dd {
+          display: inline;
+          font-size: 12px;
+          color: #333;
+          font-weight: 300;
+          line-height: 24px; }
+          #carp-team .section-content .team-list > ul > li .team .details > ul > li dl dd ul {
+            padding-left: 31px; }
+      #carp-team .section-content .team-list > ul > li .team .details .contact {
         font-size: 12px;
-        color: #444;
-        font-weight: bold;
-        margin-top: 15px; }
-      #carp-team .section-content .carp-event > ul > li figure figcaption p {
-        font-size: 12px;
-        color: #444;
-        line-height: 20px;
-        margin-top: 10px; }
+        color: #333;
+        margin-top: 25px; }
+        #carp-team .section-content .team-list > ul > li .team .details .contact a {
+          color: #333;
+          text-decoration: none; }
+  #carp-team .section-content .team-list > ul > li:last-child .team {
+    margin-bottom: 0; }
+  @media (min-width: 768px) {
+    #carp-team .section-content .team-list > ul > li:nth-of-type(1) .team {
+      height: 455px; }
+    #carp-team .section-content .team-list > ul > li:nth-of-type(2) .team {
+      height: 455px; }
+    #carp-team .section-content .team-list > ul > li:nth-of-type(5) .team {
+      width: 345px;
+      height: 455px;
+      margin: 0 auto; }
+    #carp-team .section-content .team-list > ul > li .team {
+      height: 540px;
+      padding-top: 35px;
+      padding-bottom: 0; }
+      #carp-team .section-content .team-list > ul > li .team figure {
+        height: 80px; }
+        #carp-team .section-content .team-list > ul > li .team figure figcaption {
+          font-size: 16px; }
+      #carp-team .section-content .team-list > ul > li .team .details h3 {
+        font-size: 24px;
+        margin: 30px 0 25px; }
+      #carp-team .section-content .team-list > ul > li .team .details > ul > li ~ li {
+        margin-top: 25px; }
+      #carp-team .section-content .team-list > ul > li .team .details > ul > li dl dt {
+        font-size: 15px; }
+      #carp-team .section-content .team-list > ul > li .team .details > ul > li dl dd {
+        font-size: 15px; }
+        #carp-team .section-content .team-list > ul > li .team .details > ul > li dl dd ul {
+          padding-left: 40px; }
+      #carp-team .section-content .team-list > ul > li .team .details .contact {
+        font-size: 15px; } }
+  @media (min-width: 992px) {
+    #carp-team .section-content .team-list > ul > li:nth-of-type(5) .team {
+      width: 455px; } }
+  @media (min-width: 1280px) {
+    #carp-team .section-content .team-list > ul > li:nth-of-type(1) .team {
+      height: 300px; }
+    #carp-team .section-content .team-list > ul > li:nth-of-type(2) .team {
+      height: 300px; }
+    #carp-team .section-content .team-list > ul > li:nth-of-type(5) .team {
+      height: 280px; }
+    #carp-team .section-content .team-list > ul > li .team {
+      overflow: hidden;
+      width: 570px !important;
+      height: 375px;
+      padding: 0;
+      padding-top: 30px; }
+      #carp-team .section-content .team-list > ul > li .team figure {
+        float: left;
+        width: 112px; }
+        #carp-team .section-content .team-list > ul > li .team figure figcaption {
+          font-size: 17px; }
+      #carp-team .section-content .team-list > ul > li .team .details {
+        float: left;
+        width: 456px;
+        padding-right: 30px; }
+        #carp-team .section-content .team-list > ul > li .team .details h3 {
+          text-align: left;
+          margin-top: 0;
+          margin-bottom: 25px; }
+        #carp-team .section-content .team-list > ul > li .team .details > ul > li ~ li {
+          margin-top: 20px; }
+        #carp-team .section-content .team-list > ul > li .team .details > ul > li dl dt {
+          font-size: 16px; }
+        #carp-team .section-content .team-list > ul > li .team .details > ul > li dl dd {
+          font-size: 16px; }
+          #carp-team .section-content .team-list > ul > li .team .details > ul > li dl dd ul li {
+            font-size: 16px; }
+        #carp-team .section-content .team-list > ul > li .team .details .contact {
+          margin-top: 20px; } }
+  #carp-team .section-content .carp-event {
+    margin-top: 55px; }
+    @media (min-width: 768px) {
+      #carp-team .section-content .carp-event {
+        margin-top: 90px; } }
+    @media (min-width: 992px) {
+      #carp-team .section-content .carp-event {
+        margin-top: 70px; } }
+    #carp-team .section-content .carp-event h3 {
+      text-align: center;
+      font-size: 18px;
+      color: #5f5f5f;
+      margin-bottom: 25px; }
+      #carp-team .section-content .carp-event h3 img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 10px; }
+    #carp-team .section-content .carp-event > ul > li:nth-of-type(2n + 1) {
+      clear: both; }
+    #carp-team .section-content .carp-event > ul > li figure {
+      margin-bottom: 40px; }
+      #carp-team .section-content .carp-event > ul > li figure figcaption {
+        text-align: center; }
+        #carp-team .section-content .carp-event > ul > li figure figcaption h4 {
+          font-size: 12px;
+          color: #444;
+          font-weight: bold;
+          margin-top: 15px; }
+        #carp-team .section-content .carp-event > ul > li figure figcaption p {
+          font-size: 12px;
+          color: #444;
+          line-height: 20px;
+          margin-top: 10px; }
   #carp-team .section-content .location h3 {
     font-size: 16px;
     color: #444;
@@ -1000,19 +1181,6 @@ section {
     #carp-team .section-content .location > ul > li.fax {
       background-image: url(/assets/images/student_council/icon_location04.gif); }
   @media (min-width: 768px) {
-    #carp-team .section-content .team-list {
-      overflow: hidden; }
-      #carp-team .section-content .team-list > li {
-        float: left;
-        width: 33.3%;
-        margin-bottom: 60px; }
-        #carp-team .section-content .team-list > li:nth-of-type(4) {
-          width: 50%; }
-        #carp-team .section-content .team-list > li:nth-of-type(5) {
-          width: 50%; }
-        #carp-team .section-content .team-list > li figure figcaption {
-          margin-top: 35px;
-          font-size: 15px; }
     #carp-team .section-content .carp-event {
       margin-top: 30px; }
       #carp-team .section-content .carp-event h3 {
@@ -1049,9 +1217,6 @@ section {
         margin-bottom: 0;
         background-position: 0 50%; } }
   @media (min-width: 1280px) {
-    #carp-team .section-content .team-list > li {
-      width: 20% !important;
-      margin-bottom: 0; }
     #carp-team .section-content .carp-event {
       margin-top: 80px; }
       #carp-team .section-content .carp-event > ul > li figure {
@@ -1059,10 +1224,10 @@ section {
         #carp-team .section-content .carp-event > ul > li figure figcaption {
           text-align: center; }
           #carp-team .section-content .carp-event > ul > li figure figcaption h4 {
-            font-size: 18px;
+            font-size: 19px;
             margin-top: 25px; }
           #carp-team .section-content .carp-event > ul > li figure figcaption p {
-            font-size: 15px;
+            font-size: 16px;
             margin-top: 15px; }
     #carp-team .section-content .location {
       margin-top: 40px; }
@@ -1077,9 +1242,6 @@ section {
   @media (min-width: 768px) {
     #circular-group {
       padding-bottom: 100px; } }
-  @media (min-width: 992px) {
-    #circular-group {
-      padding-bottom: 140px; } }
   #circular-group .section-header {
     margin: 65px 0 40px; }
     @media (min-width: 768px) {
@@ -1089,19 +1251,12 @@ section {
       #circular-group .section-header {
         margin: 105px 0 70px; } }
   #circular-group .section-content > ul > li .figure {
-    position: relative;
-    width: 300px;
+    max-width: 300px;
     margin: 0 auto;
-    margin-bottom: 60px;
-    padding-bottom: 165px; }
+    margin-bottom: 60px; }
     #circular-group .section-content > ul > li .figure .details {
-      position: absolute;
-      bottom: 0;
-      left: 10px;
-      width: 280px;
-      height: 205px;
       text-align: center;
-      padding: 30px 20px 0;
+      padding: 30px 10px;
       background-color: #fff;
       box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1); }
       #circular-group .section-content > ul > li .figure .details h3 {
@@ -1116,36 +1271,22 @@ section {
     margin-bottom: 0; }
   @media (min-width: 768px) {
     #circular-group .section-content > ul > li .figure {
-      width: 100%;
-      margin-bottom: 0 !important;
-      padding-bottom: 210px; }
+      max-width: 100%;
+      margin-bottom: 0; }
       #circular-group .section-content > ul > li .figure .details {
-        width: 203px;
-        height: 240px;
-        padding: 35px 10px 0; }
-        #circular-group .section-content > ul > li .figure .details h3 {
-          margin-bottom: 30px; }
+        height: 262px;
+        padding: 30px 13px 25px; }
         #circular-group .section-content > ul > li .figure .details p {
-          font-size: 15px; } }
+          font-size: 14px; } }
   @media (min-width: 992px) {
-    #circular-group .section-content > ul > li .figure {
-      padding-bottom: 180px; }
-      #circular-group .section-content > ul > li .figure .details {
-        width: 273px;
-        height: 215px; } }
+    #circular-group .section-content > ul > li .figure .details {
+      padding: 35px 30px 45px; }
+      #circular-group .section-content > ul > li .figure .details p {
+        text-align: left; } }
   @media (min-width: 1280px) {
-    #circular-group .section-content > ul > li .figure {
-      padding-bottom: 195px; }
-      #circular-group .section-content > ul > li .figure .details {
-        left: 20px;
-        width: 330px;
-        height: 240px;
-        padding: 40px 20px 50px; }
-        #circular-group .section-content > ul > li .figure .details h3 {
-          margin-bottom: 35px; }
-        #circular-group .section-content > ul > li .figure .details p {
-          font-size: 16px;
-          text-align: left; } }
+    #circular-group .section-content > ul > li .figure .details {
+      height: 239px;
+      font-size: 16px; } }
 
 #school-district {
   padding-bottom: 125px; }
@@ -1194,8 +1335,8 @@ section {
           top: 46px;
           left: 66px; }
         #school-district .section-content nav .nav-tabs li:nth-of-type(3) {
-          top: 42px;
-          right: 14px; }
+          top: 32px;
+          right: 30px; }
         #school-district .section-content nav .nav-tabs li:nth-of-type(4) {
           top: 72px;
           right: 45px; }
@@ -1323,11 +1464,11 @@ section {
       #school-district .section-content .tab-content {
         margin-top: 60px; }
         #school-district .section-content .tab-content .tab-pane .content-title {
-          font-size: 21px;
+          font-size: 22px;
           padding-bottom: 30px; }
           #school-district .section-content .tab-content .tab-pane .content-title small {
             display: inline-block;
-            font-size: 14px;
+            font-size: 15px;
             margin-left: 20px; }
         #school-district .section-content .tab-content .tab-pane .content-body {
           padding-bottom: 40px;
@@ -1348,11 +1489,11 @@ section {
       #school-district .section-content .tab-content .content-body {
         margin-bottom: 105px; }
         #school-district .section-content .tab-content .content-body ul li h4 {
-          font-size: 18px; }
+          font-size: 19px; }
         #school-district .section-content .tab-content .content-body ul li dl dt {
-          font-size: 16px; }
+          font-size: 17px; }
         #school-district .section-content .tab-content .content-body ul li dl dd {
-          font-size: 16px; } }
+          font-size: 17px; } }
   #school-district .section-content .btn-area p ~ p {
     margin-top: 10px; }
   #school-district .section-content .btn-area p .btn {
@@ -1390,8 +1531,6 @@ section {
       display: inline-block;
       margin: 0 10px; }
       #school-district .section-content .btn-area p ~ p {
-        margin-top: 0; }
-      #school-district .section-content .btn-area p .btn {
-        width: 208px; } }
+        margin-top: 0; } }
 
 /*# sourceMappingURL=student_council.css.map */

@@ -1,4 +1,5 @@
 @import 'common';
+@import url(http://fonts.googleapis.com/earlyaccess/nanumpenscript.css);
 
 .cms {
     #policy {
@@ -170,7 +171,7 @@
                     margin-bottom: 55px;
                 }
                 @media(min-width: $md) {
-                    font-size: 16px;
+                    font-size: 17px;
                     margin-top: 70px;
                     margin-bottom: 60px;
                 }
@@ -213,7 +214,7 @@
                             display: inline-block;
                         }
                         figcaption {
-                            font-size: 16px;
+                            font-size: 17px;
                             color: #666;
                             line-height: 24px;
                             margin-top: 30px;
@@ -285,7 +286,7 @@
                             display: inline-block;
                         }
                         figcaption {
-                            font-size: 16px;
+                            font-size: 17px;
                             color: #666;
                             line-height: 24px;
                             margin-top: 30px;
@@ -307,6 +308,108 @@
                             margin-left: -20px;
                             content: url(/assets/images/cms/service_arrow_right.png);
                         }
+                    }
+                }
+            }
+        }
+    }
+    .temporary-support {
+        .section-content {
+            width: 300px;
+            height: 640px;
+            text-align: center;
+            margin: 0 auto;
+            padding: 71px 6px 0;
+            background-repeat: no-repeat;
+            background-image: url(/assets/images/cms/temporary_xs_bg.jpg);
+            background-size: 300px auto;
+            background-position: 0 0;
+            h5 {
+                font-size: 36px;
+                line-height: 40px;
+                color: #333;
+                font-family: 'Nanum Pen Script', serif;
+                margin-bottom: 30px;
+            }
+            p {
+                font-size: 13px;
+                color: #333;
+                line-height: 24px;
+                margin-bottom: 40px;
+            }
+            .account {
+                width: 100%;
+                height: 76px;
+                padding: 14px 0;
+                background-color: $kcolor;
+                border-radius: 30px;
+                dt {
+                    font-size: 13px;
+                    color: #fff;
+                    font-weight: 400;
+                    line-height: 24px;
+                    &:after {
+                        content: ":";
+                        padding: 0 3px;
+                    }
+                }
+                dd {
+                    font-size: 13px;
+                    color: #fff;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+            @media(min-width: $sm) {
+                text-align: right;
+                padding: 50px 26px 0 0;
+                width: 724px;
+                height: 332px;
+                background-image: url(/assets/images/cms/temporary_sm_bg.jpg);
+                background-size: 724px auto;
+                h5 {
+                    font-size: 40px;
+                    line-height: 36px;
+                }
+                p {
+                    font-size: 15px;
+                    margin-bottom: 40px;
+                }
+                .account {
+                    width: 456px;
+                    float: right;
+                    text-align: center;
+                    height: 43px;
+                    padding: 0;
+                    font-size: 0; 
+                    dt {
+                        display: inline-block;
+                        font-size: 14px;
+                        line-height: 43px;
+                    }
+                    dd {
+                        display: inline-block;
+                        font-size: 14px;
+                        line-height: 43px;
+                    }
+                }
+            }
+            @media(min-width: $lg) {
+                padding: 57px 55px 0 0;
+                width: 1169px;
+                height: 322px;
+                background-image: url(/assets/images/cms/temporary_lg_bg.jpg);
+                background-size: 1169px auto;
+                p {
+                    font-size: 17px;
+                }
+                .account {
+                    width: 537px;
+                    dt {
+                        font-size: 17px;
+                    }
+                    dd {
+                        font-size: 17px;
                     }
                 }
             }
@@ -436,7 +539,7 @@
                             @media(min-width: $sm) {
                                 width: 140px;
                                 padding-left: 18px;
-                                font-size: 14px;
+                                font-size: 15px;
                             }
                             @media(min-width: $lg) {
                                 width: 156px;
@@ -483,7 +586,7 @@
                         tr {
                             td {
                                 @media(min-width: $sm) {
-                                    font-size: 14px;
+                                    font-size: 15px;
                                 }
                             }
                         }
@@ -934,7 +1037,7 @@
             margin-top: 70px;
             padding: 55px 25px 55px 42px;
             > li {
-                font-size: 14px;
+                font-size: 15px;
                 line-height: 30px;
                 list-style-position: outside;
                 ~ li {
@@ -943,57 +1046,10 @@
             }
         }
         @media(min-width: $lg) {
-            padding: 45px 140px;
+            padding: 45px 100px;
             > li {
                 list-style-position: inside;
             }
         }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
