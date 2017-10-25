@@ -56,7 +56,6 @@
 
 //비전
 .vision {
-    padding-bottom: 0;
     .section-content {
         .page-summary {
             @include nbg();
@@ -611,6 +610,7 @@
             color: #666;
             line-height: 28px;
             margin-top: 40px;
+            text-align: justify;
             @media(min-width: $sm) {
                 font-size: 15px;
                 line-height: 34px;
@@ -1099,7 +1099,78 @@
 
 
 
-
+#mentality {
+    padding-bottom: 0;
+    background-image: url(/assets/images/student_council/mentality_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    .section-header {
+        margin: 80px 0 70px;
+        .title {
+            color: #fff;
+        }
+        @media(min-width: $md) {
+            margin: 93px 0 114xp;
+        }
+    }
+    .section-content {
+        padding-bottom: 110px;
+        @media(min-width: $sm) {
+            padding-bottom: 115px;
+        }
+        @media(min-width: $md) {
+            padding-bottom: 160px;
+        }
+        ul {
+            li {
+                .figure {
+                    text-align: center;
+                    padding: 0 40px;
+                    .img-responsive {
+                        display: inline-block;
+                    }
+                }
+                .details {
+                    text-align: center;
+                    margin-top: 45px;
+                    margin-bottom: 70px;
+                    h3 {
+                        font-size: 20px;
+                        color: #fff;
+                        font-weight: bold;
+                        margin-bottom: 25px;
+                    }
+                    p {
+                        font-size: 16px;
+                        color: #fff;
+                        line-height: 24px;
+                    }
+                }
+                &:last-child {
+                    .details {
+                        margin-bottom: 0;
+                    }
+                }
+                @media(min-width: $sm) {
+                    .figure {
+                        padding: 0;
+                    }
+                    .details {
+                        margin-top: 40px;
+                        margin-bottom: 0;
+                        h3 {
+                            font-size: 23px;
+                        }
+                        p {
+                            font-size: 17px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 

@@ -253,8 +253,6 @@
                 -ms-transform: scale(.4);
                 -webkit-transform: scale(.4);
                 transform: scale(.4);
-                -webkit-animation: flowcloud-rtl 100s infinite;
-                animation: flowcloud-rtl 100s infinite;
             }
             &.cloud-2 {
                 top: 25%;
@@ -262,8 +260,6 @@
                 -ms-transform: scale(.6);
                 -webkit-transform: scale(.6);
                 transform: scale(.6);
-                -webkit-animation: flowcloud-ltr 80s infinite;
-                animation: flowcloud-ltr 80s infinite;
             }
             &.cloud-3 {
                 top: 30%;
@@ -271,14 +267,10 @@
                 -ms-transform: scale(.4);
                 -webkit-transform: scale(.4);
                 transform: scale(.4);
-                -webkit-animation: flowcloud-rtl 100s infinite 5s;
-                animation: flowcloud-rtl 100s infinite 5s;
             }
             &.cloud-4 {
                 top: 40%;
                 left: 0%;
-                -webkit-animation: flowcloud-ltr 60s infinite;
-                animation: flowcloud-ltr 60s infinite;
             }
         }
         @media(min-width: $sm) {
@@ -293,6 +285,7 @@
                 font-size: 14px;
                 line-height: 25px;
             }
+			/*
 			.cloud {
 				&.cloud-1 {
 					-webkit-animation: flowcloud-rtl 100s infinite;
@@ -311,6 +304,7 @@
 					animation: flowcloud-ltr 60s infinite;
 				}
 			}
+			*/
         }
         @media(min-width: $md) {
             padding-top: 90px;
@@ -417,6 +411,44 @@
 }
 // declare event 
 .declare.on {
+	.declare-content {
+		.cloud {
+			&.cloud-1 {
+				-webkit-animation: flowcloud-rtl 100s infinite;
+				animation: flowcloud-rtl 100s infinite;
+			}
+			&.cloud-2 {
+				-webkit-animation: flowcloud-ltr 80s infinite;
+				animation: flowcloud-ltr 80s infinite;
+			}
+			&.cloud-3 {
+				-webkit-animation: flowcloud-rtl 100s infinite 5s;
+				animation: flowcloud-rtl 100s infinite 5s;
+			}
+			&.cloud-4 {
+				-webkit-animation: flowcloud-ltr 60s infinite;
+				animation: flowcloud-ltr 60s infinite;
+			}
+			@media (min-width: $sm) {
+				&.cloud-1 {
+					-webkit-animation: flowcloud-rtl 100s infinite;
+					animation: flowcloud-rtl 100s infinite;
+				}
+				&.cloud-2 {
+					-webkit-animation: flowcloud-ltr 80s infinite;
+					animation: flowcloud-ltr 80s infinite;
+				}
+				&.cloud-3 {
+					-webkit-animation: flowcloud-rtl 100s infinite 5s;
+					animation: flowcloud-rtl 100s infinite 5s;
+				}
+				&.cloud-4 {
+					-webkit-animation: flowcloud-ltr 60s infinite;
+					animation: flowcloud-ltr 60s infinite;
+				}
+			}
+		}
+	}
     .speech-bubble {
         left: 50%;
     }

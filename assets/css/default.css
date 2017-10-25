@@ -496,7 +496,7 @@ body {
   border-top: 3px solid #02b1a0;
   box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  z-index: 999; }
+  z-index: 99999; }
   #header .logo {
     position: absolute;
     top: 15px;
@@ -634,7 +634,7 @@ body {
               transition-delay: 0s; } }
 
 #nav-side {
-  z-index: 9999;
+  z-index: 99999;
   position: fixed;
   top: 0;
   right: -100%;

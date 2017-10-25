@@ -19,8 +19,8 @@
 						<span class="caret"></span>
 					</button>
 					<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-						<li><a href="#introduct"><span>전국학생회소개</span></a></li>
-						<li><a href="#mentality"><span>비전목표</span></a></li>
+						<li><a href="#introduct"><span>CARP학생회</span></a></li>
+						<li><a href="#carp-group"><span>조직도</span></a></li>
 						<li><a href="#council"><span>중앙학생회</span></a></li>
 						<li><a href="#consequence"><span>2017 '종횡일치'</span></a></li>
 						<li><a href="#carp-team"><span>팀별소개</span></a></li>
@@ -35,7 +35,7 @@
 				<div class="section-header">
 					<h2 class="section-title">
 						<img src="/assets/images/student_council/section_logo.png" alt="">
-						전국학생회 소개
+						CARP학생회 소개
 					</h2>
 					<hr>
 				</div>
@@ -79,7 +79,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="mentality">
+		<!--section id="mentality">
 			<div class="container">
 				<div class="section-header">
 					<h2 class="section-title">
@@ -120,8 +120,8 @@
 					</ul>
 				</div>
 			</div>
-		</section>
-		<section id="council">
+		</section-->
+		<section id="carp-group">
 			<div class="container">
 				<div class="section-header">
 					<figure>
@@ -155,6 +155,12 @@
 							</ol>
 						</figcaption>
 					</figure>
+                </div>
+            </div>
+        </section>
+        <section id="council">
+            <div class="container">
+                <div class="section-header">
 					<h2 class="section-title">
 						<img src="/assets/images/student_council/section_logo.png" alt="">
 						중앙학생회
@@ -221,9 +227,9 @@
 						<h3>종횡일치(縱橫一致) 란?</h3>
 						<p>
 							“종횡의 사랑을 중심삼고 비로소 하나님의 사랑과 하나님의
-							생명이 격동되는 것입니다.” <br class="visible-lg">(208-340, 1990.11.21) <br><br>
+							생명이 격동되는 것입니다.” <br>(208-340, 1990.11.21) <br><br>
 							“종횡이 반드시 하나되어야 합니다. 종횡이 하나되어야 되는데, 
-							무엇을 통해서 묶어지느냐 하면 사랑입니다.” <br class="visible-lg">(185-013, 1989.01.01.) <br><br>
+							무엇을 통해서 묶어지느냐 하면 사랑입니다.” <br>(185-013, 1989.01.01.) <br><br>
 							하늘부모님과 참부모님을 중심삼은 ‘종’<br> 
 							원자, 지회, 학사, 학군으로 펼쳐지는 ‘횡’<br>
 							이 ‘종’과 ‘횡’이 만나 하나가 되어 참사랑을 가지고<br>
@@ -255,39 +261,59 @@
 							중앙학생회 학생회장 ‘오주환’ 학생부회장 ‘구만원주’ 외<br>
 							중앙학생회 임원 일동
 						</p>
-						<ul>
-							<li>
-								<figure>
-									<img src="/assets/images/student_council/meaning_img01.gif" alt="">
-									<figcaption>4CA 2.0<br>캠퍼스복귀</figcaption>
-								</figure>
-							</li>
-							<li>
-								<figure>
-									<img src="/assets/images/student_council/meaning_img02.gif" alt="">
-									<figcaption>세계평화를 위한<br>남북통일 운동</figcaption>
-								</figure>
-							</li>
-							<li>
-								<figure>
-									<img src="/assets/images/student_council/meaning_img03.gif" alt="">
-									<figcaption>심정문화혁명의<br>선구자 </figcaption>
-								</figure>
-							</li>
-							<li>
-								<figure>
-									<img src="/assets/images/student_council/meaning_img04.gif" alt="">
-									<figcaption>평화세계를 이끌어<br>나갈 지도자 양성</figcaption>
-								</figure>
-							</li>
-							<li>
-								<figure>
-									<img src="/assets/images/student_council/meaning_img05.gif" alt="">
-									<figcaption>내 인생과<br>참부모선포</figcaption>
-								</figure>
-							</li>
-						</ul>
 					</div>
+				</div>
+				<div class="student-list">
+				    <ul class="row">
+				        <li class="col-xs-6 col-sm-4 col-md-3">
+				            <figure>
+				                <img src="/assets/images/student_council/consequence_student_img01.png" class="img-responsive" alt="">
+				                <figcaption>학생회장 오주환<br>(서강대 경제학과) </figcaption>
+				            </figure>
+				        </li>
+				        <li class="col-xs-6 col-sm-4 col-md-3">
+				            <figure>
+				                <img src="/assets/images/student_council/consequence_student_img02.png" class="img-responsive" alt="">
+				                <figcaption>학생부회장 구만원주<br>(선문대 신학순결학과)</figcaption>
+				            </figure>
+				        </li>
+				        <li class="col-xs-6 col-sm-4 col-md-3">
+				            <figure>
+				                <img src="/assets/images/student_council/consequence_student_img03.png" class="img-responsive" alt="">
+				                <figcaption>교육팀장 오주희<br>(동국대 법학과)</figcaption>
+				            </figure>
+				        </li>
+				        <li class="col-xs-6 col-sm-4 col-md-3">
+				            <figure>
+				                <img src="/assets/images/student_council/consequence_student_img04.png" class="img-responsive" alt="">
+				                <figcaption>기획팀장 안춘우<br>(연세대 화공생명공학과)</figcaption>
+				            </figure>
+				        </li>
+				        <li class="col-xs-6 col-sm-4 col-md-3">
+				            <figure>
+				                <img src="/assets/images/student_council/consequence_student_img05.png" class="img-responsive" alt="">
+				                <figcaption>문화팀장 강진헌<br>(선문대 신학순결학과)</figcaption>
+				            </figure>
+				        </li>
+				        <li class="col-xs-6 col-sm-4 col-md-3">
+				            <figure>
+				                <img src="/assets/images/student_council/consequence_student_img06.png" class="img-responsive" alt="">
+				                <figcaption>문화부팀장 이주완<br>(선문대 신학순결학과)</figcaption>
+				            </figure>
+				        </li>
+				        <li class="col-xs-6 col-sm-4 col-md-3">
+				            <figure>
+				                <img src="/assets/images/student_council/consequence_student_img07.png" class="img-responsive" alt="">
+				                <figcaption>전도팀장 김수연<br>(서울시립대 생명과학과)</figcaption>
+				            </figure>
+				        </li>
+				        <li class="col-xs-6 col-sm-4 col-md-3">
+				            <figure>
+				                <img src="/assets/images/student_council/consequence_student_img08.png" class="img-responsive" alt="">
+				                <figcaption>홍보팀장 유은희<br>(선문대 글로벌한국학과)</figcaption>
+				            </figure>
+				        </li>
+				    </ul>
 				</div>
 			</div>
 		</section>
@@ -303,36 +329,6 @@
 				<div class="section-content">
 					<article class="team-list">
 						<ul class="row">
-							<li class="col-xs-12 col-sm-6">
-								<div class="team">
-									<figure>
-										<img src="/assets/images/student_council/team_list_img01.jpg" alt="기획팀">
-										<figcaption>기획팀</figcaption>
-									</figure>
-									<div class="details">
-										<h3>“기원(ORIGIN)”</h3>
-										<ul>
-											<li>
-												<dl>
-													<dt>설명</dt>
-													<dd>
-														행사 진행 전반에서 보이지 않는손으로 헌신하며, 창조성을 발휘하여 끝없는 아이디어를 생산해내는 CARP의 브레인.
-													</dd>
-												</dl>
-											</li>
-											<li>
-												<dl>
-													<dt>역할</dt>
-													<dd>
-														CARP행사의 전반적인 기획과 연출, 시스템 등의 모든 준비를 총괄, 시행된 행사의 자료를 남기는 작업까지 CARP행사의 A to Z를 담당.
-													</dd>
-												</dl>
-											</li>
-										</ul>
-										<p class="contact">기획팀장 안춘우 <?php if($is_mobile){ ?><a href="tel:01022891520">010-2289-1520</a><?php } else { ?>010-2289-1520<?php } ?></p>
-									</div>
-								</div>
-							</li>
 							<li class="col-xs-12 col-sm-6">
 								<div class="team">
 									<figure>
@@ -360,6 +356,36 @@
 											</li>
 										</ul>
 										<p class="contact">교육팀장 오주희 <?php if($is_mobile){ ?><a href="tel:01090824623">010-9082-4623</a><?php } else { ?>010-9082-4623<?php } ?></p>
+									</div>
+								</div>
+							</li>
+							<li class="col-xs-12 col-sm-6">
+								<div class="team">
+									<figure>
+										<img src="/assets/images/student_council/team_list_img01.jpg" alt="기획팀">
+										<figcaption>기획팀</figcaption>
+									</figure>
+									<div class="details">
+										<h3>“기원(ORIGIN)”</h3>
+										<ul>
+											<li>
+												<dl>
+													<dt>설명</dt>
+													<dd>
+														행사 진행 전반에서 보이지 않는손으로 헌신하며, 창조성을 발휘하여 끝없는 아이디어를 생산해내는 CARP의 브레인.
+													</dd>
+												</dl>
+											</li>
+											<li>
+												<dl>
+													<dt>역할</dt>
+													<dd>
+														CARP행사의 전반적인 기획과 연출, 시스템 등의 모든 준비를 총괄, 시행된 행사의 자료를 남기는 작업까지 CARP행사의 A to Z를 담당.
+													</dd>
+												</dl>
+											</li>
+										</ul>
+										<p class="contact">기획팀장 안춘우 <?php if($is_mobile){ ?><a href="tel:01022891520">010-2289-1520</a><?php } else { ?>010-2289-1520<?php } ?></p>
 									</div>
 								</div>
 							</li>
@@ -488,7 +514,8 @@
 									<figcaption>
 										<h4>카프총회</h4>
 										<p>
-											지회, 학사, 학군을 넘어 CARP 원자 전체가 한자리에 모여<br class="visible-lg"> 소통하고 교류하며, CARP의 방향성을 공유하고 하늘부모님과<br class="visible-lg"> 참부모님의 뜻을 이뤄드리는 희망이 될 것을 결의하는 장.
+											지회, 학사, 학군을 넘어 CARP 원자 전체가 한자리에 모여
+											소통하고 교류하며, CARP의 방향성을 공유하고 하늘부모님과 참부모님의 뜻을 이뤄드리는 희망이 될 것을 결의하는 장
 										</p>
 									</figcaption>
 								</figure>
@@ -499,7 +526,9 @@
 									<figcaption>
 										<h4>전국회장단 워크샵</h4>
 										<p>
-											전국 회장단이 하늘부모님과 천지인 참부모님을 중심으로<br class="visible-lg"> 방향성을 맞추고 하나 되어 결의하고 나가기 위해 소통하고<br class="visible-lg"> 도전하는 장.
+											전국 회장단이 하늘부모님과 천지인 참부모님을 중심으로 
+											방향성을 맞추고 하나 되어 결의하고 나가기 위해
+											소통하고 도전하는 장.
 										</p>
 									</figcaption>
 								</figure>
@@ -510,7 +539,9 @@
 									<figcaption>
 										<h4>방중활동</h4>
 										<p>
-											우리는 하늘부모님의 자녀이고 대신자라는 것을 마음속 깊이<br class="visible-lg"> 새기고 증거하며 뜻길 앞에 참된 용사로서 결의하는 수련.
+											우리는 하늘부모님의 자녀이고 대신자라는 것을 
+											마음속 깊이 새기고 증거하며 뜻길 앞에
+											참된 용사로서 결의하는 수련.
 										</p>
 									</figcaption>
 								</figure>
@@ -521,7 +552,10 @@
 									<figcaption>
 										<h4>기적소리 뮤직페스티벌</h4>
 										<p>
-											우리노래를 통해 참부모님의 심정을 느끼고, 자녀로서<br class="visible-lg"> 참부모님께 돌려드리는 사랑을 표현하며 효진님의 효정을<br class="visible-lg"> 계승해 통일가 내, 외에 심정문화 혁명을 일으키는 뮤직<br class="visible-lg"> 콘테스트이자 축제
+											우리노래를 통해 참부모님의 심정을 느끼고, 자녀로서
+											참부모님께 돌려드리는 사랑을 표현하며 
+											효진님의 효정을 계승해 통일가 내외에 
+											심정문화 혁명을 일으키는 뮤직콘테스트이자 축제
 										</p>
 									</figcaption>
 								</figure>
@@ -532,7 +566,10 @@
 									<figcaption>
 										<h4>E-스포츠 페스티벌</h4>
 										<p>
-											다양한 E-스포츠의 문화를 진정 즐기고 화동하며, E-스포츠<br class="visible-lg"> 문화가 하늘부모님의 꿈, 참부모님의 섭리를 놓고 진정으로<br class="visible-lg"> 가야할 길은 무엇인지 고민하고, 진정한 E-SPORTS 비전의<br class="visible-lg"> 초석을 닦는 CARP의 축제
+											다양한 E-스포츠의 문화를 진정 즐기고 화동하며, 
+											E-스포츠문화가 하늘부모님의 꿈, 참부모님의 섭리를 놓고
+											진정으로 가야할 길은 무엇인지 고민하고, 
+											진정한 E-SPORTS 비전의 초석을 닦는 CARP의 축제
 										</p>
 									</figcaption>
 								</figure>
@@ -554,7 +591,10 @@
 									<figcaption>
 										<h4>고3수련</h4>
 										<p>
-											고3 학생들이 CARP선배들과의 만남을 통해 올바른 가치관을<br class="visible-lg"> 정립하고 이후 대학생, 일반인이 되었을 때 주체적 신앙을<br class="visible-lg"> 가지고 하늘부모님의 자녀로서의 삶의 출발을 준비할 수<br class="visible-lg"> 있도록 돕는 수련
+											고3 학생들이 CARP선배들과의 만남을 통해 
+											올바른 가치관을 정립하고 이후 청년대학생이 되었을 때 
+											주체적 신앙을 가지고 하늘부모님의 자녀로서의
+											삶의 출발을 준비할 수 있도록 돕는 수련
 										</p>
 									</figcaption>
 								</figure>
@@ -602,23 +642,23 @@
 						</li>
 						<li class="col-xs-12 col-sm-4">
 							<div class="figure">
-								<img src="/assets/images/student_council/circular_img02.jpg" class="img-responsive hidden-sm" alt="">
-								<img src="/assets/images/student_council/circular_sm_img02.jpg" class="img-responsive visible-sm" alt="">
+								<img src="/assets/images/student_council/circular_img03.jpg" class="img-responsive hidden-sm" alt="">
+								<img src="/assets/images/student_council/circular_sm_img03.jpg" class="img-responsive visible-sm" alt="">
 								<div class="details">
 									<h3>전국회장단 목표</h3>
 									<p>
-										VISION2020까지 국가복귀 세계복귀를 이루기 위해 각
-										지역에 있는 대학가. 캠퍼스를 복귀하는 것 .
-										전국의 CARP원자들이 하늘부모님이 바라시는 창조적
-										지도자로서 성장하는것. 
+										VISION2020까지 국가복귀 세계복귀를 이루기 위해
+										지회활성화, 캠퍼스복귀를 이룩한다.
+										전국 지회 100개 동아리 설립
+										대학가 순회강연 등 개최를 목표.
 									</p>
 								</div>
 							</div>
 						</li>
 						<li class="col-xs-12 col-sm-4">
 							<div class="figure">
-								<img src="/assets/images/student_council/circular_img03.jpg" class="img-responsive hidden-sm" alt="">
-								<img src="/assets/images/student_council/circular_sm_img03.jpg" class="img-responsive visible-sm" alt="">
+								<img src="/assets/images/student_council/circular_img02.jpg" class="img-responsive hidden-sm" alt="">
+								<img src="/assets/images/student_council/circular_sm_img02.jpg" class="img-responsive visible-sm" alt="">
 								<div class="details">
 									<h3>전국회장단 하는일</h3>
 									<p>
@@ -874,6 +914,46 @@
 		position: new naver.maps.LatLng(<?php echo $str['lat']; ?>, <?php echo $str['lng']; ?>),
 		map: map
 	});
+	</script>
+	<script>
+		(function($) {
+			$(window).on("scroll", function() {
+				if ($('body').width() > 1280) {
+					if ( $(window).scrollTop() > 403 ) {
+						$("body").addClass("scrolled");
+					} else {
+						$("body").removeClass("scrolled");
+					}
+				} else if ($('body').width() > 992) {
+					if ( $(window).scrollTop() > 403 ) {
+						$("body").addClass("scrolled");
+					} else {
+						$("body").removeClass("scrolled");
+					}
+				} else if ($('body').width() > 768) {
+					if ( $(window).scrollTop() > 243 ) {
+						$("body").addClass("scrolled");
+					} else {
+						$("body").removeClass("scrolled");
+					}
+				} else if ($('body').width() > 0) {
+					if ( $(window).scrollTop() > 231 ) {
+						$("body").addClass("scrolled");
+					} else {
+						$("body").removeClass("scrolled");
+					}
+				}
+			});
+			$(document).on("click", ".student-nav .dropdown-menu > li > a", function(e) {
+				var hash = $(this).attr("href");
+				$('html, body').stop().animate(
+					{ scrollTop: $(hash).offset().top - $("#header").height() - $(".student-nav .dropdown").height() },
+					500,
+					'swing');
+				$(this).blur();
+				e.preventDefault();
+			});
+		})(jQuery);
 	</script>
 </body>
 </html>

@@ -415,6 +415,13 @@ a {
           padding-left: 15px;
           padding-right: 15px; } }
 
+@media (min-width: 768px) {
+  .section-header {
+    margin: 80px 0 65px  !important; } }
+@media (min-width: 992px) {
+  .section-header {
+    margin: 145px 0 60px !important; } }
+
 .student-council .student-nav {
   height: 374px;
   text-align: center;
@@ -585,11 +592,10 @@ section {
   background-position: 0 0; }
   @media (min-width: 768px) {
     #introduct {
-      padding-bottom: 150px;
+      padding-bottom: 80px;
       background-image: url(/assets/images/student_council/introduct_sm_bg.gif); } }
   @media (min-width: 1280px) {
     #introduct {
-      padding-bottom: 200px;
       background-image: url(/assets/images/student_council/introduct_lg_bg.gif);
       background-size: cover;
       background-position: 50% 50%; } }
@@ -900,14 +906,14 @@ section {
         margin-top: 20px; } }
 
 #consequence {
-  padding-bottom: 55px;
+  padding-bottom: 15px;
   background-color: #f1f2ed; }
   @media (min-width: 768px) {
     #consequence {
-      padding-bottom: 70px; } }
+      padding-bottom: 20px; } }
   @media (min-width: 768px) {
     #consequence {
-      padding-bottom: 135px; } }
+      padding-bottom: 55px; } }
   #consequence .section-header {
     margin: 60px 0; }
     @media (min-width: 768px) {
@@ -936,24 +942,6 @@ section {
           font-size: 18px; } }
     #consequence .section-content .meaning p ~ p {
       margin-top: 30px; }
-  #consequence .section-content .meaning ul {
-    font-size: 0;
-    margin-top: 50px; }
-    #consequence .section-content .meaning ul li {
-      display: inline-block;
-      width: 50%;
-      text-align: center;
-      vertical-align: top;
-      margin-bottom: 55px; }
-      #consequence .section-content .meaning ul li:last-child {
-        margin-bottom: 0;
-        width: 100%; }
-      #consequence .section-content .meaning ul li figure figcaption {
-        font-size: 15px;
-        color: #333;
-        margin-top: 20px;
-        margin-top: 20px;
-        line-height: 22px; }
   @media (min-width: 768px) {
     #consequence .section-content .meaning {
       padding-top: 30px;
@@ -968,12 +956,7 @@ section {
       #consequence .section-content .meaning p {
         width: 423px;
         font-size: 17px;
-        line-height: 24px; }
-      #consequence .section-content .meaning ul {
-        margin-top: 75px; }
-        #consequence .section-content .meaning ul li {
-          width: 20% !important;
-          margin-bottom: 0; } }
+        line-height: 24px; } }
   @media (min-width: 992px) {
     #consequence .section-content .meaning {
       padding-right: 300px; } }
@@ -984,6 +967,43 @@ section {
       background-image: url(/assets/images/student_council/meaning_lg_bg.jpg); }
       #consequence .section-content .meaning p {
         width: 100%; } }
+  #consequence .student-list {
+    padding-top: 80px; }
+    #consequence .student-list ul li:nth-of-type(2n + 1) {
+      clear: both; }
+    #consequence .student-list ul li figure {
+      text-align: center;
+      margin-bottom: 40px; }
+      #consequence .student-list ul li figure .img-responsive {
+        margin: 0 auto; }
+      #consequence .student-list ul li figure figcaption {
+        margin-top: 20px;
+        font-size: 14px;
+        color: #333;
+        line-height: 22px; }
+    @media (min-width: 768px) {
+      #consequence .student-list {
+        padding-top: 60px; }
+        #consequence .student-list ul li:nth-of-type(2n + 1) {
+          clear: none; }
+        #consequence .student-list ul li:nth-of-type(3n + 1) {
+          clear: both; }
+        #consequence .student-list ul li figure {
+          margin-bottom: 50px; }
+          #consequence .student-list ul li figure figcaption {
+            margin-top: 30px;
+            font-size: 15px; } }
+    @media (min-width: 992px) {
+      #consequence .student-list {
+        padding-top: 110px; }
+        #consequence .student-list ul li:nth-of-type(2n + 1) {
+          clear: none; }
+        #consequence .student-list ul li:nth-of-type(3n + 1) {
+          clear: none; }
+        #consequence .student-list ul li:nth-of-type(4n + 1) {
+          clear: both; }
+        #consequence .student-list ul li figure {
+          margin-bottom: 80px; } }
 
 #carp-team {
   padding-bottom: 60px; }
@@ -1335,17 +1355,17 @@ section {
           top: 46px;
           left: 66px; }
         #school-district .section-content nav .nav-tabs li:nth-of-type(3) {
-          top: 32px;
-          right: 30px; }
+          top: 21px;
+          right: 33px; }
         #school-district .section-content nav .nav-tabs li:nth-of-type(4) {
           top: 72px;
-          right: 45px; }
+          right: 110px; }
         #school-district .section-content nav .nav-tabs li:nth-of-type(5) {
           top: 102px;
-          left: 72px; }
+          left: 50px; }
         #school-district .section-content nav .nav-tabs li:nth-of-type(6) {
-          top: 116px;
-          right: 3px; }
+          top: 124px;
+          right: 16px; }
         #school-district .section-content nav .nav-tabs li:nth-of-type(7) {
           top: 158px;
           left: 42px; }
@@ -1402,17 +1422,17 @@ section {
               top: 64px;
               left: 91px; }
             #school-district .section-content nav .nav-tabs li:nth-of-type(3) {
-              top: 58px;
-              right: 21px; }
+              top: 30px;
+              right: 45px; }
             #school-district .section-content nav .nav-tabs li:nth-of-type(4) {
-              top: 99px;
-              right: 63px; }
+              top: 98px;
+              right: 152px; }
             #school-district .section-content nav .nav-tabs li:nth-of-type(5) {
-              top: 141px;
-              left: 99px; }
+              top: 135px;
+              left: 73px; }
             #school-district .section-content nav .nav-tabs li:nth-of-type(6) {
-              top: 160px;
-              right: 5px; }
+              top: 180px;
+              right: 22px; }
             #school-district .section-content nav .nav-tabs li:nth-of-type(7) {
               top: 219px;
               left: 58px; }
@@ -1532,5 +1552,41 @@ section {
       margin: 0 10px; }
       #school-district .section-content .btn-area p ~ p {
         margin-top: 0; } }
+
+#carp-group .section-content {
+  padding-bottom: 75px; }
+  @media (min-width: 768px) {
+    #carp-group .section-content {
+      padding-bottom: 85px; } }
+  @media (min-width: 992px) {
+    #carp-group .section-content {
+      padding-bottom: 110px; } }
+  #carp-group .section-content figure .img-responsive {
+    margin: 0 auto; }
+
+.scrolled .student-nav .dropdown {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #fff; }
+  .scrolled .student-nav .dropdown .btn-default {
+    width: 100%; }
+  @media (min-width: 768px) {
+    .scrolled .student-nav .dropdown {
+      top: 74px; }
+      .scrolled .student-nav .dropdown .dropdown-menu {
+        box-shadow: none;
+        padding: 0 10px;
+        background-color: transparent; } }
+  @media (min-width: 1280px) {
+    .scrolled .student-nav .dropdown {
+      top: 116px;
+      left: 50%;
+      width: 1170px;
+      margin-left: -585px; }
+      .scrolled .student-nav .dropdown .dropdown-menu {
+        padding: 0; } }
 
 /*# sourceMappingURL=student_council.css.map */

@@ -46,6 +46,44 @@
                 </div>
             </div>
         </section>
+        <section id="mentality">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="title">CARP 3대 정신</h2>
+				</div>
+				<div class="section-content">
+					<ul class="row">
+						<li class="col-xs-12 col-sm-4">
+							<p class="figure">
+								<img src="/assets/images/student_council/mentality_img01.png" class="img-responsive" alt="도전">
+							</p>
+							<div class="details">
+								<h3>도전</h3>
+								<p>도전은 참된 청년들에게<br>특권으로 주어지는 축복.</p>
+							</div>
+						</li>
+						<li class="col-xs-12 col-sm-4">
+							<p class="figure">
+								<img src="/assets/images/student_council/mentality_img02.png" class="img-responsive" alt="희생">
+							</p>
+							<div class="details">
+								<h3>희생</h3>
+								<p>희생하는 사람은 곧 사랑을<br>유발시킬 수 있는 주체.</p>
+							</div>
+						</li>
+						<li class="col-xs-12 col-sm-4">
+							<p class="figure">
+								<img src="/assets/images/student_council/mentality_img03.png" class="img-responsive" alt="창조">
+							</p>
+							<div class="details">
+								<h3>창조</h3>
+								<p>말씀의 실체가 되고 참된<br>희망의 실체가 되어 창조.</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
         <section class="mission">
             <div class="container">
                 <div class="section-header">

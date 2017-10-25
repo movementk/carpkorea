@@ -630,53 +630,53 @@ a {
         left: 100%;
         -ms-transform: scale(0.4);
         -webkit-transform: scale(0.4);
-        transform: scale(0.4);
-        -webkit-animation: flowcloud-rtl 100s infinite;
-        animation: flowcloud-rtl 100s infinite; }
+        transform: scale(0.4); }
       .declare .declare-content .cloud.cloud-2 {
         top: 25%;
         left: 0%;
         -ms-transform: scale(0.6);
         -webkit-transform: scale(0.6);
-        transform: scale(0.6);
-        -webkit-animation: flowcloud-ltr 80s infinite;
-        animation: flowcloud-ltr 80s infinite; }
+        transform: scale(0.6); }
       .declare .declare-content .cloud.cloud-3 {
         top: 30%;
         left: 100%;
         -ms-transform: scale(0.4);
         -webkit-transform: scale(0.4);
-        transform: scale(0.4);
-        -webkit-animation: flowcloud-rtl 100s infinite 5s;
-        animation: flowcloud-rtl 100s infinite 5s; }
+        transform: scale(0.4); }
       .declare .declare-content .cloud.cloud-4 {
         top: 40%;
-        left: 0%;
-        -webkit-animation: flowcloud-ltr 60s infinite;
-        animation: flowcloud-ltr 60s infinite; }
+        left: 0%; }
     @media (min-width: 768px) {
       .declare .declare-content {
         height: 416px;
         padding-top: 70px;
-        background-image: url(/assets/images/main/img_town_sm.png); }
+        background-image: url(/assets/images/main/img_town_sm.png);
+        /*
+        .cloud {
+        	&.cloud-1 {
+        		-webkit-animation: flowcloud-rtl 100s infinite;
+        		animation: flowcloud-rtl 100s infinite;
+        	}
+        	&.cloud-2 {
+        		-webkit-animation: flowcloud-ltr 80s infinite;
+        		animation: flowcloud-ltr 80s infinite;
+        	}
+        	&.cloud-3 {
+        		-webkit-animation: flowcloud-rtl 100s infinite 5s;
+        		animation: flowcloud-rtl 100s infinite 5s;
+        	}
+        	&.cloud-4 {
+        		-webkit-animation: flowcloud-ltr 60s infinite;
+        		animation: flowcloud-ltr 60s infinite;
+        	}
+        }
+        */ }
         .declare .declare-content h2 {
           font-size: 36px;
           margin-bottom: 38px; }
         .declare .declare-content .summary {
           font-size: 14px;
-          line-height: 25px; }
-        .declare .declare-content .cloud.cloud-1 {
-          -webkit-animation: flowcloud-rtl 100s infinite;
-          animation: flowcloud-rtl 100s infinite; }
-        .declare .declare-content .cloud.cloud-2 {
-          -webkit-animation: flowcloud-ltr 80s infinite;
-          animation: flowcloud-ltr 80s infinite; }
-        .declare .declare-content .cloud.cloud-3 {
-          -webkit-animation: flowcloud-rtl 100s infinite 5s;
-          animation: flowcloud-rtl 100s infinite 5s; }
-        .declare .declare-content .cloud.cloud-4 {
-          -webkit-animation: flowcloud-ltr 60s infinite;
-          animation: flowcloud-ltr 60s infinite; } }
+          line-height: 25px; } }
     @media (min-width: 992px) {
       .declare .declare-content {
         padding-top: 90px;
@@ -781,6 +781,31 @@ a {
       transition-delay: 0s;
       width: 0%; }
 
+.declare.on .declare-content .cloud.cloud-1 {
+  -webkit-animation: flowcloud-rtl 100s infinite;
+  animation: flowcloud-rtl 100s infinite; }
+.declare.on .declare-content .cloud.cloud-2 {
+  -webkit-animation: flowcloud-ltr 80s infinite;
+  animation: flowcloud-ltr 80s infinite; }
+.declare.on .declare-content .cloud.cloud-3 {
+  -webkit-animation: flowcloud-rtl 100s infinite 5s;
+  animation: flowcloud-rtl 100s infinite 5s; }
+.declare.on .declare-content .cloud.cloud-4 {
+  -webkit-animation: flowcloud-ltr 60s infinite;
+  animation: flowcloud-ltr 60s infinite; }
+@media (min-width: 768px) {
+  .declare.on .declare-content .cloud.cloud-1 {
+    -webkit-animation: flowcloud-rtl 100s infinite;
+    animation: flowcloud-rtl 100s infinite; }
+  .declare.on .declare-content .cloud.cloud-2 {
+    -webkit-animation: flowcloud-ltr 80s infinite;
+    animation: flowcloud-ltr 80s infinite; }
+  .declare.on .declare-content .cloud.cloud-3 {
+    -webkit-animation: flowcloud-rtl 100s infinite 5s;
+    animation: flowcloud-rtl 100s infinite 5s; }
+  .declare.on .declare-content .cloud.cloud-4 {
+    -webkit-animation: flowcloud-ltr 60s infinite;
+    animation: flowcloud-ltr 60s infinite; } }
 .declare.on .speech-bubble {
   left: 50%; }
 .declare.on .achievement .progress-bar {
